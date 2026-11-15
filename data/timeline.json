@@ -1,0 +1,6185 @@
+{
+  "meta": {
+    "title": "中西医发展对照时间轴",
+    "from": "prehistoric",
+    "to": 2000,
+    "locale": "zh-Hans",
+    "updated": "2026-10-17",
+    "eventCount": 265,
+    "westCount": 160,
+    "eastCount": 105
+  },
+  "events": [
+    {
+      "id": "west-dental-italy-paleolithic",
+      "side": "west",
+      "year": -12000,
+      "yearEnd": null,
+      "yearLabel": "约前12000",
+      "title": "旧石器晚期龋齿处理证据",
+      "summary": "意大利北部旧石器晚期人类遗骸显示对龋齿的干预痕迹，是目前已知较早的牙科操作证据之一。说明史前人群已尝试缓解口腔疼痛。",
+      "people": [],
+      "works": [],
+      "archaeology": true,
+      "tags": [
+        "牙科",
+        "史前",
+        "考古"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "Scientific Reports 2015"
+      ]
+    },
+    {
+      "id": "west-trepanation-ukraine",
+      "side": "west",
+      "year": -6750,
+      "yearEnd": -6200,
+      "yearLabel": "约前7300–前6200",
+      "title": "乌克兰中石器时代开颅术证据",
+      "summary": "乌克兰发现约公元前7300–6200年的颅骨开颅痕迹，且有愈合迹象，提示患者术后存活。开颅是旧大陆多种文化中反复出现的外科实践。",
+      "people": [],
+      "works": [],
+      "archaeology": true,
+      "tags": [
+        "外科",
+        "开颅",
+        "史前",
+        "考古"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "Nature 1998",
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-bian-stone-neolithic",
+      "side": "east",
+      "year": -4000,
+      "yearEnd": null,
+      "yearLabel": "约前4000",
+      "title": "新石器时代砭石疗法",
+      "summary": "中国新石器时代遗址出土砭石，用于刺脓、放血与熨灸相关实践。砭石是后世针具的重要前身，但与成熟经络针刺学说有别。",
+      "people": [],
+      "works": [],
+      "archaeology": true,
+      "tags": [
+        "砭石",
+        "针灸",
+        "史前",
+        "考古"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "Anatomical Record 2021",
+        "UTS acupuncture origins"
+      ]
+    },
+    {
+      "id": "east-wine-medicine-legend",
+      "side": "east",
+      "year": -4000,
+      "yearEnd": null,
+      "yearLabel": "约前4000",
+      "title": "酒的发明与药酒传统萌芽",
+      "summary": "考古与文献传统将酒的出现追溯至史前—新石器晚期；酒后成为中药炮制、药酒与“汤液”传统的重要溶媒。传说成分需谨慎对待。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "本草",
+        "药酒",
+        "史前"
+      ],
+      "confidence": "low",
+      "sources": [
+        "国家中医药博物馆",
+        "中国政府白皮书"
+      ]
+    },
+    {
+      "id": "west-otzi-fungus-medicine",
+      "side": "west",
+      "year": -3225,
+      "yearEnd": -3105,
+      "yearLabel": "约前3350–前3105",
+      "title": "冰人奥茨携带抗真菌/驱虫真菌",
+      "summary": "阿尔卑斯冰人Ötzi（约前3350–前3105）携带桦多孔菌，该真菌含抗鞭虫树脂并可致泻，或与寄生虫感染相关的自我用药有关。",
+      "people": [],
+      "works": [],
+      "archaeology": true,
+      "tags": [
+        "本草",
+        "寄生虫",
+        "考古"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "Science.org",
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-imhotep-egypt",
+      "side": "west",
+      "year": -2600,
+      "yearEnd": null,
+      "yearLabel": "约前2600",
+      "title": "伊姆霍特普：埃及医神原型",
+      "summary": "约公元前2600年，建筑师兼祭司医师伊姆霍特普被后世尊为埃及医学之神。传统上认为他描述了多种疾病的诊治，但文献证据多为后世追述。",
+      "people": [
+        "Imhotep"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "埃及",
+        "医师"
+      ],
+      "confidence": "low",
+      "sources": [
+        "wikipedia:History_of_medicine",
+        "PBS Western Medical History"
+      ]
+    },
+    {
+      "id": "west-egyptian-iry-inscription",
+      "side": "west",
+      "year": -2500,
+      "yearEnd": null,
+      "yearLabel": "约前2500",
+      "title": "埃及宫廷眼科与内科医师铭文",
+      "summary": "约公元前2500年埃及铭文记载宫廷眼科医师、腹部医师等专科头衔，反映古埃及医学已有一定专科分工。",
+      "people": [],
+      "works": [],
+      "archaeology": true,
+      "tags": [
+        "埃及",
+        "专科",
+        "考古"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-kahun-papyrus",
+      "side": "west",
+      "year": -1825,
+      "yearEnd": null,
+      "yearLabel": "约前1825",
+      "title": "卡胡恩妇科纸草",
+      "summary": "卡胡恩（Kahun/Lahun）妇科纸草约成于前1825年，是现存最早的妇科医学文献之一，涉及妊娠、生育与避孕等内容。",
+      "people": [],
+      "works": [
+        "Kahun Gynaecological Papyrus"
+      ],
+      "archaeology": true,
+      "tags": [
+        "埃及",
+        "妇科",
+        "纸草",
+        "考古"
+      ],
+      "confidence": "high",
+      "sources": [
+        "JFPRHC",
+        "Digital Egypt"
+      ]
+    },
+    {
+      "id": "west-hammurabi-code-surgery",
+      "side": "west",
+      "year": -1750,
+      "yearEnd": null,
+      "yearLabel": "约前1750",
+      "title": "《汉谟拉比法典》外科责任条款",
+      "summary": "巴比伦《汉谟拉比法典》（约前1750）含对手术成功/失败的奖惩规定，是已知最早系统化的医事法律责任文本之一。",
+      "people": [],
+      "works": [
+        "Code of Hammurabi"
+      ],
+      "archaeology": false,
+      "tags": [
+        "法律",
+        "外科",
+        "两河"
+      ],
+      "confidence": "high",
+      "sources": [
+        "JAMA historical",
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-akkadian-medical-tablets",
+      "side": "west",
+      "year": -1750,
+      "yearEnd": -1600,
+      "yearLabel": "约前1900–前1600",
+      "title": "阿卡德医学泥板传统",
+      "summary": "约公元前1900–1600年阿卡德医学泥板流传，后多以亚述巴尼拔图书馆抄本形式保存，含诊断、咒语与药物处方。",
+      "people": [],
+      "works": [],
+      "archaeology": true,
+      "tags": [
+        "两河",
+        "泥板",
+        "诊断"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-yiyin-tangye-legend",
+      "side": "east",
+      "year": -1600,
+      "yearEnd": null,
+      "yearLabel": "传说约前1600",
+      "title": "伊尹制汤液（传说）",
+      "summary": "传统将汤液（煎剂）发明归于商初伊尹。此为传说，反映早期食药与煎煮疗法的文化记忆，精确年代不可考。",
+      "people": [
+        "伊尹（传说）"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "汤液",
+        "传说",
+        "商代"
+      ],
+      "confidence": "low",
+      "sources": [
+        "国家中医药博物馆",
+        "传统医史叙述"
+      ]
+    },
+    {
+      "id": "west-edwin-smith-papyrus",
+      "side": "west",
+      "year": -1600,
+      "yearEnd": null,
+      "yearLabel": "约前1600",
+      "title": "埃德温·史密斯外科纸草",
+      "summary": "约公元前1600年的埃德温·史密斯纸草记载48例创伤病例，强调观察与预后，巫术成分极少，被视为最早的系统创伤外科文献。",
+      "people": [],
+      "works": [
+        "Edwin Smith Papyrus"
+      ],
+      "archaeology": true,
+      "tags": [
+        "埃及",
+        "外科",
+        "创伤",
+        "纸草"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "NY Academy of Medicine"
+      ]
+    },
+    {
+      "id": "west-ebers-papyrus",
+      "side": "west",
+      "year": -1550,
+      "yearEnd": null,
+      "yearLabel": "约前1550",
+      "title": "埃伯斯纸草药方集",
+      "summary": "约公元前1550年的埃伯斯纸草长达约20米，收载近八百余条处方与内科知识，兼含巫术与经验用药，是古埃及本草与内科的重要资料。",
+      "people": [],
+      "works": [
+        "Ebers Papyrus"
+      ],
+      "archaeology": true,
+      "tags": [
+        "埃及",
+        "本草",
+        "内科",
+        "纸草"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "University of Leipzig"
+      ]
+    },
+    {
+      "id": "west-hearst-papyrus",
+      "side": "west",
+      "year": -1450,
+      "yearEnd": null,
+      "yearLabel": "约前1450",
+      "title": "赫斯特医学纸草",
+      "summary": "约公元前1450年的赫斯特纸草为又一古埃及医学文本，内容与埃伯斯纸草部分重叠，反映新王国时期医学抄本传统。",
+      "people": [],
+      "works": [
+        "Hearst Papyrus"
+      ],
+      "archaeology": true,
+      "tags": [
+        "埃及",
+        "纸草",
+        "本草"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-brugsch-london-papyri",
+      "side": "west",
+      "year": -1300,
+      "yearEnd": null,
+      "yearLabel": "约前1300",
+      "title": "布鲁格施与伦敦医学纸草",
+      "summary": "约公元前1300年前后的布鲁格施纸草与伦敦医学纸草继续丰富埃及医学文献库，涵盖内科与巫术—医疗混合实践。",
+      "people": [],
+      "works": [],
+      "archaeology": true,
+      "tags": [
+        "埃及",
+        "纸草"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-shang-oracle-disease",
+      "side": "east",
+      "year": -1250,
+      "yearEnd": null,
+      "yearLabel": "约前1250",
+      "title": "商代甲骨文疾病记载",
+      "summary": "殷墟甲骨（约前13–前11世纪）大量卜问疾首、疾目、疾腹等，反映疾病认知与巫术—祭祀诊疗并存，是中国最早的疾病文字记录。",
+      "people": [],
+      "works": [],
+      "archaeology": true,
+      "tags": [
+        "甲骨",
+        "疾病",
+        "商代",
+        "考古"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆",
+        "Cambridge Medicine East Asia"
+      ]
+    },
+    {
+      "id": "east-shangshu-yao-mingxuan",
+      "side": "east",
+      "year": -1000,
+      "yearEnd": null,
+      "yearLabel": "约前1000",
+      "title": "《尚书》药弗瞑眩",
+      "summary": "《尚书·说命》有“若药弗瞑眩，厥疾弗瘳”之语，常被引为早期药力观念的文献证据（文本年代有讨论）。",
+      "people": [],
+      "works": [
+        "尚书"
+      ],
+      "archaeology": false,
+      "tags": [
+        "文献",
+        "药性",
+        "周代"
+      ],
+      "confidence": "low",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-zhou-medical-offices",
+      "side": "east",
+      "year": -900,
+      "yearEnd": -771,
+      "yearLabel": "约前1046–前771",
+      "title": "西周医官分科（食疾疡兽）",
+      "summary": "据《周礼》记载，西周设食医、疾医、疡医、兽医等职，体现早期宫廷医疗的行政分科。成书年代与西周实况需区分。",
+      "people": [],
+      "works": [
+        "周礼"
+      ],
+      "archaeology": false,
+      "tags": [
+        "制度",
+        "周代",
+        "分科"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "中国政府中医药白皮书",
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-cnidos-cos-schools",
+      "side": "west",
+      "year": -700,
+      "yearEnd": null,
+      "yearLabel": "约前700",
+      "title": "克尼多斯与科斯医校",
+      "summary": "约公元前7世纪起，希腊克尼多斯与科斯等地形成医学教学传统，为希波克拉底学派提供制度与知识背景。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "希腊",
+        "医校"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-yihe-six-qi",
+      "side": "east",
+      "year": -541,
+      "yearEnd": null,
+      "yearLabel": "前541",
+      "title": "医和“六气致病”说",
+      "summary": "公元前541年，秦医医和提出阴、阳、风、雨、晦、明“六气”致病说，见于《左传》，是早期病因理论的重要文献节点。",
+      "people": [
+        "医和"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "病因",
+        "理论",
+        "春秋"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆",
+        "左传记载传统"
+      ]
+    },
+    {
+      "id": "east-bianque-sijing",
+      "side": "east",
+      "year": -500,
+      "yearEnd": null,
+      "yearLabel": "约前500",
+      "title": "扁鹊与四诊传统",
+      "summary": "战国名医扁鹊（秦越人）被后世与望闻问切四诊及脉学传统联系；《史记》载其“六不治”。生平含传说成分，约前5世纪活动。",
+      "people": [
+        "扁鹊（秦越人）"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "诊断",
+        "脉诊",
+        "传奇"
+      ],
+      "confidence": "low",
+      "sources": [
+        "史记",
+        "中国政府白皮书",
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-asklepieion-cult",
+      "side": "west",
+      "year": -500,
+      "yearEnd": null,
+      "yearLabel": "约前500",
+      "title": "阿斯克勒庇俄斯神庙医疗",
+      "summary": "约公元前5世纪起，希腊各地阿斯克勒庇俄斯神庙（Asklepieion）以孵梦疗法、仪式与经验护理并行，是宗教—医疗复合机构的代表。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "希腊",
+        "神庙",
+        "宗教医疗"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-alcmaeon-croton",
+      "side": "west",
+      "year": -470,
+      "yearEnd": -430,
+      "yearLabel": "约前510–前430",
+      "title": "克罗托内的阿尔克迈翁",
+      "summary": "阿尔克迈翁（约前510–前430）进行早期解剖观察，区分动静脉，主张脑为感觉与理智所在，被誉为希腊理性医学先驱之一。",
+      "people": [
+        "Alcmaeon of Croton"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "希腊",
+        "解剖",
+        "神经"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "Longrigg Greek Rational Medicine"
+      ]
+    },
+    {
+      "id": "west-empedocles-elements",
+      "side": "west",
+      "year": -460,
+      "yearEnd": null,
+      "yearLabel": "约前460",
+      "title": "恩培多克勒四元素说",
+      "summary": "恩培多克勒提出水火气土四元素，后与体液论结合，深刻影响古希腊至中世纪的病理解释框架。",
+      "people": [
+        "Empedocles"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "希腊",
+        "理论",
+        "体液"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-hippocrates-birth",
+      "side": "west",
+      "year": -460,
+      "yearEnd": null,
+      "yearLabel": "约前460",
+      "title": "希波克拉底出生（约）",
+      "summary": "科斯岛的希波克拉底（约前460–前370）被尊为“医学之父”，主张疾病有自然原因，反对纯粹神罚解释。",
+      "people": [
+        "Hippocrates"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "希腊",
+        "理性医学"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:History_of_medicine",
+        "PMC timeline"
+      ]
+    },
+    {
+      "id": "west-hippocratic-corpus-oath",
+      "side": "west",
+      "year": -420,
+      "yearEnd": null,
+      "yearLabel": "约前420",
+      "title": "希波克拉底传统与誓词",
+      "summary": "约公元前420年前后，希波克拉底学派强调观察、预后与自然病因；《希波克拉底誓词》成为后世医德文本原型。相关著作汇为《希波克拉底全集》。",
+      "people": [
+        "Hippocrates"
+      ],
+      "works": [
+        "Hippocratic Corpus",
+        "Hippocratic Oath"
+      ],
+      "archaeology": false,
+      "tags": [
+        "希腊",
+        "医德",
+        "理性医学"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:History_of_medicine",
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-diocles-carystus",
+      "side": "west",
+      "year": -350,
+      "yearEnd": -295,
+      "yearLabel": "约前375–前295",
+      "title": "卡里斯托斯的狄奥克勒斯",
+      "summary": "狄奥克勒斯（约前375–前295）著生理学与饮食著作，被誉为“第二希波克拉底”，代表希波克拉底后雅典医学。",
+      "people": [
+        "Diocles of Carystus"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "希腊",
+        "饮食",
+        "生理"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "Nutton"
+      ]
+    },
+    {
+      "id": "west-praxagoras-pulse",
+      "side": "west",
+      "year": -340,
+      "yearEnd": null,
+      "yearLabel": "约前340",
+      "title": "普拉萨戈拉斯区分动静脉搏动",
+      "summary": "公元前4世纪普拉萨戈拉斯区分静脉与动脉，并认识到动脉搏动，推动脉诊与循环观念萌芽。",
+      "people": [
+        "Praxagoras"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "希腊",
+        "脉诊",
+        "循环"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-wushier-bingfang",
+      "side": "east",
+      "year": -300,
+      "yearEnd": null,
+      "yearLabel": "约前300",
+      "title": "《五十二病方》传统",
+      "summary": "马王堆所出《五十二病方》约成书于战国晚期，是现存较早的方剂文献，反映经脉学说定型前的经验方药传统。",
+      "people": [],
+      "works": [
+        "五十二病方"
+      ],
+      "archaeology": false,
+      "tags": [
+        "方剂",
+        "帛书",
+        "考古"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "国家中医药博物馆",
+        "Harper Mawangdui"
+      ]
+    },
+    {
+      "id": "west-herophilus-alexandria",
+      "side": "west",
+      "year": -280,
+      "yearEnd": null,
+      "yearLabel": "约前280",
+      "title": "希罗菲卢斯亚历山大里亚解剖",
+      "summary": "希罗菲卢斯在托勒密王朝支持下进行人体解剖，区分感觉神经与运动神经，研究脑、眼等结构，创立大量解剖术语。",
+      "people": [
+        "Herophilus"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "希腊",
+        "解剖",
+        "神经",
+        "亚历山大里亚"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "Nutton Ancient Medicine"
+      ]
+    },
+    {
+      "id": "west-erasistratus-physiology",
+      "side": "west",
+      "year": -250,
+      "yearEnd": null,
+      "yearLabel": "约前250",
+      "title": "埃拉西斯特拉图斯生理学",
+      "summary": "埃拉西斯特拉图斯研究脑、心与血管系统，区分大脑与小脑，提出较希罗菲卢斯更偏生理学的解释，代表亚历山大里亚医学高峰。",
+      "people": [
+        "Erasistratus"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "希腊",
+        "生理",
+        "解剖"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-zhangjiashan-tomb",
+      "side": "east",
+      "year": -186,
+      "yearEnd": null,
+      "yearLabel": "约前186",
+      "title": "张家山汉简医书入葬",
+      "summary": "湖北张家山汉墓（闭于约前186）出土《脉书》《引书》等，与马王堆经脉文献相互印证，呈现西汉早期经脉与导引知识。",
+      "people": [],
+      "works": [],
+      "archaeology": true,
+      "tags": [
+        "考古",
+        "经脉",
+        "导引",
+        "汉简"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Taylor & Francis TCM archaeology",
+        "Harper"
+      ]
+    },
+    {
+      "id": "east-mawangdui-tomb3",
+      "side": "east",
+      "year": -168,
+      "yearEnd": null,
+      "yearLabel": "前168",
+      "title": "马王堆三号墓医书封印",
+      "summary": "长沙马王堆三号汉墓（前168年下葬）出土《足臂十一脉灸经》《阴阳十一脉灸经》《五十二病方》等帛书简牍，是早期经脉与方药的关键考古证据。",
+      "people": [],
+      "works": [
+        "足臂十一脉灸经",
+        "阴阳十一脉灸经",
+        "五十二病方"
+      ],
+      "archaeology": true,
+      "tags": [
+        "考古",
+        "经脉",
+        "帛书",
+        "方剂"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Harper Early Chinese Medical Literature",
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-chunyu-yi-zhenji",
+      "side": "east",
+      "year": -154,
+      "yearEnd": null,
+      "yearLabel": "约前170",
+      "title": "淳于意“诊籍”",
+      "summary": "西汉太仓公淳于意约前180–前150年间创用“诊籍”（病案记录），《史记》载其二十五案，是早期中医病案传统的重要证据。",
+      "people": [
+        "淳于意"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "病案",
+        "诊断",
+        "西汉"
+      ],
+      "confidence": "high",
+      "sources": [
+        "史记·扁鹊仓公列传",
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-laoguanshan-tianhui",
+      "side": "east",
+      "year": -150,
+      "yearEnd": -141,
+      "yearLabel": "约前157–前141",
+      "title": "老官山（天回）医简与漆人",
+      "summary": "成都天回镇老官山M3（约前157–前141）出土大量医简与彩绘经络漆人，反映西汉早期多元经脉模型与方书传统。",
+      "people": [],
+      "works": [],
+      "archaeology": true,
+      "tags": [
+        "考古",
+        "经脉",
+        "漆人",
+        "汉简"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Asian Medicine 2024",
+        "UCL Lo Laoguanshan"
+      ]
+    },
+    {
+      "id": "east-zhang-qian-drugs",
+      "side": "east",
+      "year": -119,
+      "yearEnd": null,
+      "yearLabel": "前119",
+      "title": "张骞通西域与药物交流",
+      "summary": "张骞两次出使西域（前138、前119），传统认为促进葡萄、苜蓿等物种及药物知识交流，丰富本草来源。",
+      "people": [
+        "张骞"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "交流",
+        "本草",
+        "西汉"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-shuangbaoshan-figurine",
+      "side": "east",
+      "year": -118,
+      "yearEnd": null,
+      "yearLabel": "约前118",
+      "title": "双包山经络漆人",
+      "summary": "四川绵阳双包山汉墓（约前118）出土黑漆人体模型，绘红色经脉线，是已知较早的三维经络模型之一，或兼养生与医疗含义。",
+      "people": [],
+      "works": [],
+      "archaeology": true,
+      "tags": [
+        "考古",
+        "经脉",
+        "漆人"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Early China / Lo & He",
+        "Asian Medicine"
+      ]
+    },
+    {
+      "id": "east-mancheng-needles",
+      "side": "east",
+      "year": -113,
+      "yearEnd": null,
+      "yearLabel": "前113",
+      "title": "满城汉墓金银针",
+      "summary": "河北满城中山靖王墓（前113）出土金银针具；其功能或兼及玉衣缝合与医疗，是否等同后世针灸针仍有讨论。",
+      "people": [],
+      "works": [],
+      "archaeology": true,
+      "tags": [
+        "考古",
+        "针具",
+        "西汉"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "Taylor & Francis TCM archaeology"
+      ]
+    },
+    {
+      "id": "east-huangdi-neijing",
+      "side": "east",
+      "year": -100,
+      "yearEnd": -5,
+      "yearLabel": "约前250–前5",
+      "title": "《黄帝内经》理论体系成型",
+      "summary": "《黄帝内经》（素问、灵枢）主体约战国至秦汉间迭经编订，奠定阴阳五行、脏腑经络、治未病等中医理论框架；非一人一时之作。",
+      "people": [],
+      "works": [
+        "黄帝内经",
+        "素问",
+        "灵枢"
+      ],
+      "archaeology": false,
+      "tags": [
+        "经典",
+        "理论",
+        "经络"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "国家中医药博物馆",
+        "世界记忆名录申报材料"
+      ]
+    },
+    {
+      "id": "west-asclepiades-bithynia",
+      "side": "west",
+      "year": -80,
+      "yearEnd": -44,
+      "yearLabel": "约前124–前44",
+      "title": "比提尼亚的阿斯克勒皮亚德斯",
+      "summary": "阿斯克勒皮亚德斯（约前124–前44）在罗马传播原子论式医学，强调饮食、运动与温和疗法，反对过度放血。",
+      "people": [
+        "Asclepiades of Bithynia"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "罗马",
+        "理论"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-nanjing",
+      "side": "east",
+      "year": -50,
+      "yearEnd": null,
+      "yearLabel": "约西汉",
+      "title": "《难经》问世（约）",
+      "summary": "《黄帝八十一难经》约成于西汉，以问难形式阐发《内经》，强调寸口脉诊并记载脏器度量，对脉学影响深远。",
+      "people": [],
+      "works": [
+        "难经"
+      ],
+      "archaeology": false,
+      "tags": [
+        "经典",
+        "脉诊",
+        "理论"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-wuwei-medical-slips",
+      "side": "east",
+      "year": -50,
+      "yearEnd": 100,
+      "yearLabel": "约公元1世纪",
+      "title": "武威汉代医简",
+      "summary": "甘肃武威旱滩坡等地出土东汉医简，载临床方药与针刺内容，补充河西地区汉代医疗实践。",
+      "people": [],
+      "works": [],
+      "archaeology": true,
+      "tags": [
+        "考古",
+        "汉简",
+        "方剂"
+      ],
+      "confidence": "high",
+      "sources": [
+        "UCL Lo Laoguanshan context",
+        "武威医简研究"
+      ]
+    },
+    {
+      "id": "west-varro-germ-prototype",
+      "side": "west",
+      "year": -36,
+      "yearEnd": null,
+      "yearLabel": "约前36",
+      "title": "瓦罗雏形“病菌”观念",
+      "summary": "罗马学者瓦罗（前116–前27）提出沼泽中不可见微粒可致病的设想，常被视为雏形的传染病因假说。",
+      "people": [
+        "Marcus Terentius Varro"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "罗马",
+        "传染",
+        "理论"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "Adler Medical Firsts"
+      ]
+    },
+    {
+      "id": "west-celsus-de-medicina",
+      "side": "west",
+      "year": 30,
+      "yearEnd": null,
+      "yearLabel": "约30",
+      "title": "塞尔苏斯《论医学》",
+      "summary": "奥卢斯·科尔内利乌斯·塞尔苏斯约于公元1世纪中叶编成拉丁百科式医学著作《论医学》，系统介绍饮食、药物与外科。",
+      "people": [
+        "Aulus Cornelius Celsus"
+      ],
+      "works": [
+        "De Medicina"
+      ],
+      "archaeology": false,
+      "tags": [
+        "罗马",
+        "百科",
+        "外科"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-dioscorides-materia-medica",
+      "side": "west",
+      "year": 60,
+      "yearEnd": 70,
+      "yearLabel": "约50–70",
+      "title": "迪奥斯科里德斯《药物志》",
+      "summary": "佩达尼乌斯·迪奥斯科里德斯约于公元50–70年写成《药物志》（De Materia Medica），成为此后约1600年欧洲与伊斯兰世界本草标准。",
+      "people": [
+        "Pedanius Dioscorides"
+      ],
+      "works": [
+        "De Materia Medica"
+      ],
+      "archaeology": false,
+      "tags": [
+        "罗马",
+        "本草",
+        "药学"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-pliny-natural-history",
+      "side": "west",
+      "year": 77,
+      "yearEnd": null,
+      "yearLabel": "约77",
+      "title": "老普林尼《自然史》",
+      "summary": "老普林尼（23–79）的《自然史》广收动植矿物药用知识，虽驳杂，却是罗马博物与民间医疗的重要汇编。",
+      "people": [
+        "Pliny the Elder"
+      ],
+      "works": [
+        "Naturalis Historia"
+      ],
+      "archaeology": false,
+      "tags": [
+        "罗马",
+        "本草",
+        "博物"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-shennong-bencao",
+      "side": "east",
+      "year": 100,
+      "yearEnd": null,
+      "yearLabel": "约东汉",
+      "title": "《神农本草经》成书（约）",
+      "summary": "《神农本草经》约成于东汉，载药365种，提出君臣佐使、四气五味与三品分类，奠定中药学理论框架；托名神农。",
+      "people": [],
+      "works": [
+        "神农本草经"
+      ],
+      "archaeology": false,
+      "tags": [
+        "本草",
+        "经典",
+        "药学"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "中国政府白皮书",
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-rufus-ephesus",
+      "side": "west",
+      "year": 100,
+      "yearEnd": null,
+      "yearLabel": "约100",
+      "title": "以弗所的鲁弗斯",
+      "summary": "鲁弗斯约1–2世纪写作解剖与病名学著作，强调解剖对临床的重要性。",
+      "people": [
+        "Rufus of Ephesus"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "罗马",
+        "解剖",
+        "名词"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-soranus-gynecology",
+      "side": "west",
+      "year": 120,
+      "yearEnd": null,
+      "yearLabel": "约120",
+      "title": "以弗所的索拉努斯妇产科学",
+      "summary": "索拉努斯（约98–138）的妇产科学著作代表方法论学派成就，对分娩、婴儿护理有系统论述。",
+      "people": [
+        "Soranus of Ephesus"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "罗马",
+        "妇科",
+        "产科"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-aretaeus-cappadocia",
+      "side": "west",
+      "year": 150,
+      "yearEnd": null,
+      "yearLabel": "约150",
+      "title": "卡帕多西亚的阿雷泰乌斯",
+      "summary": "阿雷泰乌斯约2世纪以精确临床描述著称，对糖尿病、神经系统疾病等有经典记述。",
+      "people": [
+        "Aretaeus of Cappadocia"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "罗马",
+        "临床",
+        "糖尿病"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-galen-career",
+      "side": "west",
+      "year": 170,
+      "yearEnd": null,
+      "yearLabel": "约170",
+      "title": "盖伦体系主导古代医学",
+      "summary": "帕加马的盖伦（129–约216）结合希波克拉底体液论与解剖生理，服务角斗士与罗马皇帝，其著作主导欧亚医学至文艺复兴。",
+      "people": [
+        "Galen"
+      ],
+      "works": [
+        "Ars medica",
+        "On the Usefulness of the Parts"
+      ],
+      "archaeology": false,
+      "tags": [
+        "罗马",
+        "体液",
+        "解剖",
+        "体系"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:History_of_medicine",
+        "PBS"
+      ]
+    },
+    {
+      "id": "east-hua-tuo",
+      "side": "east",
+      "year": 200,
+      "yearEnd": null,
+      "yearLabel": "约200",
+      "title": "华佗麻沸散与五禽戏",
+      "summary": "华佗（约110–208）传说创麻沸散用于外科并倡导五禽戏导引。其外科麻醉细节难确证，但对后世外科学与养生影响巨大。",
+      "people": [
+        "华佗"
+      ],
+      "works": [
+        "五禽戏（传统）"
+      ],
+      "archaeology": false,
+      "tags": [
+        "外科",
+        "麻醉",
+        "导引",
+        "传奇"
+      ],
+      "confidence": "low",
+      "sources": [
+        "三国志",
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-zhang-zhongjing-shanghan",
+      "side": "east",
+      "year": 219,
+      "yearEnd": null,
+      "yearLabel": "约219",
+      "title": "张仲景《伤寒杂病论》",
+      "summary": "张仲景约于建安末年著《伤寒杂病论》，确立六经辨证与杂病论治，是中医辨证论治体系的奠基之作；原书后析为《伤寒论》《金匮要略》。",
+      "people": [
+        "张仲景"
+      ],
+      "works": [
+        "伤寒杂病论",
+        "伤寒论",
+        "金匮要略"
+      ],
+      "archaeology": false,
+      "tags": [
+        "经典",
+        "伤寒",
+        "辨证"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆",
+        "中国政府白皮书"
+      ]
+    },
+    {
+      "id": "east-huangfu-mi-jiayijing",
+      "side": "east",
+      "year": 260,
+      "yearEnd": null,
+      "yearLabel": "约260",
+      "title": "皇甫谧《针灸甲乙经》",
+      "summary": "皇甫谧约256–260年编成《针灸甲乙经》，系统整理腧穴、经络与刺灸法，是早期针灸学集大成之作。",
+      "people": [
+        "皇甫谧"
+      ],
+      "works": [
+        "针灸甲乙经"
+      ],
+      "archaeology": false,
+      "tags": [
+        "针灸",
+        "经络",
+        "经典"
+      ],
+      "confidence": "high",
+      "sources": [
+        "中国政府白皮书",
+        "Cambridge Medicine East Asia"
+      ]
+    },
+    {
+      "id": "east-wang-shuhe-maijing",
+      "side": "east",
+      "year": 280,
+      "yearEnd": null,
+      "yearLabel": "约280",
+      "title": "王叔和《脉经》",
+      "summary": "西晋王叔和约3世纪著《脉经》，整理寸口脉法与脉象分类，是现存最早的脉学专著，并整订《伤寒论》传本。",
+      "people": [
+        "王叔和"
+      ],
+      "works": [
+        "脉经"
+      ],
+      "archaeology": false,
+      "tags": [
+        "脉诊",
+        "经典",
+        "伤寒"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆",
+        "江西中医药大学史料"
+      ]
+    },
+    {
+      "id": "east-ge-hong-zhouhou",
+      "side": "east",
+      "year": 347,
+      "yearEnd": null,
+      "yearLabel": "约347",
+      "title": "葛洪《肘后备急方》",
+      "summary": "葛洪约347年成《肘后备急方》，强调简便廉验救急方，其中青蒿治疟记载启发后世青蒿素研发。",
+      "people": [
+        "葛洪"
+      ],
+      "works": [
+        "肘后备急方"
+      ],
+      "archaeology": false,
+      "tags": [
+        "方剂",
+        "急救",
+        "本草"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆",
+        "诺贝尔奖屠呦呦演讲"
+      ]
+    },
+    {
+      "id": "west-oribasius-encyclopedia",
+      "side": "west",
+      "year": 360,
+      "yearEnd": null,
+      "yearLabel": "约360",
+      "title": "奥里巴西乌斯医学百科",
+      "summary": "奥里巴西乌斯（约325–400）为尤利安皇帝编纂约70卷医学百科，保存大量盖伦与希腊医学摘录。",
+      "people": [
+        "Oribasius"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "拜占庭",
+        "百科"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-basileias-hospital",
+      "side": "west",
+      "year": 369,
+      "yearEnd": null,
+      "yearLabel": "369",
+      "title": "巴西尔在凯撒利亚建医院",
+      "summary": "约369年，凯撒利亚的巴西尔建立含病房、医护与工坊的综合慈善机构Basileias，是基督教医院传统的重要早期范例。",
+      "people": [
+        "Basil of Caesarea"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "医院",
+        "拜占庭",
+        "慈善"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "Durant Age of Faith"
+      ]
+    },
+    {
+      "id": "west-fabiola-rome-hospital",
+      "side": "west",
+      "year": 400,
+      "yearEnd": null,
+      "yearLabel": "约400",
+      "title": "法比奥拉在罗马建医院",
+      "summary": "约400年，罗马贵族法比奥拉创办拉丁基督教世界较早的医院，推动西欧医院慈善模式。",
+      "people": [
+        "Fabiola"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "医院",
+        "罗马",
+        "慈善"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-lei-gong-paozhi",
+      "side": "east",
+      "year": 450,
+      "yearEnd": null,
+      "yearLabel": "约450",
+      "title": "《雷公炮炙论》",
+      "summary": "南朝雷斅所著《雷公炮炙论》（约5世纪）专论药材炮制，是中药炮制学早期专书。",
+      "people": [
+        "雷斅"
+      ],
+      "works": [
+        "雷公炮炙论"
+      ],
+      "archaeology": false,
+      "tags": [
+        "本草",
+        "炮制"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-tao-hongjing-bencaojizhu",
+      "side": "east",
+      "year": 500,
+      "yearEnd": null,
+      "yearLabel": "约500",
+      "title": "陶弘景《本草经集注》",
+      "summary": "梁代陶弘景约公元500年前后作《本草经集注》，扩充《神农本草经》并重新分类，成为唐本草前的权威注本。",
+      "people": [
+        "陶弘景"
+      ],
+      "works": [
+        "本草经集注"
+      ],
+      "archaeology": false,
+      "tags": [
+        "本草",
+        "注释"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-aetius-amida",
+      "side": "west",
+      "year": 530,
+      "yearEnd": null,
+      "yearLabel": "约530",
+      "title": "阿米达的埃提乌斯医学汇编",
+      "summary": "埃提乌斯约于6世纪中叶编成大型医学汇编，分16卷，保存希腊医学外科与妇科内容。",
+      "people": [
+        "Aetius of Amida"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "拜占庭",
+        "百科",
+        "外科"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-chao-yuanfang-zhubing",
+      "side": "east",
+      "year": 610,
+      "yearEnd": null,
+      "yearLabel": "610",
+      "title": "巢元方《诸病源候论》",
+      "summary": "隋太医巢元方610年奉敕编《诸病源候论》，详论病因症候而不列方药，是病因证候学巨著。",
+      "people": [
+        "巢元方"
+      ],
+      "works": [
+        "诸病源候论"
+      ],
+      "archaeology": false,
+      "tags": [
+        "病因",
+        "证候",
+        "隋唐"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆",
+        "PMC Chao Yuanfang"
+      ]
+    },
+    {
+      "id": "east-tang-taiyishu",
+      "side": "east",
+      "year": 624,
+      "yearEnd": null,
+      "yearLabel": "624",
+      "title": "唐太医署医学校",
+      "summary": "624年唐代太医署设医学教育，分科培养医师，是古代中国较完备的官方医学教育机构之一。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "制度",
+        "教育",
+        "唐代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-paul-of-aegina",
+      "side": "west",
+      "year": 640,
+      "yearEnd": null,
+      "yearLabel": "约640",
+      "title": "埃伊纳的保罗《医学纲要》",
+      "summary": "保罗约于7世纪写成7卷本医学百科，外科部分尤为详尽，后被阿布卡西斯等伊斯兰外科家广泛引用。",
+      "people": [
+        "Paul of Aegina"
+      ],
+      "works": [
+        "Epitome of Medicine"
+      ],
+      "archaeology": false,
+      "tags": [
+        "拜占庭",
+        "外科",
+        "百科"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-sun-simiao-qianjin",
+      "side": "east",
+      "year": 652,
+      "yearEnd": null,
+      "yearLabel": "约652",
+      "title": "孙思邈《千金要方》",
+      "summary": "孙思邈约652年成《备急千金要方》，682年续《千金翼方》；《大医精诚》成为中医医德经典，并强调道地药材。",
+      "people": [
+        "孙思邈"
+      ],
+      "works": [
+        "千金要方",
+        "千金翼方",
+        "大医精诚"
+      ],
+      "archaeology": false,
+      "tags": [
+        "方剂",
+        "医德",
+        "唐代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆",
+        "中国政府白皮书"
+      ]
+    },
+    {
+      "id": "east-xinxiu-bencao",
+      "side": "east",
+      "year": 659,
+      "yearEnd": null,
+      "yearLabel": "659",
+      "title": "《新修本草》（唐本草）",
+      "summary": "苏敬等659年奉敕完成《新修本草》，收药844种，是世界上较早由国家颁行的药典性本草。",
+      "people": [
+        "苏敬"
+      ],
+      "works": [
+        "新修本草"
+      ],
+      "archaeology": false,
+      "tags": [
+        "本草",
+        "药典",
+        "唐代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Xinxiu_bencao",
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-shiliao-bencao",
+      "side": "east",
+      "year": 730,
+      "yearEnd": null,
+      "yearLabel": "约730",
+      "title": "《食疗本草》",
+      "summary": "约713–741年孟诜《食疗本草》系统整理食物药用，体现唐代食疗传统。",
+      "people": [
+        "孟诜"
+      ],
+      "works": [
+        "食疗本草"
+      ],
+      "archaeology": false,
+      "tags": [
+        "食疗",
+        "本草",
+        "唐代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-gundeshapur-legacy",
+      "side": "west",
+      "year": 750,
+      "yearEnd": null,
+      "yearLabel": "约750",
+      "title": "贡迪沙普尔医学传统迁入巴格达",
+      "summary": "萨珊时期贡迪沙普尔医院与医校传统在阿拔斯朝被引入巴格达，Nestorians与布赫蒂舒家族推动希腊—伊朗—印度医学融合。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "医院",
+        "翻译"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "Encyclopaedia Iranica",
+        "wikipedia:Bimaristan"
+      ]
+    },
+    {
+      "id": "east-wang-tao-waitai",
+      "side": "east",
+      "year": 752,
+      "yearEnd": null,
+      "yearLabel": "752",
+      "title": "王焘《外台秘要》",
+      "summary": "王焘752年编成《外台秘要》，广辑唐以前方书，保存大量已佚文献，是方书文献学宝库。",
+      "people": [
+        "王焘"
+      ],
+      "works": [
+        "外台秘要"
+      ],
+      "archaeology": false,
+      "tags": [
+        "方剂",
+        "文献",
+        "唐代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-jianzhen-japan",
+      "side": "east",
+      "year": 753,
+      "yearEnd": null,
+      "yearLabel": "约753",
+      "title": "鉴真东渡传医学",
+      "summary": "鉴真和尚东渡日本，携带并传授医药知识，促进中日医学交流。",
+      "people": [
+        "鉴真"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "交流",
+        "日本",
+        "唐代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-wang-bing-suwen",
+      "side": "east",
+      "year": 762,
+      "yearEnd": null,
+      "yearLabel": "约762",
+      "title": "王冰次注《黄帝内经素问》",
+      "summary": "唐王冰约762年重次注释《素问》，补入七篇大论，定型后世通行本《素问》结构。",
+      "people": [
+        "王冰"
+      ],
+      "works": [
+        "黄帝内经素问注"
+      ],
+      "archaeology": false,
+      "tags": [
+        "经典",
+        "注释",
+        "唐代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "江西中医药大学史料",
+        "内经文献学传统"
+      ]
+    },
+    {
+      "id": "west-baghdad-bimaristan-harun",
+      "side": "west",
+      "year": 805,
+      "yearEnd": null,
+      "yearLabel": "约805",
+      "title": "巴格达早期比马里斯坦",
+      "summary": "约8世纪末至9世纪初，哈里发哈伦·拉希德时期巴格达建立早期综合医院（比马里斯坦），结合诊疗、教学与研究。",
+      "people": [
+        "Harun al-Rashid"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "医院",
+        "巴格达"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Bimaristan",
+        "Annals of Saudi Medicine"
+      ]
+    },
+    {
+      "id": "east-linshang-xuduan",
+      "side": "east",
+      "year": 845,
+      "yearEnd": null,
+      "yearLabel": "约845",
+      "title": "《理伤续断方》",
+      "summary": "约841–845年蔺道人《理伤续断方》专论骨折伤科，是中医骨伤科重要早期专书。",
+      "people": [
+        "蔺道人"
+      ],
+      "works": [
+        "理伤续断方"
+      ],
+      "archaeology": false,
+      "tags": [
+        "骨伤",
+        "外科",
+        "唐代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-hunayn-ibn-ishaq",
+      "side": "west",
+      "year": 850,
+      "yearEnd": null,
+      "yearLabel": "约850",
+      "title": "侯奈因·伊本·伊斯哈格翻译运动",
+      "summary": "侯奈因（约830–873）等将大量盖伦与希腊医学著作译为叙利亚语与阿拉伯语，奠定伊斯兰医学文献基础。",
+      "people": [
+        "Hunayn ibn Ishaq"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "翻译",
+        "盖伦"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "Loudon Western Medicine"
+      ]
+    },
+    {
+      "id": "west-salerno-school",
+      "side": "west",
+      "year": 850,
+      "yearEnd": null,
+      "yearLabel": "约850",
+      "title": "萨勒诺医学校兴起",
+      "summary": "约9世纪围绕本笃会医院发展的萨勒诺医学校，10–12世纪达于鼎盛，融合希腊、拉丁、阿拉伯与犹太医学，是西欧最早的医学校之一。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "中世纪",
+        "医校",
+        "萨勒诺"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Schola_Medica_Salernitana"
+      ]
+    },
+    {
+      "id": "west-al-kindi-de-gradibus",
+      "side": "west",
+      "year": 860,
+      "yearEnd": null,
+      "yearLabel": "约860",
+      "title": "金迪论药物等级",
+      "summary": "哲学家金迪著《论等级》（De Gradibus），尝试量化药物效力，影响中世纪药理学讨论。",
+      "people": [
+        "Al-Kindi"
+      ],
+      "works": [
+        "De Gradibus"
+      ],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "药学",
+        "理论"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-tulunid-hospital-cairo",
+      "side": "west",
+      "year": 872,
+      "yearEnd": null,
+      "yearLabel": "约872",
+      "title": "图伦王朝开罗医院（瓦克夫资助）",
+      "summary": "艾哈迈德·伊本·图伦在开罗建立医院并以瓦克夫（宗教基金）资助，使医院财务制度更可持续，是伊斯兰医院发展的里程碑。",
+      "people": [
+        "Ahmad ibn Tulun"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "医院",
+        "开罗"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Belleten 1980"
+      ]
+    },
+    {
+      "id": "west-rhazes-smallpox-measles",
+      "side": "west",
+      "year": 900,
+      "yearEnd": null,
+      "yearLabel": "约900",
+      "title": "拉齐区分天花与麻疹",
+      "summary": "拉齐（Rhazes，约865–925）在《全书》等著作中清晰区分天花与麻疹，并开创儿科专论传统，是临床观察的典范。",
+      "people": [
+        "Al-Razi (Rhazes)"
+      ],
+      "works": [
+        "Kitab al-Hawi",
+        "On Smallpox and Measles"
+      ],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "传染病",
+        "儿科"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "Annals of Saudi Medicine"
+      ]
+    },
+    {
+      "id": "east-kaibao-bencao",
+      "side": "east",
+      "year": 973,
+      "yearEnd": null,
+      "yearLabel": "973",
+      "title": "《开宝本草》",
+      "summary": "宋初973年官修《开宝重定本草》，继承唐本草并增补，开启宋代官修本草传统。",
+      "people": [],
+      "works": [
+        "开宝本草"
+      ],
+      "archaeology": false,
+      "tags": [
+        "本草",
+        "宋代",
+        "官修"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-adudi-hospital-baghdad",
+      "side": "west",
+      "year": 980,
+      "yearEnd": null,
+      "yearLabel": "约980",
+      "title": "巴格达阿杜德医院",
+      "summary": "约980年建立的阿杜德（ʿAḍudī）医院规模宏大，设专科与教学，代表阿拔斯晚期医院高峰，1258年蒙古攻陷巴格达后毁。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "医院",
+        "巴格达"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Belleten 1980",
+        "Annals of Saudi Medicine"
+      ]
+    },
+    {
+      "id": "west-haly-abbas-maliki",
+      "side": "west",
+      "year": 980,
+      "yearEnd": null,
+      "yearLabel": "约980",
+      "title": "马朱西《王书》",
+      "summary": "阿里·伊本·阿巴斯·马朱西（Haly Abbas）著《医学全书》（Liber Regius），结构清晰，经拉丁译本影响萨勒诺与欧洲课程。",
+      "people": [
+        "Ali ibn al-Abbas al-Majusi"
+      ],
+      "works": [
+        "Kamil al-Sina'a al-Tibbiyya"
+      ],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "百科",
+        "教材"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-taiping-shenghuifang",
+      "side": "east",
+      "year": 992,
+      "yearEnd": null,
+      "yearLabel": "992",
+      "title": "《太平圣惠方》",
+      "summary": "王怀隐等992年奉敕编成《太平圣惠方》，大型官修方书，反映北宋初方药水平。",
+      "people": [
+        "王怀隐"
+      ],
+      "works": [
+        "太平圣惠方"
+      ],
+      "archaeology": false,
+      "tags": [
+        "方剂",
+        "宋代",
+        "官修"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-albucasis-al-tasrif",
+      "side": "west",
+      "year": 1000,
+      "yearEnd": null,
+      "yearLabel": "约1000",
+      "title": "扎赫拉维《医学宝鉴》外科",
+      "summary": "扎赫拉威（Albucasis，约936–1013）的《医学宝鉴》（Al-Tasrif）详述手术器械与术式，将外科提升至医学核心地位，深刻影响欧洲外科。",
+      "people": [
+        "Al-Zahrawi (Albucasis)"
+      ],
+      "works": [
+        "Kitab al-Tasrif"
+      ],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "外科",
+        "器械"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "Annals of Saudi Medicine"
+      ]
+    },
+    {
+      "id": "west-avicenna-canon",
+      "side": "west",
+      "year": 1025,
+      "yearEnd": null,
+      "yearLabel": "约1025",
+      "title": "伊本·西那《医典》",
+      "summary": "伊本·西那（阿维森纳，980–1037）约于1025年前后完成《医典》，综合盖伦与临床经验，成为伊斯兰与欧洲大学标准教材至18世纪。",
+      "people": [
+        "Ibn Sina (Avicenna)"
+      ],
+      "works": [
+        "Al-Qanun fi al-Tibb (Canon of Medicine)"
+      ],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "百科",
+        "教材"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "PMC"
+      ]
+    },
+    {
+      "id": "east-wang-weiyi-tongren",
+      "side": "east",
+      "year": 1027,
+      "yearEnd": null,
+      "yearLabel": "1027",
+      "title": "王惟一针灸铜人",
+      "summary": "王惟一1026年著《铜人腧穴针灸图经》，次年铸针灸铜人，供教学考试，是针灸标准化的里程碑。",
+      "people": [
+        "王惟一"
+      ],
+      "works": [
+        "铜人腧穴针灸图经"
+      ],
+      "archaeology": false,
+      "tags": [
+        "针灸",
+        "教学",
+        "宋代",
+        "标准化"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-anatomy-song-charts",
+      "side": "east",
+      "year": 1048,
+      "yearEnd": 1106,
+      "yearLabel": "约1041–1106",
+      "title": "《欧希范五脏图》《存真图》",
+      "summary": "北宋出现基于刑尸观察的《欧希范五脏图》与杨介《存真图》，是中国古代解剖学的重要图像文献。",
+      "people": [
+        "杨介"
+      ],
+      "works": [
+        "欧希范五脏图",
+        "存真图"
+      ],
+      "archaeology": false,
+      "tags": [
+        "解剖",
+        "宋代",
+        "图像"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-jiaozheng-yishuju",
+      "side": "east",
+      "year": 1057,
+      "yearEnd": null,
+      "yearLabel": "1057",
+      "title": "校正医书局",
+      "summary": "1057年北宋设校正医书局，系统校刻《伤寒论》《千金方》等经典，深刻影响医书传本与医学教育。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "文献",
+        "制度",
+        "宋代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆",
+        "江西中医药大学史料"
+      ]
+    },
+    {
+      "id": "west-constantine-african",
+      "side": "west",
+      "year": 1070,
+      "yearEnd": null,
+      "yearLabel": "约1070",
+      "title": "非洲人康斯坦丁翻译阿拉伯医书",
+      "summary": "康斯坦丁（卒约1087）将大量阿拉伯医学著作译为拉丁文并引入萨勒诺，使盖伦—伊斯兰医学进入拉丁欧洲课程。",
+      "people": [
+        "Constantine the African"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "中世纪",
+        "翻译",
+        "萨勒诺"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-taiyiju-pharmacy",
+      "side": "east",
+      "year": 1076,
+      "yearEnd": null,
+      "yearLabel": "1076",
+      "title": "太医局卖药所",
+      "summary": "1076年官办太医局设卖药所（后发展为和剂局），推行官药与成药，体现国家医药供应制度化。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "制度",
+        "药局",
+        "宋代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-tang-shenwei-zhenglei",
+      "side": "east",
+      "year": 1082,
+      "yearEnd": null,
+      "yearLabel": "约1082",
+      "title": "唐慎微《证类本草》",
+      "summary": "唐慎微约1082年成《经史证类备急本草》，集宋以前本草大成，李时珍《纲目》多本于此。",
+      "people": [
+        "唐慎微"
+      ],
+      "works": [
+        "经史证类备急本草"
+      ],
+      "archaeology": false,
+      "tags": [
+        "本草",
+        "宋代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-trotula-salerno",
+      "side": "west",
+      "year": 1100,
+      "yearEnd": null,
+      "yearLabel": "约1100",
+      "title": "特罗图拉与萨勒诺妇科传统",
+      "summary": "托名或相关的《特罗图拉》文集约于11–12世纪在萨勒诺形成，是中世纪欧洲重要的妇科与妇女健康文献。",
+      "people": [
+        "Trotula"
+      ],
+      "works": [
+        "Trotula ensemble"
+      ],
+      "archaeology": false,
+      "tags": [
+        "中世纪",
+        "妇科",
+        "萨勒诺"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-qian-yi-pediatrics",
+      "side": "east",
+      "year": 1114,
+      "yearEnd": null,
+      "yearLabel": "约1114",
+      "title": "钱乙《小儿药证直诀》",
+      "summary": "钱乙儿科经验由其弟子阎孝忠约1114年整理为《小儿药证直诀》，创立小儿五脏辨证，被誉为儿科之圣。",
+      "people": [
+        "钱乙",
+        "阎孝忠"
+      ],
+      "works": [
+        "小儿药证直诀"
+      ],
+      "archaeology": false,
+      "tags": [
+        "儿科",
+        "辨证",
+        "宋代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-kou-zongshi-yanyi",
+      "side": "east",
+      "year": 1116,
+      "yearEnd": null,
+      "yearLabel": "约1116",
+      "title": "寇宗奭《本草衍义》",
+      "summary": "寇宗奭约1116年著《本草衍义》，强调鉴别与药性辨析，补充《证类本草》。",
+      "people": [
+        "寇宗奭"
+      ],
+      "works": [
+        "本草衍义"
+      ],
+      "archaeology": false,
+      "tags": [
+        "本草",
+        "宋代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "TCM bibliographic tradition"
+      ]
+    },
+    {
+      "id": "east-shengji-zonglu",
+      "side": "east",
+      "year": 1117,
+      "yearEnd": null,
+      "yearLabel": "约1117",
+      "title": "《圣济总录》",
+      "summary": "政和年间官修《圣济总录》（约1117），超200卷，是宋代最大型医学全书之一。",
+      "people": [],
+      "works": [
+        "圣济总录"
+      ],
+      "archaeology": false,
+      "tags": [
+        "方剂",
+        "百科",
+        "宋代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-st-bartholomew-hospital",
+      "side": "west",
+      "year": 1123,
+      "yearEnd": null,
+      "yearLabel": "1123",
+      "title": "伦敦圣巴塞洛缪医院创办",
+      "summary": "1123年宫廷弄臣拉赫尔创办圣巴塞洛缪医院，是英格兰持续运作最久的医院之一，早期亦收治精神患者。",
+      "people": [
+        "Rahere"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "中世纪",
+        "医院",
+        "英国"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-xu-shuwei-shanghan",
+      "side": "east",
+      "year": 1132,
+      "yearEnd": null,
+      "yearLabel": "约1132",
+      "title": "许叔微伤寒著作",
+      "summary": "许叔微南宋初年著《伤寒百证歌》等，推动《伤寒论》歌赋化与临床普及。",
+      "people": [
+        "许叔微"
+      ],
+      "works": [
+        "伤寒百证歌"
+      ],
+      "archaeology": false,
+      "tags": [
+        "伤寒",
+        "宋代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Song medicine historiography"
+      ]
+    },
+    {
+      "id": "west-avenzoar-surgery",
+      "side": "west",
+      "year": 1140,
+      "yearEnd": null,
+      "yearLabel": "约1140",
+      "title": "伊本·祖赫尔（阿文佐亚）",
+      "summary": "伊本·祖赫尔（Avenzoar，约1090–1162）强调实验观察与外科，是阿维罗伊之师，代表安达卢斯临床医学高峰。",
+      "people": [
+        "Ibn Zuhr (Avenzoar)"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "外科",
+        "安达卢斯"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-hejiju-fang",
+      "side": "east",
+      "year": 1151,
+      "yearEnd": null,
+      "yearLabel": "1151",
+      "title": "《太平惠民和剂局方》",
+      "summary": "1151年定本《太平惠民和剂局方》推广官药成方，影响东亚配方传统，亦因“局方滥用”遭金元医家批评。",
+      "people": [],
+      "works": [
+        "太平惠民和剂局方"
+      ],
+      "archaeology": false,
+      "tags": [
+        "方剂",
+        "成药",
+        "宋代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-nuri-hospital-damascus",
+      "side": "west",
+      "year": 1154,
+      "yearEnd": 1160,
+      "yearLabel": "约1154–1160",
+      "title": "大马士革努里医院",
+      "summary": "努尔丁约于1154–1160年创办大马士革努里医院，兼作医校，患者免费获药与食，病历管理先进，建筑部分存留至今。",
+      "people": [
+        "Nur al-Din"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "医院",
+        "医校"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Bimaristan",
+        "Annals of Saudi Medicine"
+      ]
+    },
+    {
+      "id": "west-averroes-medicine",
+      "side": "west",
+      "year": 1160,
+      "yearEnd": null,
+      "yearLabel": "约1160",
+      "title": "阿维罗伊医学与哲学",
+      "summary": "伊本·鲁世德（Averroes，1126–1198）注释亚里士多德并撰写医学著作，影响拉丁经院医学哲学讨论。",
+      "people": [
+        "Ibn Rushd (Averroes)"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "哲学",
+        "医学"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-rogerius-chirurgia",
+      "side": "west",
+      "year": 1170,
+      "yearEnd": null,
+      "yearLabel": "约1170",
+      "title": "罗杰《外科学》",
+      "summary": "萨勒诺的罗杰约于1170年写成《外科学》（Chirurgia），成为中世纪拉丁外科教学的基础文本。",
+      "people": [
+        "Rogerius Salernitanus"
+      ],
+      "works": [
+        "Chirurgia"
+      ],
+      "archaeology": false,
+      "tags": [
+        "中世纪",
+        "外科",
+        "萨勒诺"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-liu-wansu-hanliang",
+      "side": "east",
+      "year": 1180,
+      "yearEnd": null,
+      "yearLabel": "约1180",
+      "title": "刘完素寒凉学派",
+      "summary": "金代刘完素（约1110–1200）倡火热病机与寒凉清热，开河间学派，为金元四大家之一。",
+      "people": [
+        "刘完素"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "金元",
+        "学派",
+        "热病"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-zhang-congzheng-gongxia",
+      "side": "east",
+      "year": 1220,
+      "yearEnd": null,
+      "yearLabel": "约1220",
+      "title": "张从正攻下学派",
+      "summary": "张从正（约1150–1228）主张攻邪安正，善用汗吐下，称攻下派，为金元四大家之一。",
+      "people": [
+        "张从正"
+      ],
+      "works": [
+        "儒门事亲"
+      ],
+      "archaeology": false,
+      "tags": [
+        "金元",
+        "学派",
+        "攻下"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-montpellier-medicine",
+      "side": "west",
+      "year": 1220,
+      "yearEnd": null,
+      "yearLabel": "1220",
+      "title": "蒙彼利埃医学大学规章",
+      "summary": "蒙彼利埃医学教学12世纪已兴，1220年获正式大学规章，与萨勒诺、巴黎并列为中世纪欧洲医学重镇。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "中世纪",
+        "医校",
+        "蒙彼利埃"
+      ],
+      "confidence": "high",
+      "sources": [
+        "culture.gouv.fr",
+        "CIAN 2018"
+      ]
+    },
+    {
+      "id": "east-chen-ziming-fuke",
+      "side": "east",
+      "year": 1237,
+      "yearEnd": null,
+      "yearLabel": "1237",
+      "title": "陈自明《妇人大全良方》",
+      "summary": "陈自明1237年著《妇人大全良方》，系统总结宋以前妇科，是中医妇科里程碑；后又有《外科精要》。",
+      "people": [
+        "陈自明"
+      ],
+      "works": [
+        "妇人大全良方",
+        "外科精要"
+      ],
+      "archaeology": false,
+      "tags": [
+        "妇科",
+        "外科",
+        "宋代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-li-dongyuan-butu",
+      "side": "east",
+      "year": 1240,
+      "yearEnd": null,
+      "yearLabel": "约1240",
+      "title": "李东垣补土学派",
+      "summary": "李杲（东垣，约1180–1251）著《脾胃论》，倡内伤脾胃学说与甘温除热，开创补土派。",
+      "people": [
+        "李东垣"
+      ],
+      "works": [
+        "脾胃论"
+      ],
+      "archaeology": false,
+      "tags": [
+        "金元",
+        "脾胃",
+        "学派"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-ibn-al-nafis-pulmonary",
+      "side": "west",
+      "year": 1242,
+      "yearEnd": null,
+      "yearLabel": "1242",
+      "title": "伊本·纳菲斯肺循环学说",
+      "summary": "伊本·纳菲斯提出右心室与左心室分隔，描述肺循环与冠状循环，挑战盖伦多孔中隔说，早于欧洲同类认识数百年。",
+      "people": [
+        "Ibn al-Nafis"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "循环",
+        "生理"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "Loudon"
+      ]
+    },
+    {
+      "id": "east-song-ci-xiyuanlu",
+      "side": "east",
+      "year": 1247,
+      "yearEnd": null,
+      "yearLabel": "1247",
+      "title": "宋慈《洗冤集录》",
+      "summary": "宋慈1247年著《洗冤集录》，是世界最早系统法医学专著之一，详述尸检与伤害鉴定。",
+      "people": [
+        "宋慈"
+      ],
+      "works": [
+        "洗冤集录"
+      ],
+      "archaeology": false,
+      "tags": [
+        "法医",
+        "宋代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-ibn-al-baytar",
+      "side": "west",
+      "year": 1248,
+      "yearEnd": null,
+      "yearLabel": "约1248",
+      "title": "伊本·拜塔尔本草",
+      "summary": "伊本·拜塔尔约1248年完成大型本草与药学著作，广收地中海与东方药物，是中世纪药学集大成者之一。",
+      "people": [
+        "Ibn al-Baytar"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "本草",
+        "药学"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-mansuri-hospital-cairo",
+      "side": "west",
+      "year": 1284,
+      "yearEnd": null,
+      "yearLabel": "1284",
+      "title": "开罗曼苏里医院",
+      "summary": "1284年开罗曼苏里医院落成，规模巨大、分科齐全，是马穆鲁克时期伊斯兰医院的典范。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "伊斯兰",
+        "医院",
+        "开罗"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-spectacles-convex",
+      "side": "west",
+      "year": 1286,
+      "yearEnd": null,
+      "yearLabel": "约1286",
+      "title": "凸透镜眼镜矫正远视",
+      "summary": "约13世纪末意大利出现凸透镜眼镜治疗远视，是光学辅助医疗的重要发明。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "眼科",
+        "光学",
+        "中世纪"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-santa-maria-nuova",
+      "side": "west",
+      "year": 1288,
+      "yearEnd": null,
+      "yearLabel": "1288",
+      "title": "佛罗伦萨新圣母医院",
+      "summary": "1288年佛罗伦萨新圣母医院创办，以纯医疗功能著称，成为文艺复兴城市医院样板。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "中世纪",
+        "医院",
+        "佛罗伦萨"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-mondino-anathomia",
+      "side": "west",
+      "year": 1316,
+      "yearEnd": null,
+      "yearLabel": "1316",
+      "title": "蒙迪诺《解剖学》与公开解剖",
+      "summary": "博洛尼亚的蒙迪诺约于1315年公开解剖人体，1316年著《解剖学》，恢复系统性人体解剖教学，影响文艺复兴解剖。",
+      "people": [
+        "Mondino de' Luzzi"
+      ],
+      "works": [
+        "Anathomia"
+      ],
+      "archaeology": false,
+      "tags": [
+        "中世纪",
+        "解剖",
+        "博洛尼亚"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "ESC Cardiology"
+      ]
+    },
+    {
+      "id": "east-zhu-danxi-ziyin",
+      "side": "east",
+      "year": 1340,
+      "yearEnd": null,
+      "yearLabel": "约1340",
+      "title": "朱丹溪滋阴学派",
+      "summary": "朱震亨（丹溪，1281–1358）倡“阳常有余，阴常不足”，开创滋阴派，完成金元四大家格局。",
+      "people": [
+        "朱丹溪"
+      ],
+      "works": [
+        "格致余论"
+      ],
+      "archaeology": false,
+      "tags": [
+        "金元",
+        "滋阴",
+        "学派"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-ao-shi-tongue",
+      "side": "east",
+      "year": 1341,
+      "yearEnd": null,
+      "yearLabel": "约1341",
+      "title": "《敖氏伤寒金镜录》舌诊图",
+      "summary": "约1341年《敖氏伤寒金镜录》载舌象图谱，推动舌诊可视化与教学。",
+      "people": [],
+      "works": [
+        "敖氏伤寒金镜录"
+      ],
+      "archaeology": false,
+      "tags": [
+        "舌诊",
+        "诊断",
+        "元代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-guy-de-chauliac",
+      "side": "west",
+      "year": 1363,
+      "yearEnd": null,
+      "yearLabel": "约1363",
+      "title": "居伊·德·肖利亚克《大外科学》",
+      "summary": "教皇医师居伊·德·肖利亚克约于1363年完成《大外科学》，综合阿拉伯与拉丁外科，主导晚期中世纪外科实践。",
+      "people": [
+        "Guy de Chauliac"
+      ],
+      "works": [
+        "Chirurgia magna"
+      ],
+      "archaeology": false,
+      "tags": [
+        "中世纪",
+        "外科"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-john-arderne",
+      "side": "west",
+      "year": 1370,
+      "yearEnd": null,
+      "yearLabel": "约1370",
+      "title": "约翰·阿德恩肛瘘手术",
+      "summary": "英格兰外科医生约翰·阿德恩约14世纪以肛瘘手术闻名，留下详细手术记录，代表中世纪外科专业化。",
+      "people": [
+        "John of Arderne"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "中世纪",
+        "外科"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-puji-fang",
+      "side": "east",
+      "year": 1406,
+      "yearEnd": null,
+      "yearLabel": "约1406",
+      "title": "《普济方》成书",
+      "summary": "明永乐年间《普济方》成书，卷帙浩繁，是中国古代最大型方书之一。",
+      "people": [],
+      "works": [
+        "普济方"
+      ],
+      "archaeology": false,
+      "tags": [
+        "方剂",
+        "明代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "江西中医药大学史料"
+      ]
+    },
+    {
+      "id": "west-paracelsus-birth",
+      "side": "west",
+      "year": 1493,
+      "yearEnd": null,
+      "yearLabel": "1493",
+      "title": "帕拉塞尔苏斯出生",
+      "summary": "帕拉塞尔苏斯1493年出生于瑞士，后以医化学挑战古代权威，象征文艺复兴医学的反叛气质。",
+      "people": [
+        "Paracelsus"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "文艺复兴",
+        "化学医学"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-rcp-london",
+      "side": "west",
+      "year": 1518,
+      "yearEnd": null,
+      "yearLabel": "1518",
+      "title": "伦敦皇家内科医师学院特许状",
+      "summary": "1518年伦敦内科医师学院获王室特许状，成为英国医师专业自律与资格认定的重要机构。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "制度",
+        "英国",
+        "医师"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-paracelsus",
+      "side": "west",
+      "year": 1527,
+      "yearEnd": null,
+      "yearLabel": "约1527",
+      "title": "帕拉塞尔苏斯化学医学",
+      "summary": "帕拉塞尔苏斯（1493–1541）公开抵制盖伦与阿维森纳权威，倡导矿物与化学药物，开创医化学传统。",
+      "people": [
+        "Paracelsus"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "文艺复兴",
+        "化学医学",
+        "药物"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "Pagel Paracelsus"
+      ]
+    },
+    {
+      "id": "west-vesalius-fabrica",
+      "side": "west",
+      "year": 1543,
+      "yearEnd": null,
+      "yearLabel": "1543",
+      "title": "维萨里《人体的构造》",
+      "summary": "安德烈亚斯·维萨里1543年出版《人体的构造》，基于亲自解剖纠正盖伦错误，奠定现代人体解剖学。",
+      "people": [
+        "Andreas Vesalius"
+      ],
+      "works": [
+        "De humani corporis fabrica"
+      ],
+      "archaeology": false,
+      "tags": [
+        "文艺复兴",
+        "解剖"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "PBS"
+      ]
+    },
+    {
+      "id": "west-pare-gunshot",
+      "side": "west",
+      "year": 1545,
+      "yearEnd": null,
+      "yearLabel": "约1545",
+      "title": "帕雷革新火器伤处理",
+      "summary": "军医安布鲁瓦兹·帕雷弃用沸油处理枪伤，改用温和敷料与结扎止血，其外科著作影响全欧。",
+      "people": [
+        "Ambroise Paré"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "文艺复兴",
+        "外科",
+        "创伤"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-fracastoro-contagion",
+      "side": "west",
+      "year": 1546,
+      "yearEnd": null,
+      "yearLabel": "1546",
+      "title": "弗拉卡斯托罗传染种子说",
+      "summary": "吉罗拉莫·弗拉卡斯托罗1546年提出疫病由可传递的“种子”样实体引起，是近代传染理论的重要先声。",
+      "people": [
+        "Girolamo Fracastoro"
+      ],
+      "works": [
+        "De Contagione"
+      ],
+      "archaeology": false,
+      "tags": [
+        "文艺复兴",
+        "传染",
+        "理论"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-servetus-pulmonary",
+      "side": "west",
+      "year": 1553,
+      "yearEnd": null,
+      "yearLabel": "1553",
+      "title": "塞尔维特描述肺循环",
+      "summary": "米格尔·塞尔维特1553年在神学著作中描述血液经肺循环，同年因异端罪名被处死，其生理见解影响有限但具历史意义。",
+      "people": [
+        "Michael Servetus"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "文艺复兴",
+        "循环"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-colombo-pulmonary",
+      "side": "west",
+      "year": 1559,
+      "yearEnd": null,
+      "yearLabel": "1559",
+      "title": "科伦布详述肺循环",
+      "summary": "雷阿尔多·科伦布1559年更详细描述肺循环，为哈维系统理论提供解剖学前提。",
+      "people": [
+        "Realdo Colombo"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "文艺复兴",
+        "循环",
+        "解剖"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-variolation-ming",
+      "side": "east",
+      "year": 1560,
+      "yearEnd": 1572,
+      "yearLabel": "约1522–1572",
+      "title": "人痘接种术（明代）",
+      "summary": "明中后期中国出现人痘接种；有学者考证最早文献可至1522年，隆庆年间（1567–1572）记载较丰。后经阿拉伯、土耳其传入欧洲。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "天花",
+        "接种",
+        "明代"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "CDC Emerging Infectious Diseases",
+        "国家中医药博物馆",
+        "Zheng Shanfu 1522研究"
+      ]
+    },
+    {
+      "id": "west-garcia-de-orta",
+      "side": "west",
+      "year": 1563,
+      "yearEnd": null,
+      "yearLabel": "1563",
+      "title": "奥尔塔《印度药物谈》",
+      "summary": "加西亚·德·奥尔塔1563年在果阿出版印度药物与热带病论著，开创欧洲热带医学文献传统。",
+      "people": [
+        "Garcia de Orta"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "热带医学",
+        "本草",
+        "大航海"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-binhu-maixue",
+      "side": "east",
+      "year": 1564,
+      "yearEnd": null,
+      "yearLabel": "1564",
+      "title": "李时珍《濒湖脉学》",
+      "summary": "李时珍1564年著《濒湖脉学》，以歌赋总结27脉，成为脉学入门经典。",
+      "people": [
+        "李时珍"
+      ],
+      "works": [
+        "濒湖脉学"
+      ],
+      "archaeology": false,
+      "tags": [
+        "脉诊",
+        "明代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Routledge TCM Song-Qing"
+      ]
+    },
+    {
+      "id": "east-yiti-tang-yihui",
+      "side": "east",
+      "year": 1568,
+      "yearEnd": null,
+      "yearLabel": "1568",
+      "title": "一体堂宅仁医会",
+      "summary": "1568年一体堂宅仁医会创办，是明代医师结社交流的早期例证。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "学会",
+        "明代"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-macao-western-hospital",
+      "side": "east",
+      "year": 1569,
+      "yearEnd": null,
+      "yearLabel": "约1569",
+      "title": "澳门出现西式医院",
+      "summary": "1569年前后澳门出现西式医院，标志西医机构进入中国沿海，开启近代中西医相遇的空间。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "交流",
+        "医院",
+        "明代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-li-shizhen-qijing",
+      "side": "east",
+      "year": 1577,
+      "yearEnd": null,
+      "yearLabel": "1577",
+      "title": "《奇经八脉考》",
+      "summary": "李时珍1577年著《奇经八脉考》，系统考订奇经理论，与《濒湖脉学》同为脉系重要著作。",
+      "people": [
+        "李时珍"
+      ],
+      "works": [
+        "奇经八脉考"
+      ],
+      "archaeology": false,
+      "tags": [
+        "经络",
+        "明代",
+        "脉学"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Routledge TCM Song-Qing"
+      ]
+    },
+    {
+      "id": "east-li-shizhen-bencaogangmu",
+      "side": "east",
+      "year": 1578,
+      "yearEnd": null,
+      "yearLabel": "1578",
+      "title": "李时珍《本草纲目》刊行",
+      "summary": "李时珍《本草纲目》1578年金陵版刊行，收药1892种，按纲目分类，是药物学与博物学巨著，后入选世界记忆名录。",
+      "people": [
+        "李时珍"
+      ],
+      "works": [
+        "本草纲目"
+      ],
+      "archaeology": false,
+      "tags": [
+        "本草",
+        "明代",
+        "博物"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆",
+        "UNESCO Memory of the World"
+      ]
+    },
+    {
+      "id": "east-yang-jizhou-zhenjiu",
+      "side": "east",
+      "year": 1601,
+      "yearEnd": null,
+      "yearLabel": "约1601",
+      "title": "杨继洲《针灸大成》",
+      "summary": "杨继洲《针灸大成》约1601年刊行，集明以前针灸大成，影响后世针灸教学与临床。",
+      "people": [
+        "杨继洲"
+      ],
+      "works": [
+        "针灸大成"
+      ],
+      "archaeology": false,
+      "tags": [
+        "针灸",
+        "明代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "针灸史传统文献"
+      ]
+    },
+    {
+      "id": "east-wang-kentang-zhengzhi",
+      "side": "east",
+      "year": 1602,
+      "yearEnd": 1607,
+      "yearLabel": "1602–1607",
+      "title": "王肯堂《证治准绳》",
+      "summary": "王肯堂1602–1607年刊《证治准绳》，分科详尽，是明末重要临床全书。",
+      "people": [
+        "王肯堂"
+      ],
+      "works": [
+        "证治准绳"
+      ],
+      "archaeology": false,
+      "tags": [
+        "临床",
+        "明代",
+        "全书"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-fabricius-venous-valves",
+      "side": "west",
+      "year": 1603,
+      "yearEnd": null,
+      "yearLabel": "1603",
+      "title": "法布里修斯发现静脉瓣",
+      "summary": "吉罗拉莫·法布里齐约1603年观察下肢静脉瓣，证明血液只能向心流动，直接启发哈维。",
+      "people": [
+        "Hieronymus Fabricius"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "解剖",
+        "循环"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-santorio-quantification",
+      "side": "west",
+      "year": 1614,
+      "yearEnd": null,
+      "yearLabel": "约1614",
+      "title": "桑托里奥计量生理学",
+      "summary": "桑托里奥·桑托里奥以秤测“无形出汗”等，开创计量实验生理学先河。",
+      "people": [
+        "Santorio Santorio"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "生理",
+        "计量",
+        "实验"
+      ],
+      "confidence": "high",
+      "sources": [
+        "History of medicine surveys"
+      ]
+    },
+    {
+      "id": "east-chen-shigong-waike",
+      "side": "east",
+      "year": 1617,
+      "yearEnd": null,
+      "yearLabel": "约1617",
+      "title": "陈实功《外科正宗》",
+      "summary": "陈实功1617年著《外科正宗》，对外科疮疡诊疗影响深远（常记为晚明刊行）。",
+      "people": [
+        "陈实功"
+      ],
+      "works": [
+        "外科正宗"
+      ],
+      "archaeology": false,
+      "tags": [
+        "外科",
+        "明代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-zhang-jiebin-jingyue",
+      "side": "east",
+      "year": 1624,
+      "yearEnd": null,
+      "yearLabel": "1624",
+      "title": "张介宾《景岳全书》",
+      "summary": "张介宾1624年成《景岳全书》，倡阳非有余、温补理论，对明清临床影响巨大。",
+      "people": [
+        "张介宾"
+      ],
+      "works": [
+        "景岳全书"
+      ],
+      "archaeology": false,
+      "tags": [
+        "温补",
+        "明代",
+        "全书"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-harvey-de-motu-cordis",
+      "side": "west",
+      "year": 1628,
+      "yearEnd": null,
+      "yearLabel": "1628",
+      "title": "哈维《心血运动论》",
+      "summary": "威廉·哈维1628年出版《心血运动论》，以定量与实验论证血液循环，彻底改变生理学。",
+      "people": [
+        "William Harvey"
+      ],
+      "works": [
+        "De Motu Cordis"
+      ],
+      "archaeology": false,
+      "tags": [
+        "循环",
+        "生理",
+        "实验"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "PBS"
+      ]
+    },
+    {
+      "id": "east-wu-youke-wenyilun",
+      "side": "east",
+      "year": 1642,
+      "yearEnd": null,
+      "yearLabel": "1642",
+      "title": "吴又可《温疫论》",
+      "summary": "吴有性（又可）1642年著《温疫论》，提出“疠气”自口鼻而入，突破伤寒框架解释瘟疫，是温病学先声。",
+      "people": [
+        "吴有性"
+      ],
+      "works": [
+        "温疫论"
+      ],
+      "archaeology": false,
+      "tags": [
+        "温病",
+        "瘟疫",
+        "病因",
+        "清代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆",
+        "PMC epidemic TCM"
+      ]
+    },
+    {
+      "id": "west-malpighi-capillaries",
+      "side": "west",
+      "year": 1661,
+      "yearEnd": null,
+      "yearLabel": "约1661",
+      "title": "马尔皮基发现毛细血管",
+      "summary": "马尔切洛·马尔皮基约1661年用显微镜观察毛细血管，填补哈维循环理论中动脉与静脉的连接环节。",
+      "people": [
+        "Marcello Malpighi"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "显微",
+        "循环",
+        "生理"
+      ],
+      "confidence": "high",
+      "sources": [
+        "History of medicine surveys"
+      ]
+    },
+    {
+      "id": "west-hooke-cells",
+      "side": "west",
+      "year": 1665,
+      "yearEnd": null,
+      "yearLabel": "1665",
+      "title": "胡克命名“细胞”",
+      "summary": "罗伯特·胡克1665年在显微镜下观察软木薄片并命名cells，虽未理解其生命意义，却开启显微形态学。",
+      "people": [
+        "Robert Hooke"
+      ],
+      "works": [
+        "Micrographia"
+      ],
+      "archaeology": false,
+      "tags": [
+        "显微",
+        "细胞"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-tongrentang",
+      "side": "east",
+      "year": 1669,
+      "yearEnd": null,
+      "yearLabel": "1669",
+      "title": "同仁堂创建",
+      "summary": "1669年同仁堂创立，成为著名中药老字号，象征清代成药商业与品质传统。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "药业",
+        "清代",
+        "成药"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-leeuwenhoek-microbes",
+      "side": "west",
+      "year": 1676,
+      "yearEnd": null,
+      "yearLabel": "约1676",
+      "title": "列文虎克观察微生物",
+      "summary": "安东尼·范·列文虎克1670年代用自制显微镜观察“微小动物”，为微生物学提供视觉证据。",
+      "people": [
+        "Antonie van Leeuwenhoek"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "显微",
+        "微生物学"
+      ],
+      "confidence": "high",
+      "sources": [
+        "History of medicine surveys"
+      ]
+    },
+    {
+      "id": "west-sydenham-clinical",
+      "side": "west",
+      "year": 1676,
+      "yearEnd": null,
+      "yearLabel": "约1676",
+      "title": "西德纳姆临床观察医学",
+      "summary": "托马斯·西德纳姆强调床边观察与疾病自然史，被誉为“英格兰希波克拉底”，影响经验临床医学。",
+      "people": [
+        "Thomas Sydenham"
+      ],
+      "works": [
+        "Observationes Medicae"
+      ],
+      "archaeology": false,
+      "tags": [
+        "临床",
+        "英国"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Porter Greatest Benefit"
+      ]
+    },
+    {
+      "id": "west-pylarini-inoculation-europe",
+      "side": "west",
+      "year": 1701,
+      "yearEnd": null,
+      "yearLabel": "1701",
+      "title": "皮拉里尼在欧洲实施人痘接种",
+      "summary": "1701年雅各莫·皮拉里尼在欧洲施行人痘接种；该术此前已在中国与奥斯曼等地流行，经蒙塔古夫人等传入英国。",
+      "people": [
+        "Giacomo Pylarini",
+        "Lady Mary Wortley Montagu"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "天花",
+        "接种"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-boerhaave-leiden",
+      "side": "west",
+      "year": 1708,
+      "yearEnd": null,
+      "yearLabel": "约1708",
+      "title": "布尔哈弗莱顿临床教学",
+      "summary": "赫尔曼·布尔哈弗在莱顿将床边教学与化学、解剖结合，培养全欧医师，代表18世纪初临床医学。",
+      "people": [
+        "Herman Boerhaave"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "教育",
+        "临床",
+        "荷兰"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Porter"
+      ]
+    },
+    {
+      "id": "west-montagu-variolation-britain",
+      "side": "west",
+      "year": 1721,
+      "yearEnd": null,
+      "yearLabel": "1721",
+      "title": "蒙塔古夫人引入人痘至英国",
+      "summary": "玛丽·沃特利·蒙塔古夫人基于奥斯曼观察，约1721年推动人痘接种在英国贵族中试验推广。",
+      "people": [
+        "Lady Mary Wortley Montagu"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "天花",
+        "接种"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-cheng-guopeng-xinwu",
+      "side": "east",
+      "year": 1732,
+      "yearEnd": null,
+      "yearLabel": "1732",
+      "title": "程国彭《医学心悟》",
+      "summary": "程国彭1732年著《医学心悟》，以八纲与汗吐下和消清温补概括治法，影响临床教学。",
+      "people": [
+        "程国彭"
+      ],
+      "works": [
+        "医学心悟"
+      ],
+      "archaeology": false,
+      "tags": [
+        "临床",
+        "治法",
+        "清代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Qing clinical texts"
+      ]
+    },
+    {
+      "id": "west-aymand-appendectomy",
+      "side": "west",
+      "year": 1736,
+      "yearEnd": null,
+      "yearLabel": "1736",
+      "title": "艾曼首例成功阑尾切除",
+      "summary": "克劳迪乌斯·艾曼1736年完成文献记载较早的成功阑尾切除术。",
+      "people": [
+        "Claudius Amyand"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "外科",
+        "阑尾"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-yizong-jinjian",
+      "side": "east",
+      "year": 1742,
+      "yearEnd": null,
+      "yearLabel": "1742",
+      "title": "《医宗金鉴》刊印",
+      "summary": "乾隆朝官修《医宗金鉴》1742年刊印，作为太医院教材，规范临床与考核。",
+      "people": [],
+      "works": [
+        "医宗金鉴"
+      ],
+      "archaeology": false,
+      "tags": [
+        "教材",
+        "清代",
+        "官修"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-ye-tianshi-wenre",
+      "side": "east",
+      "year": 1746,
+      "yearEnd": null,
+      "yearLabel": "约1746",
+      "title": "叶天士《温热论》",
+      "summary": "叶桂（天士）温热病经验约1746年整理为《温热论》，创立卫气营血辨证，标志温病学派成熟。",
+      "people": [
+        "叶天士"
+      ],
+      "works": [
+        "温热论"
+      ],
+      "archaeology": false,
+      "tags": [
+        "温病",
+        "辨证",
+        "清代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-lind-scurvy",
+      "side": "west",
+      "year": 1747,
+      "yearEnd": null,
+      "yearLabel": "1747",
+      "title": "林德柑橘防治坏血病试验",
+      "summary": "詹姆斯·林德1747年在舰上进行对照试验，证明柑橘类可防治坏血病，是早期临床对照研究范例。",
+      "people": [
+        "James Lind"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "营养",
+        "坏血病",
+        "试验"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-zhao-xuemin-shiyi",
+      "side": "east",
+      "year": 1765,
+      "yearEnd": null,
+      "yearLabel": "1765",
+      "title": "赵学敏《本草纲目拾遗》",
+      "summary": "赵学敏1765年著《本草纲目拾遗》，增补《纲目》未收药物与民间药，并有《串雅》记铃医经验。",
+      "people": [
+        "赵学敏"
+      ],
+      "works": [
+        "本草纲目拾遗",
+        "串雅"
+      ],
+      "archaeology": false,
+      "tags": [
+        "本草",
+        "清代",
+        "民间"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-hunter-surgery",
+      "side": "west",
+      "year": 1770,
+      "yearEnd": null,
+      "yearLabel": "约1770",
+      "title": "约翰·亨特实验外科学",
+      "summary": "约翰·亨特（1728–1793）以比较解剖与实验推动外科科学化，对动脉瘤等手术与病理学影响深远。",
+      "people": [
+        "John Hunter"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "外科",
+        "实验",
+        "病理"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-priestley-n2o",
+      "side": "west",
+      "year": 1774,
+      "yearEnd": null,
+      "yearLabel": "1774",
+      "title": "普里斯特利发现氧化亚氮",
+      "summary": "约瑟夫·普里斯特利1774年发现氧化亚氮等气体；后被戴维注意其麻醉潜能。",
+      "people": [
+        "Joseph Priestley"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "麻醉",
+        "化学"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-withering-foxglove",
+      "side": "west",
+      "year": 1785,
+      "yearEnd": null,
+      "yearLabel": "1785",
+      "title": "威瑟林洋地黄治疗水肿",
+      "summary": "威廉·威瑟林1785年发表《关于洋地黄的记述》，系统描述洋地黄治疗水肿（心衰相关）的用法与毒性。",
+      "people": [
+        "William Withering"
+      ],
+      "works": [
+        "An Account of the Foxglove"
+      ],
+      "archaeology": false,
+      "tags": [
+        "药物",
+        "心脏",
+        "本草"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-hahnemann-homeopathy",
+      "side": "west",
+      "year": 1790,
+      "yearEnd": null,
+      "yearLabel": "约1790",
+      "title": "哈尼曼创立顺势疗法",
+      "summary": "塞缪尔·哈尼曼约1790年起反对放血等主流疗法并创立顺势疗法，成为近代另类医学重要流派（疗效争议大）。",
+      "people": [
+        "Samuel Hahnemann"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "另类医学",
+        "理论"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-jenner-vaccination",
+      "side": "west",
+      "year": 1796,
+      "yearEnd": null,
+      "yearLabel": "1796",
+      "title": "詹纳牛痘接种",
+      "summary": "爱德华·詹纳1796年用牛痘接种预防天花，开创安全疫苗接种，为后世消灭天花奠基。",
+      "people": [
+        "Edward Jenner"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "天花"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "PMC"
+      ]
+    },
+    {
+      "id": "west-larrey-ambulance",
+      "side": "west",
+      "year": 1797,
+      "yearEnd": null,
+      "yearLabel": "约1797",
+      "title": "拉雷飞骑救护与战伤外科",
+      "summary": "拿破仑军医多米尼克·拉雷改进战地救护（飞骑救护车）与截肢时机，推动军事外科学。",
+      "people": [
+        "Dominique Jean Larrey"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "军事医学",
+        "外科",
+        "急救"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-wu-jutong-wenbing",
+      "side": "east",
+      "year": 1798,
+      "yearEnd": null,
+      "yearLabel": "1798",
+      "title": "吴鞠通《温病条辨》",
+      "summary": "吴瑭（鞠通）1798年著《温病条辨》，创立三焦辨证，与叶天士并称温病学高峰。",
+      "people": [
+        "吴鞠通"
+      ],
+      "works": [
+        "温病条辨"
+      ],
+      "archaeology": false,
+      "tags": [
+        "温病",
+        "三焦",
+        "清代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆",
+        "PMC"
+      ]
+    },
+    {
+      "id": "east-wenbing-yue-li",
+      "side": "east",
+      "year": 1799,
+      "yearEnd": null,
+      "yearLabel": "约1799",
+      "title": "俞根初《通俗伤寒论》",
+      "summary": "俞根初约1799年《通俗伤寒论》倡导寒温融合，反映明清伤寒与温病对话。",
+      "people": [
+        "俞根初"
+      ],
+      "works": [
+        "通俗伤寒论"
+      ],
+      "archaeology": false,
+      "tags": [
+        "伤寒",
+        "温病",
+        "清代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-davy-n2o-anesthesia",
+      "side": "west",
+      "year": 1799,
+      "yearEnd": null,
+      "yearLabel": "1799",
+      "title": "戴维指出氧化亚氮麻醉性",
+      "summary": "汉弗莱·戴维1799–1800年记述氧化亚氮可缓解疼痛，为吸入麻醉史提供早期线索。",
+      "people": [
+        "Humphry Davy"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "麻醉"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-morphine-isolated",
+      "side": "west",
+      "year": 1804,
+      "yearEnd": null,
+      "yearLabel": "约1804",
+      "title": "塞尔蒂纳纳分离吗啡",
+      "summary": "弗里德里希·塞尔蒂纳纳约1804年自鸦片分离吗啡，是植物活性成分分离的里程碑，开启生物碱化学。",
+      "people": [
+        "Friedrich Sertürner"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "药物",
+        "麻醉",
+        "化学"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-cowpox-guangzhou",
+      "side": "east",
+      "year": 1805,
+      "yearEnd": null,
+      "yearLabel": "1805",
+      "title": "牛痘法传入广州",
+      "summary": "1805年牛痘接种经澳门/广州传入中国，逐渐替代人痘，是免疫史与中西医交流的重要节点。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "天花",
+        "交流"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-laennec-stethoscope",
+      "side": "west",
+      "year": 1816,
+      "yearEnd": null,
+      "yearLabel": "1816",
+      "title": "雷奈克发明听诊器",
+      "summary": "勒内·雷奈克1816年发明听诊器，使心肺体征可客观听诊，革新诊断学。",
+      "people": [
+        "René Laennec"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "诊断",
+        "听诊",
+        "心肺"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-blundell-transfusion",
+      "side": "west",
+      "year": 1818,
+      "yearEnd": null,
+      "yearLabel": "1818",
+      "title": "布兰德尔成功人体输血",
+      "summary": "詹姆斯·布兰德尔1818年完成早期成功的人体输血尝试，为输血医学开辟道路（血型发现前风险极高）。",
+      "people": [
+        "James Blundell"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "输血",
+        "外科"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-fu-qingzhu-fuke",
+      "side": "east",
+      "year": 1827,
+      "yearEnd": null,
+      "yearLabel": "约1827",
+      "title": "傅青主妇科传本",
+      "summary": "托名或传自傅山的《傅青主女科》清中后期广泛刊行，对妇科辨证处方影响极大。",
+      "people": [
+        "傅山"
+      ],
+      "works": [
+        "傅青主女科"
+      ],
+      "archaeology": false,
+      "tags": [
+        "妇科",
+        "清代"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "Qing medical publishing"
+      ]
+    },
+    {
+      "id": "east-wang-qingren-yilin",
+      "side": "east",
+      "year": 1830,
+      "yearEnd": null,
+      "yearLabel": "1830",
+      "title": "王清任《医林改错》",
+      "summary": "王清任1830年刊《医林改错》，强调尸体脏器观察并创活血化瘀诸方，对血瘀证研究影响深远。",
+      "people": [
+        "王清任"
+      ],
+      "works": [
+        "医林改错"
+      ],
+      "archaeology": false,
+      "tags": [
+        "解剖",
+        "血瘀",
+        "清代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-parker-boji-hospital",
+      "side": "east",
+      "year": 1835,
+      "yearEnd": null,
+      "yearLabel": "约1835",
+      "title": "伯驾广州眼科医局（博济前身）",
+      "summary": "美国传教士医生伯驾1835年在广州开设眼科医局，后发展为博济医院，是中国近代西医院先驱。",
+      "people": [
+        "Peter Parker"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "医院",
+        "西医传入",
+        "眼科"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-chadwick-sanitary",
+      "side": "west",
+      "year": 1842,
+      "yearEnd": null,
+      "yearLabel": "1842",
+      "title": "查德威克《卫生状况报告》",
+      "summary": "埃德温·查德威克1842年报告推动英国卫生改革立法，将清洁供水与排污纳入国家责任。",
+      "people": [
+        "Edwin Chadwick"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "公共卫生",
+        "制度"
+      ],
+      "confidence": "high",
+      "sources": [
+        "History of public health"
+      ]
+    },
+    {
+      "id": "west-long-ether",
+      "side": "west",
+      "year": 1842,
+      "yearEnd": null,
+      "yearLabel": "1842",
+      "title": "克劳福德·朗乙醚麻醉手术",
+      "summary": "克劳福德·朗1842年用乙醚施行无痛手术，但未及时发表；乙醚麻醉的公开示范稍后由莫顿完成。",
+      "people": [
+        "Crawford Long"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "麻醉",
+        "外科"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-morton-ether-demo",
+      "side": "west",
+      "year": 1846,
+      "yearEnd": null,
+      "yearLabel": "1846",
+      "title": "莫顿公开乙醚麻醉示范",
+      "summary": "1846年10月威廉·莫顿在麻省总医院公开乙醚麻醉手术，全麻迅速传播，外科进入无痛时代。",
+      "people": [
+        "William T. G. Morton"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "麻醉",
+        "外科"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "Duke MMA timeline"
+      ]
+    },
+    {
+      "id": "west-semmelweis-puerperal",
+      "side": "west",
+      "year": 1847,
+      "yearEnd": null,
+      "yearLabel": "1847",
+      "title": "塞麦尔维斯洗手防产褥热",
+      "summary": "伊格纳茨·塞麦尔维斯1847年发现医师洗手可大幅降低产褥热死亡率，却遭同行抵制，是感染控制先驱。",
+      "people": [
+        "Ignaz Semmelweis"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "感染控制",
+        "产科",
+        "洗手"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-blackwell-md",
+      "side": "west",
+      "year": 1849,
+      "yearEnd": null,
+      "yearLabel": "1849",
+      "title": "伊丽莎白·布莱克韦尔获医学学位",
+      "summary": "1849年伊丽莎白·布莱克韦尔成为美国首位获医学学位的女性，推动女性进入医学职业。",
+      "people": [
+        "Elizabeth Blackwell"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "教育",
+        "女性",
+        "制度"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-wang-mengying-wenre",
+      "side": "east",
+      "year": 1852,
+      "yearEnd": null,
+      "yearLabel": "1852",
+      "title": "王孟英《温热经纬》",
+      "summary": "王士雄（孟英）1852年辑《温热经纬》，整理叶薛吴等温病学说，是晚清温病学重要选本。",
+      "people": [
+        "王孟英"
+      ],
+      "works": [
+        "温热经纬"
+      ],
+      "archaeology": false,
+      "tags": [
+        "温病",
+        "清代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Wenbing historiography"
+      ]
+    },
+    {
+      "id": "west-snow-cholera-map",
+      "side": "west",
+      "year": 1854,
+      "yearEnd": null,
+      "yearLabel": "1854",
+      "title": "斯诺霍乱地图与水泵",
+      "summary": "约翰·斯诺1854年通过伦敦宽街霍乱地图论证水源传播，成为流行病学经典案例。",
+      "people": [
+        "John Snow"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "流行病学",
+        "霍乱",
+        "公共卫生"
+      ],
+      "confidence": "high",
+      "sources": [
+        "History of public health"
+      ]
+    },
+    {
+      "id": "west-virchow-cellular-pathology",
+      "side": "west",
+      "year": 1858,
+      "yearEnd": null,
+      "yearLabel": "1858",
+      "title": "魏尔啸细胞病理学",
+      "summary": "鲁道夫·魏尔啸1858年前后确立细胞病理学，以细胞病变解释疾病，标志体液论的终结。",
+      "people": [
+        "Rudolf Virchow"
+      ],
+      "works": [
+        "Cellular Pathology"
+      ],
+      "archaeology": false,
+      "tags": [
+        "病理",
+        "细胞"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-nightingale-nursing",
+      "side": "west",
+      "year": 1860,
+      "yearEnd": null,
+      "yearLabel": "1860",
+      "title": "南丁格尔护理学校",
+      "summary": "弗洛伦斯·南丁格尔克里米亚战争后推动医院卫生改革，1860年在圣托马斯医院创办护理学校，奠基现代护理。",
+      "people": [
+        "Florence Nightingale"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "护理",
+        "医院",
+        "公共卫生"
+      ],
+      "confidence": "high",
+      "sources": [
+        "History of nursing"
+      ]
+    },
+    {
+      "id": "west-pasteur-germ-theory",
+      "side": "west",
+      "year": 1861,
+      "yearEnd": null,
+      "yearLabel": "约1861",
+      "title": "巴斯德微生物致病研究",
+      "summary": "路易·巴斯德1860年代以发酵与灭菌实验支持微生物致病，否定自然发生说，奠定微生物学与灭菌术基础。",
+      "people": [
+        "Louis Pasteur"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "微生物学",
+        "细菌",
+        "灭菌"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "PBS"
+      ]
+    },
+    {
+      "id": "west-bernard-physiology",
+      "side": "west",
+      "year": 1865,
+      "yearEnd": null,
+      "yearLabel": "约1865",
+      "title": "贝尔纳实验生理学与内环境",
+      "summary": "克洛德·贝尔纳提出内环境稳定等概念，确立现代实验生理学方法。",
+      "people": [
+        "Claude Bernard"
+      ],
+      "works": [
+        "Introduction to the Study of Experimental Medicine"
+      ],
+      "archaeology": false,
+      "tags": [
+        "生理",
+        "实验"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Porter"
+      ]
+    },
+    {
+      "id": "west-lister-antiseptic",
+      "side": "west",
+      "year": 1867,
+      "yearEnd": null,
+      "yearLabel": "1867",
+      "title": "李斯特抗菌外科原则",
+      "summary": "约瑟夫·李斯特1867年发表抗菌外科原则，用石炭酸消毒，显著降低术后感染，开创无菌外科时代。",
+      "people": [
+        "Joseph Lister"
+      ],
+      "works": [
+        "Antiseptic Principle of the Practice of Surgery"
+      ],
+      "archaeology": false,
+      "tags": [
+        "外科",
+        "抗菌",
+        "感染控制"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-koch-pasteur-germ",
+      "side": "west",
+      "year": 1870,
+      "yearEnd": null,
+      "yearLabel": "约1870",
+      "title": "科赫与巴斯德确立细菌学说",
+      "summary": "约1870年代罗伯特·科赫与巴斯德共同确立细菌致病学说；科赫后来提出科赫法则并发现结核杆菌等。",
+      "people": [
+        "Robert Koch",
+        "Louis Pasteur"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "微生物学",
+        "细菌"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-cholera-vaccine-early",
+      "side": "west",
+      "year": 1879,
+      "yearEnd": null,
+      "yearLabel": "约1879",
+      "title": "早期霍乱疫苗",
+      "summary": "约1879年出现早期霍乱疫苗尝试，反映细菌学时代疫苗研发的迅速扩展（后续剂型不断改进）。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "霍乱"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "PMC timeline"
+      ]
+    },
+    {
+      "id": "west-pasteur-anthrax-vaccine",
+      "side": "west",
+      "year": 1881,
+      "yearEnd": null,
+      "yearLabel": "1881",
+      "title": "巴斯德炭疽减毒疫苗",
+      "summary": "1881年巴斯德公开演示炭疽减毒疫苗，证明可用减弱病原诱导免疫，推动疫苗学。",
+      "people": [
+        "Louis Pasteur"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "细菌"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-koch-tuberculosis",
+      "side": "west",
+      "year": 1882,
+      "yearEnd": null,
+      "yearLabel": "1882",
+      "title": "科赫发现结核杆菌",
+      "summary": "罗伯特·科赫1882年分离结核分枝杆菌，并用严格实验证明其致病性，1905年获诺贝尔奖。",
+      "people": [
+        "Robert Koch"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "微生物学",
+        "结核",
+        "传染病"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:History_of_medicine"
+      ]
+    },
+    {
+      "id": "east-tang-rongchuan-huotong",
+      "side": "east",
+      "year": 1884,
+      "yearEnd": null,
+      "yearLabel": "1884",
+      "title": "唐容川中西汇通",
+      "summary": "唐宗海（容川）1884年著《中西汇通医书五种》，尝试会通中西医学，开启近代中西医汇通思潮。",
+      "people": [
+        "唐容川"
+      ],
+      "works": [
+        "中西汇通医书五种"
+      ],
+      "archaeology": false,
+      "tags": [
+        "中西汇通",
+        "近代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-koch-postulates",
+      "side": "west",
+      "year": 1884,
+      "yearEnd": null,
+      "yearLabel": "约1884",
+      "title": "科赫法则系统表述",
+      "summary": "罗伯特·科赫在研究病原菌过程中形成后称“科赫法则”的验证步骤，成为传染病病因学标准。",
+      "people": [
+        "Robert Koch"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "微生物学",
+        "方法"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:History_of_medicine"
+      ]
+    },
+    {
+      "id": "west-pasteur-rabies-vaccine",
+      "side": "west",
+      "year": 1885,
+      "yearEnd": null,
+      "yearLabel": "1885",
+      "title": "巴斯德狂犬病疫苗用于人体",
+      "summary": "1885年巴斯德团队将狂犬病疫苗用于人体，是詹纳之后重大的人类疫苗突破；1888年巴斯德研究所成立。",
+      "people": [
+        "Louis Pasteur"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "病毒",
+        "狂犬病"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:History_of_medicine",
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-pasteur-institute",
+      "side": "west",
+      "year": 1888,
+      "yearEnd": null,
+      "yearLabel": "1888",
+      "title": "巴斯德研究所成立",
+      "summary": "1888年巴黎巴斯德研究所开幕，成为全球生物医学研究机构的早期典范。",
+      "people": [
+        "Louis Pasteur"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "研究机构",
+        "微生物学"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:History_of_medicine"
+      ]
+    },
+    {
+      "id": "west-behring-antitoxin",
+      "side": "west",
+      "year": 1890,
+      "yearEnd": null,
+      "yearLabel": "1890",
+      "title": "贝林抗毒素与白喉破伤风血清",
+      "summary": "埃米尔·冯·贝林1890年发现抗毒素并用于白喉与破伤风，开创血清疗法，1901年获首届诺贝尔生理学或医学奖。",
+      "people": [
+        "Emil von Behring"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "免疫",
+        "血清",
+        "疫苗"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-halsted-surgical-school",
+      "side": "west",
+      "year": 1890,
+      "yearEnd": null,
+      "yearLabel": "约1890",
+      "title": "霍尔斯特德外科原则",
+      "summary": "威廉·霍尔斯特德在约翰斯·霍普金斯推行严格消毒、轻柔操作与住院医师制度，塑造现代外科训练。",
+      "people": [
+        "William Halsted"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "外科",
+        "教育",
+        "美国"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Surgery history"
+      ]
+    },
+    {
+      "id": "west-roentgen-xray",
+      "side": "west",
+      "year": 1895,
+      "yearEnd": null,
+      "yearLabel": "1895",
+      "title": "伦琴发现X射线",
+      "summary": "威廉·伦琴1895年发现X射线并迅速用于医学成像，开创放射诊断学。",
+      "people": [
+        "Wilhelm Röntgen"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "影像",
+        "放射",
+        "诊断"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-riva-rocci-bp",
+      "side": "west",
+      "year": 1896,
+      "yearEnd": null,
+      "yearLabel": "1896",
+      "title": "里瓦-罗奇血压计",
+      "summary": "希皮奥内·里瓦-罗奇1896年发明袖带血压计，使无创血压测量进入临床常规。",
+      "people": [
+        "Scipione Riva-Rocci"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "诊断",
+        "血压",
+        "器械"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Cardiology history"
+      ]
+    },
+    {
+      "id": "west-aspirin-bayer",
+      "side": "west",
+      "year": 1899,
+      "yearEnd": null,
+      "yearLabel": "1899",
+      "title": "拜耳推出阿司匹林",
+      "summary": "1899年拜耳公司推出阿司匹林（乙酰水杨酸）；水杨酸类镇痛解热传统可追溯至希波克拉底时代的柳树应用。",
+      "people": [
+        "Felix Hoffmann"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "药物",
+        "解热镇痛"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "PBS"
+      ]
+    },
+    {
+      "id": "west-alzheimer-disease",
+      "side": "west",
+      "year": 1901,
+      "yearEnd": null,
+      "yearLabel": "1901",
+      "title": "阿尔茨海默描述病例",
+      "summary": "阿洛伊斯·阿尔茨海默1901年识别后来称为阿尔茨海默病的病例，开创神经退行性疾病临床病理研究。",
+      "people": [
+        "Alois Alzheimer"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "神经",
+        "病理",
+        "精神"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-landsteiner-blood-types",
+      "side": "west",
+      "year": 1901,
+      "yearEnd": null,
+      "yearLabel": "1901",
+      "title": "兰德施泰纳发现血型",
+      "summary": "卡尔·兰德施泰纳1901年发现ABO血型，使安全输血成为可能，1930年获诺贝尔奖。",
+      "people": [
+        "Karl Landsteiner"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "输血",
+        "免疫",
+        "血型"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-carrel-vascular-suture",
+      "side": "west",
+      "year": 1902,
+      "yearEnd": null,
+      "yearLabel": "约1902",
+      "title": "卡雷尔血管缝合术",
+      "summary": "亚历克西斯·卡雷尔发展血管吻合技术，为器官移植与血管外科奠基，1912年获诺贝尔奖。",
+      "people": [
+        "Alexis Carrel"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "外科",
+        "血管",
+        "移植"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Nobel archives"
+      ]
+    },
+    {
+      "id": "west-einthoven-ecg",
+      "side": "west",
+      "year": 1903,
+      "yearEnd": null,
+      "yearLabel": "1903",
+      "title": "艾因托芬心电图",
+      "summary": "威廉·艾因托芬约1903年完善弦线电流计心电图，使心脏电活动可记录，奠定临床心电学（常记为1903年实用化）。",
+      "people": [
+        "Willem Einthoven"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "心电",
+        "诊断",
+        "心脏"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "Cardiac Electrophysiology Review"
+      ]
+    },
+    {
+      "id": "west-hopkins-vitamins",
+      "side": "west",
+      "year": 1906,
+      "yearEnd": null,
+      "yearLabel": "1906",
+      "title": "霍普金斯提出维生素概念",
+      "summary": "弗雷德里克·霍普金斯1906年提出食物中存在必需微量因子（维生素），解释坏血病、佝偻病等缺乏病。",
+      "people": [
+        "Frederick Hopkins"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "营养",
+        "维生素"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-zhang-xichun-zhongcanxi",
+      "side": "east",
+      "year": 1909,
+      "yearEnd": null,
+      "yearLabel": "1909",
+      "title": "张锡纯《医学衷中参西录》",
+      "summary": "张锡纯1909年起刊《医学衷中参西录》，以中医为本参用西药西理，是近代中西汇通代表作。",
+      "people": [
+        "张锡纯"
+      ],
+      "works": [
+        "医学衷中参西录"
+      ],
+      "archaeology": false,
+      "tags": [
+        "中西汇通",
+        "近代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-ehrlich-chemotherapy",
+      "side": "west",
+      "year": 1909,
+      "yearEnd": null,
+      "yearLabel": "约1909",
+      "title": "埃利希化学疗法（洒尔佛散）",
+      "summary": "保罗·埃利希约1909年研制砷化合物洒尔佛散治疗梅毒，提出“魔弹”概念，开创抗微生物化疗。",
+      "people": [
+        "Paul Ehrlich"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "化疗",
+        "药物",
+        "传染病"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-ehrlich-salvarsan",
+      "side": "west",
+      "year": 1910,
+      "yearEnd": null,
+      "yearLabel": "1910",
+      "title": "洒尔佛散治疗梅毒上市",
+      "summary": "埃利希与秦佐八郎研制的砷剂洒尔佛散（606）约1910年用于梅毒，标志化疗药物时代。",
+      "people": [
+        "Paul Ehrlich",
+        "Sahachiro Hata"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "化疗",
+        "梅毒",
+        "药物"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-flexner-report",
+      "side": "west",
+      "year": 1910,
+      "yearEnd": null,
+      "yearLabel": "1910",
+      "title": "弗莱克斯纳报告改革北美医学教育",
+      "summary": "亚伯拉罕·弗莱克斯纳1910年报告促使北美关闭不合格医校，确立大学—实验室—医院三位一体的现代医学教育模式。",
+      "people": [
+        "Abraham Flexner"
+      ],
+      "works": [
+        "Flexner Report"
+      ],
+      "archaeology": false,
+      "tags": [
+        "教育",
+        "制度",
+        "改革"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Carnegie Foundation",
+        "Historia Medica"
+      ]
+    },
+    {
+      "id": "east-cma-1915",
+      "side": "east",
+      "year": 1915,
+      "yearEnd": null,
+      "yearLabel": "1915",
+      "title": "中华医学会成立",
+      "summary": "1915年中华医学会成立并创刊《中华医学杂志》，主要推动现代西医学在中国的职业化（与中医界并行）。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "学会",
+        "近代",
+        "西医在华"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-shanghai-tcm-school-1917",
+      "side": "east",
+      "year": 1917,
+      "yearEnd": null,
+      "yearLabel": "1917",
+      "title": "上海中医专门学校开学",
+      "summary": "1917年上海中医专门学校开学，代表近代中医学校教育对传统师承的补充。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "教育",
+        "近代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-bacteriophage-twort-dherelle",
+      "side": "west",
+      "year": 1917,
+      "yearEnd": null,
+      "yearLabel": "约1917",
+      "title": "噬菌体发现",
+      "summary": "约1915–1917年特沃特与德埃雷尔发现噬菌体，后成为分子遗传与替代抗菌研究的重要对象。",
+      "people": [
+        "Frederick Twort",
+        "Félix d'Hérelle"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "微生物学",
+        "噬菌体"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Microbiology history"
+      ]
+    },
+    {
+      "id": "west-banting-best-insulin",
+      "side": "west",
+      "year": 1921,
+      "yearEnd": null,
+      "yearLabel": "1921",
+      "title": "班廷与贝斯特发现胰岛素",
+      "summary": "弗雷德里克·班廷与查尔斯·贝斯特1921年分离胰岛素，使1型糖尿病从绝症变为可治，1923年班廷获诺贝尔奖。",
+      "people": [
+        "Frederick Banting",
+        "Charles Best"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "内分泌",
+        "糖尿病",
+        "药物"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-bcg-vaccine",
+      "side": "west",
+      "year": 1921,
+      "yearEnd": null,
+      "yearLabel": "约1921",
+      "title": "卡介苗（BCG）",
+      "summary": "卡尔梅特与介林研制的卡介苗1920年代开始用于结核预防，成为全球使用最广的疫苗之一。",
+      "people": [
+        "Albert Calmette",
+        "Camille Guérin"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "结核"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-yun-tieqiao-defense",
+      "side": "east",
+      "year": 1922,
+      "yearEnd": null,
+      "yearLabel": "1922",
+      "title": "恽铁樵《群经见智录》",
+      "summary": "恽铁樵1922年著《群经见智录》批驳余云岫《灵素商兑》，是近代中医理论自卫的重要文献。",
+      "people": [
+        "恽铁樵",
+        "余云岫"
+      ],
+      "works": [
+        "群经见智录"
+      ],
+      "archaeology": false,
+      "tags": [
+        "论争",
+        "近代",
+        "理论"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-minot-murphy-anemia",
+      "side": "west",
+      "year": 1926,
+      "yearEnd": null,
+      "yearLabel": "1926",
+      "title": "米诺特肝食疗法治疗恶性贫血",
+      "summary": "乔治·米诺特与威廉·墨菲1926年用肝食疗法治疗恶性贫血，导向维生素B12发现，1923年后获诺贝尔奖。",
+      "people": [
+        "George Minot",
+        "William Murphy"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "血液",
+        "营养",
+        "维生素"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Nobel archives"
+      ]
+    },
+    {
+      "id": "west-fleming-penicillin",
+      "side": "west",
+      "year": 1928,
+      "yearEnd": null,
+      "yearLabel": "1928",
+      "title": "弗莱明发现青霉素",
+      "summary": "亚历山大·弗莱明1928年发现青霉素抑菌现象；后经弗洛里、钱恩等 stat 量产，开启抗生素时代。",
+      "people": [
+        "Alexander Fleming"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "抗生素",
+        "微生物学"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-abolish-tcm-debate-1929",
+      "side": "east",
+      "year": 1929,
+      "yearEnd": null,
+      "yearLabel": "1929",
+      "title": "“废止旧医案”与中医请愿",
+      "summary": "1929年余云岫等提出废止中医案，全国中医药界赴南京请愿反对，成为近代中医存废斗争的标志事件。",
+      "people": [
+        "余云岫"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "制度",
+        "近代",
+        "论争"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-guoyiguan",
+      "side": "east",
+      "year": 1931,
+      "yearEnd": null,
+      "yearLabel": "1931",
+      "title": "中央国医馆成立",
+      "summary": "1931年中央国医馆成立，推动中医“科学化”整理与教育制度建设。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "制度",
+        "教育",
+        "近代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-domagk-sulfonamide",
+      "side": "west",
+      "year": 1932,
+      "yearEnd": null,
+      "yearLabel": "1932",
+      "title": "多马克磺胺化疗",
+      "summary": "格哈德·多马克1932年发现磺胺类药物抗链球菌作用，是抗生素普及前重要的化学治疗突破。",
+      "people": [
+        "Gerhard Domagk"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "抗菌",
+        "化疗",
+        "药物"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-tcm-ordinance-1936",
+      "side": "east",
+      "year": 1936,
+      "yearEnd": null,
+      "yearLabel": "1936",
+      "title": "《中医条例》颁布",
+      "summary": "1936年南京国民政府颁布《中医条例》，在法律上承认中医执业地位（实施仍曲折）。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "法律",
+        "制度",
+        "近代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-yellow-fever-vaccine",
+      "side": "west",
+      "year": 1937,
+      "yearEnd": null,
+      "yearLabel": "约1937",
+      "title": "黄热病疫苗",
+      "summary": "马克斯·泰勒等1930年代研制黄热病减毒疫苗（17D株约1937），显著降低热带地区黄热病负担。",
+      "people": [
+        "Max Theiler"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "黄热病",
+        "热带医学"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-florey-chain-penicillin",
+      "side": "west",
+      "year": 1940,
+      "yearEnd": null,
+      "yearLabel": "约1940",
+      "title": "弗洛里与钱恩推动青霉素量产",
+      "summary": "约1938–1940年代霍华德·弗洛里与恩斯特·钱恩提纯并试用青霉素，二战期间实现量产，拯救无数伤员。",
+      "people": [
+        "Howard Florey",
+        "Ernst Chain",
+        "Alexander Fleming"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "抗生素",
+        "二战"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-kolff-dialysis",
+      "side": "west",
+      "year": 1943,
+      "yearEnd": null,
+      "yearLabel": "1943",
+      "title": "科尔夫人工肾透析机",
+      "summary": "威廉·科尔夫1943年制成首台实用透析机，开创肾功能替代治疗。",
+      "people": [
+        "Willem Kolff"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "透析",
+        "器械",
+        "肾"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-waksman-streptomycin",
+      "side": "west",
+      "year": 1943,
+      "yearEnd": null,
+      "yearLabel": "1943",
+      "title": "瓦克斯曼链霉素",
+      "summary": "塞尔曼·瓦克斯曼实验室1943年发现链霉素，是首个有效抗结核抗生素，1952年瓦克斯曼获诺贝尔奖。",
+      "people": [
+        "Selman Waksman",
+        "Albert Schatz"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "抗生素",
+        "结核"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Nobel archives"
+      ]
+    },
+    {
+      "id": "west-who-founded",
+      "side": "west",
+      "year": 1948,
+      "yearEnd": null,
+      "yearLabel": "1948",
+      "title": "世界卫生组织成立",
+      "summary": "1948年联合国专门机构世界卫生组织（WHO）成立，推动全球公共卫生、传染病控制与卫生标准。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "公共卫生",
+        "国际组织"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-hench-cortisone",
+      "side": "west",
+      "year": 1949,
+      "yearEnd": null,
+      "yearLabel": "约1949",
+      "title": "可的松用于类风湿关节炎",
+      "summary": "菲利普·亨奇等1940年代末将可的松用于类风湿关节炎，开启糖皮质激素治疗时代。",
+      "people": [
+        "Philip Hench",
+        "Edward Kendall"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "激素",
+        "风湿",
+        "药物"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Nobel archives"
+      ]
+    },
+    {
+      "id": "east-first-health-conference",
+      "side": "east",
+      "year": 1950,
+      "yearEnd": null,
+      "yearLabel": "1950",
+      "title": "第一届全国卫生会议“团结中西医”",
+      "summary": "1950年第一届全国卫生会议提出“面向工农兵、预防为主、团结中西医”，奠定新中国卫生与中医政策基调。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "制度",
+        "政策",
+        "现代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-pharmacopoeia-1953",
+      "side": "east",
+      "year": 1953,
+      "yearEnd": null,
+      "yearLabel": "1953",
+      "title": "《中华人民共和国药典》首版",
+      "summary": "1953年《中国药典》第一版问世，后续版本逐步系统收载中药材与中成药标准。",
+      "people": [],
+      "works": [
+        "中华人民共和国药典"
+      ],
+      "archaeology": false,
+      "tags": [
+        "药典",
+        "标准",
+        "现代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-gibbon-heart-lung",
+      "side": "west",
+      "year": 1953,
+      "yearEnd": null,
+      "yearLabel": "1953",
+      "title": "吉本心肺机体外循环",
+      "summary": "约翰·吉本1953年用心肺机完成体外循环心内直视手术，使心内外科成为可能。",
+      "people": [
+        "John Heysham Gibbon"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "心脏",
+        "外科",
+        "器械"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-ultrasound-medical",
+      "side": "west",
+      "year": 1953,
+      "yearEnd": null,
+      "yearLabel": "约1953",
+      "title": "医学超声心动图萌芽",
+      "summary": "英格·埃德勒等1950年代发展超声心动图，医学超声随后扩展至产科与腹部成像。",
+      "people": [
+        "Inge Edler"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "影像",
+        "超声"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-watson-crick-dna",
+      "side": "west",
+      "year": 1953,
+      "yearEnd": null,
+      "yearLabel": "1953",
+      "title": "沃森与克里克DNA双螺旋",
+      "summary": "詹姆斯·沃森与弗朗西斯·克里克1953年提出DNA双螺旋结构（依托富兰克林等数据），开启分子生物学医学时代。",
+      "people": [
+        "James Watson",
+        "Francis Crick",
+        "Rosalind Franklin"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "分子生物学",
+        "遗传"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "Sanger Institute"
+      ]
+    },
+    {
+      "id": "east-zhongyisi-1954",
+      "side": "east",
+      "year": 1954,
+      "yearEnd": null,
+      "yearLabel": "1954",
+      "title": "卫生部中医司成立",
+      "summary": "1954年卫生部成立中医司，中央批转改进中医工作报告，中医行政管理强化。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "制度",
+        "政策",
+        "现代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-hibb-salk-trial",
+      "side": "west",
+      "year": 1954,
+      "yearEnd": null,
+      "yearLabel": "1954",
+      "title": "索尔克疫苗大规模现场试验",
+      "summary": "1954年美国开展史上最大规模之一的脊灰疫苗现场试验，次年批准使用。",
+      "people": [
+        "Jonas Salk"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "脊灰",
+        "试验"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-murray-kidney-transplant",
+      "side": "west",
+      "year": 1954,
+      "yearEnd": null,
+      "yearLabel": "1954",
+      "title": "默里同卵双生子肾移植",
+      "summary": "约瑟夫·默里1954年在同卵双生子间完成首例成功人体肾移植，开创器官移植临床时代。",
+      "people": [
+        "Joseph Murray"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "移植",
+        "外科",
+        "肾"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-cacms-founded",
+      "side": "east",
+      "year": 1955,
+      "yearEnd": null,
+      "yearLabel": "1955",
+      "title": "中医研究院成立",
+      "summary": "1955年卫生部中医研究院（后中国中医科学院）成立，并开办西医学习中医班，标志国家级中医研究机构起步。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "制度",
+        "研究",
+        "现代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-salk-polio-vaccine",
+      "side": "west",
+      "year": 1955,
+      "yearEnd": null,
+      "yearLabel": "1955",
+      "title": "索尔克脊髓灰质炎疫苗",
+      "summary": "乔纳斯·索尔克研制的灭活脊灰疫苗1955年投入使用，大幅降低脊灰发病率；萨宾口服活疫苗随后推广。",
+      "people": [
+        "Jonas Salk"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "脊灰",
+        "公共卫生"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-tcm-colleges-1956",
+      "side": "east",
+      "year": 1956,
+      "yearEnd": null,
+      "yearLabel": "1956",
+      "title": "北京等中医学院成立",
+      "summary": "1956年北京、上海、广州、成都中医学院成立，开创现代高等中医教育体系。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "教育",
+        "现代",
+        "院校"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-mao-tcm-treasury",
+      "side": "east",
+      "year": 1958,
+      "yearEnd": null,
+      "yearLabel": "1958",
+      "title": "“中国医药学是一个伟大的宝库”批示",
+      "summary": "1958年毛泽东批示强调发掘提高中医药，深刻影响此后中医政策与西学中运动。",
+      "people": [
+        "毛泽东"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "政策",
+        "现代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-pacemaker-implant",
+      "side": "west",
+      "year": 1958,
+      "yearEnd": null,
+      "yearLabel": "1958",
+      "title": "植入式心脏起搏器",
+      "summary": "约1958年埃尔姆奎斯特与森宁等实现植入式起搏器，开启心脏电生理器械治疗。",
+      "people": [
+        "Rune Elmqvist",
+        "Åke Senning"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "心脏",
+        "器械",
+        "起搏"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-tcm-textbooks-1960",
+      "side": "east",
+      "year": 1960,
+      "yearEnd": null,
+      "yearLabel": "约1960",
+      "title": "中医学院试用教材出版",
+      "summary": "1960年左右17种中医学院试用教材出版，统一高等中医教学内容与术语。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "教育",
+        "教材",
+        "现代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-oral-contraceptive",
+      "side": "west",
+      "year": 1960,
+      "yearEnd": null,
+      "yearLabel": "1960",
+      "title": "口服避孕药获批",
+      "summary": "1960年复方口服避孕药在美国获批，深刻改变生殖健康、女性医疗与社会史。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "生殖",
+        "药物",
+        "内分泌"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-sabin-oral-polio",
+      "side": "west",
+      "year": 1962,
+      "yearEnd": null,
+      "yearLabel": "1962",
+      "title": "萨宾口服脊灰疫苗",
+      "summary": "阿尔伯特·萨宾口服减毒脊灰疫苗1960年代初推广，便于群体免疫，推动全球消灭脊灰行动。",
+      "people": [
+        "Albert Sabin"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "脊灰"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-measles-vaccine",
+      "side": "west",
+      "year": 1963,
+      "yearEnd": null,
+      "yearLabel": "1963",
+      "title": "麻疹疫苗",
+      "summary": "1963年麻疹疫苗上市，后纳入MMR，显著降低儿童麻疹死亡率。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "儿科",
+        "麻疹"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-acupuncture-anesthesia",
+      "side": "east",
+      "year": 1966,
+      "yearEnd": null,
+      "yearLabel": "约1966",
+      "title": "针刺麻醉用于手术",
+      "summary": "1960年代针刺麻醉用于外科手术并引起国际关注，推动针灸机理与麻醉学研究（适应证与评价后来更审慎）。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "针灸",
+        "麻醉",
+        "现代"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-barefoot-doctors",
+      "side": "east",
+      "year": 1967,
+      "yearEnd": null,
+      "yearLabel": "约1967",
+      "title": "赤脚医生与农村合作医疗",
+      "summary": "1960年代末赤脚医生与农村合作医疗兴起，中西医适宜技术广泛进入基层，影响全球初级卫生保健讨论。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "公共卫生",
+        "基层",
+        "现代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-barnard-heart-transplant",
+      "side": "west",
+      "year": 1967,
+      "yearEnd": null,
+      "yearLabel": "1967",
+      "title": "巴纳德首例人体心脏移植",
+      "summary": "克里斯蒂安·巴纳德1967年在南非完成首例人体心脏移植，引发全球移植伦理与技术热潮。",
+      "people": [
+        "Christiaan Barnard"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "移植",
+        "心脏",
+        "外科"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-favaloro-bypass",
+      "side": "west",
+      "year": 1967,
+      "yearEnd": null,
+      "yearLabel": "1967",
+      "title": "法瓦罗罗冠状动脉旁路移植",
+      "summary": "雷内·法瓦罗罗1967年发展冠状动脉旁路移植术（CABG），成为缺血性心脏病主要外科疗法。",
+      "people": [
+        "René Favaloro"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "心脏",
+        "外科",
+        "血管"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-small-splint-fracture",
+      "side": "east",
+      "year": 1970,
+      "yearEnd": null,
+      "yearLabel": "约1970",
+      "title": "小夹板治疗骨折推广",
+      "summary": "约1970年全国中草药与新医疗法展览等场合推广小夹板固定治疗骨折，体现中西医结合骨伤特色。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "骨伤",
+        "中西医结合",
+        "现代"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-tu-youyou-artemisinin",
+      "side": "east",
+      "year": 1971,
+      "yearEnd": null,
+      "yearLabel": "1971",
+      "title": "屠呦呦青蒿素抗疟突破",
+      "summary": "1971年10月4日屠呦呦课题组获青蒿乙醚中性提取物对鼠疟100%抑制，后分离青蒿素；启发自《肘后备急方》。2015年获诺贝尔奖。",
+      "people": [
+        "屠呦呦"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "青蒿素",
+        "抗疟",
+        "本草",
+        "现代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Nobel Lecture Tu Youyou",
+        "PMC artemisinin",
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-hounsfield-ct",
+      "side": "west",
+      "year": 1971,
+      "yearEnd": null,
+      "yearLabel": "1971",
+      "title": "亨斯菲尔德CT扫描",
+      "summary": "戈弗雷·亨斯菲尔德1971年前后推出商业CT，实现断层成像，彻底改变诊断放射学。",
+      "people": [
+        "Godfrey Hounsfield"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "影像",
+        "CT",
+        "诊断"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-mmr-hilleman",
+      "side": "west",
+      "year": 1971,
+      "yearEnd": null,
+      "yearLabel": "1971",
+      "title": "MMR疫苗（希勒曼）",
+      "summary": "莫里斯·希勒曼等1971年推出麻疹—腮腺炎—风疹联合疫苗，成为儿童免疫规划核心。",
+      "people": [
+        "Maurice Hilleman"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "儿科"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-who-acupuncture-centers-1975",
+      "side": "east",
+      "year": 1975,
+      "yearEnd": null,
+      "yearLabel": "1975",
+      "title": "北京南京上海国际针灸培训中心",
+      "summary": "1975年应WHO要求，北京、南京、上海成立国际针灸培训中心，推动针灸全球化教学。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "针灸",
+        "国际",
+        "WHO",
+        "教育"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-ivf-louise-brown",
+      "side": "west",
+      "year": 1978,
+      "yearEnd": null,
+      "yearLabel": "1978",
+      "title": "首例试管婴儿出生",
+      "summary": "1978年路易斯·布朗出生，标志体外受精（IVF）临床成功，生殖医学进入新阶段。",
+      "people": [
+        "Robert Edwards",
+        "Patrick Steptoe"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "生殖",
+        "IVF"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-who-acupuncture-1979",
+      "side": "east",
+      "year": 1979,
+      "yearEnd": null,
+      "yearLabel": "1979",
+      "title": "WHO推荐针灸适应症",
+      "summary": "1979年世界卫生组织向各国推荐针灸可试用于偏头痛等数十种病症，并推动国际针灸培训。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "针灸",
+        "国际",
+        "WHO"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-hepatitis-b-vaccine",
+      "side": "west",
+      "year": 1980,
+      "yearEnd": null,
+      "yearLabel": "约1980",
+      "title": "乙肝疫苗问世",
+      "summary": "1980年前后首个乙型肝炎疫苗可用（与巴鲁克·布卢姆伯格等研究相关），显著降低乙肝与肝癌负担。",
+      "people": [
+        "Baruch Blumberg"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "肝炎"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-mri-commercial",
+      "side": "west",
+      "year": 1980,
+      "yearEnd": null,
+      "yearLabel": "1980",
+      "title": "商业MRI扫描仪",
+      "summary": "约1980年达马迪安等推动商业磁共振成像扫描仪，无电离辐射软组织成像迅速普及。",
+      "people": [
+        "Raymond Damadian"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "影像",
+        "MRI"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-who-smallpox-eradicated",
+      "side": "west",
+      "year": 1980,
+      "yearEnd": null,
+      "yearLabel": "1980",
+      "title": "WHO宣布消灭天花",
+      "summary": "1980年世界卫生组织正式宣布天花消灭，是人类通过疫苗与公共卫生协作根除的第一种人类疾病。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "天花",
+        "公共卫生"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine",
+        "WHO"
+      ]
+    },
+    {
+      "id": "east-constitution-tcm-1982",
+      "side": "east",
+      "year": 1982,
+      "yearEnd": null,
+      "yearLabel": "1982",
+      "title": "宪法规定发展传统医药",
+      "summary": "1982年《中华人民共和国宪法》规定“发展现代医药和我国传统医药”，从根本法层面确立中医药地位。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "法律",
+        "制度",
+        "现代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-human-insulin-recombinant",
+      "side": "west",
+      "year": 1982,
+      "yearEnd": null,
+      "yearLabel": "1982",
+      "title": "重组人胰岛素上市",
+      "summary": "1982年重组人胰岛素获批，是基因工程药物进入临床的标志。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "生物技术",
+        "糖尿病",
+        "药物"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "west-mullis-pcr",
+      "side": "west",
+      "year": 1985,
+      "yearEnd": null,
+      "yearLabel": "1985",
+      "title": "穆利斯发明PCR",
+      "summary": "凯利·穆利斯1985年发明聚合酶链式反应（PCR），使核酸扩增成为诊断与分子生物学常规工具。",
+      "people": [
+        "Kary Mullis"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "分子生物学",
+        "诊断",
+        "PCR"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-satcm-1986",
+      "side": "east",
+      "year": 1986,
+      "yearEnd": null,
+      "yearLabel": "1986",
+      "title": "国家中医管理局成立",
+      "summary": "1986年国家中医管理局成立（1988年更名国家中医药管理局），中医药行政管理升格。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "制度",
+        "政策",
+        "现代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "east-wfash-1987",
+      "side": "east",
+      "year": 1987,
+      "yearEnd": null,
+      "yearLabel": "1987",
+      "title": "世界针灸学会联合会成立",
+      "summary": "1987年世界针灸学会联合会成立，推动针灸国际学术交流与标准化。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "针灸",
+        "国际"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-palmaz-stent",
+      "side": "west",
+      "year": 1988,
+      "yearEnd": null,
+      "yearLabel": "约1988",
+      "title": "帕尔马兹血管支架",
+      "summary": "胡利奥·帕尔马兹等发展血管内支架，介入心脏病学进入支架时代。",
+      "people": [
+        "Julio Palmaz"
+      ],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "心脏",
+        "介入",
+        "器械"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-who-point-standards-1989",
+      "side": "east",
+      "year": 1989,
+      "yearEnd": null,
+      "yearLabel": "1989",
+      "title": "WHO经穴名称标准化方案",
+      "summary": "1989年WHO通过经穴、经外奇穴、耳穴、头皮针等标准化穴名方案，便利国际交流与研究。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "针灸",
+        "标准化",
+        "WHO"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-hepatitis-a-vaccine",
+      "side": "west",
+      "year": 1992,
+      "yearEnd": null,
+      "yearLabel": "约1992",
+      "title": "甲肝疫苗可用",
+      "summary": "1992年前后甲型肝炎疫苗投入使用，完善病毒性肝炎免疫预防。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "疫苗",
+        "肝炎"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    },
+    {
+      "id": "east-health-policy-1997",
+      "side": "east",
+      "year": 1997,
+      "yearEnd": null,
+      "yearLabel": "1997",
+      "title": "卫生工作方针明确“中西医并重”",
+      "summary": "1997年《中共中央国务院关于卫生改革与发展的决定》提出“中西医并重”等新时期卫生方针。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "政策",
+        "现代"
+      ],
+      "confidence": "high",
+      "sources": [
+        "国家中医药博物馆"
+      ]
+    },
+    {
+      "id": "west-hgp-draft",
+      "side": "west",
+      "year": 2000,
+      "yearEnd": null,
+      "yearLabel": "2000",
+      "title": "人类基因组计划草图完成",
+      "summary": "2000年人类基因组计划公布工作草图，推动基因组医学、靶向药物与分子诊断（完稿后续年份完善）。",
+      "people": [],
+      "works": [],
+      "archaeology": false,
+      "tags": [
+        "基因组",
+        "分子生物学"
+      ],
+      "confidence": "high",
+      "sources": [
+        "wikipedia:Timeline_of_medicine"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Synology Container Manager / Docker Compose
+# 默认访问：http://NAS_IP:3007
+# data/ 挂载到容器：改 timeline.json 后刷新浏览器即可，无需重建
+services:
+  med-timeline:
+    build: .
+    container_name: med-timeline
+    ports:
+      - "3007:80"
+    volumes:
+      - ./data:/usr/share/nginx/html/data:ro
+    restart: unless-stopped

@@ -1516,7 +1516,7 @@ data = {
     "events": events,
 }
 
-out = Path("/workspace/med-timeline/data/timeline.json")
+out = Path(__file__).resolve().parent / "data" / "timeline.json"
 out.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 print(f"Wrote {out}")
 print(f"Total: {data['meta']['eventCount']}  West: {data['meta']['westCount']}  East: {data['meta']['eastCount']}")

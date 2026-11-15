@@ -1,0 +1,93 @@
+# 推送 vX.Y.Z 标签，或在 Actions 里手动运行并填入已存在的标签时，创建 GitHub Release。
+# 不会在 pull request 或普通分支推送时运行，因此合并代码本身不会发布版本。
+#
+# 权限：只给 contents: write。创建 Release 和上传附件属于 contents。
+# 不申请 id-token、attestations、packages：产物是源码压缩包，不构建镜像、不做构建溯源证明、不推送镜像仓库。
+# 若仓库把 GITHUB_TOKEN 默认成只读，需要在
+# Settings → Actions → General → Workflow permissions
+# 允许 Read and write permissions，否则本工作流无法创建 Release。
+
+name: Release
+
+"on":
+  push:
+    tags:
+      # glob 不是正则。真正的 X.Y.Z 数字检查在下面的步骤里。
+      - "v[0-9]*.[0-9]*.[0-9]*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "已经存在的标签，例如 v1.0.0。不会新建标签。"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.event_name }}-${{ github.ref_name }}-${{ inputs.tag }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: 发布部署包
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: 解析版本标签
+        id: ver
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_TAG: ${{ inputs.tag }}
+          REF_NAME: ${{ github.ref_name }}
+        run: |
+          set -eu
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            TAG="$INPUT_TAG"
+          else
+            TAG="$REF_NAME"
+          fi
+          if ! printf '%s\n' "$TAG" | grep -Eq '^v(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$'; then
+            echo "标签必须是 vX.Y.Z（例如 v1.0.0），收到: ${TAG}" >&2
+            exit 1
+          fi
+          VERSION=${TAG#v}
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: 检出该标签
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.ver.outputs.tag }}
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: 确认标签存在
+        env:
+          TAG: ${{ steps.ver.outputs.tag }}
+        run: git rev-parse --verify "refs/tags/${TAG}"
+
+      - name: 生成部署包与说明
+        env:
+          VERSION: ${{ steps.ver.outputs.version }}
+        run: python3 scripts/make-release-asset.py "$VERSION"
+
+      - name: 创建或更新 GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.ver.outputs.tag }}
+          VERSION: ${{ steps.ver.outputs.version }}
+        run: |
+          set -eu
+          TITLE="med-timeline ${TAG}"
+          ASSET="dist/med-timeline-${VERSION}.tar.gz"
+          test -f "$ASSET"
+          test -f dist/release-notes.md
+          echo "----- release notes -----"
+          cat dist/release-notes.md
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --title "$TITLE" --notes-file dist/release-notes.md
+            gh release upload "$TAG" "$ASSET" --clobber
+          else
+            gh release create "$TAG" --title "$TITLE" --notes-file dist/release-notes.md "$ASSET"
+          fi

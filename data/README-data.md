@@ -1,5 +1,7 @@
 # 中西医对照时间轴 — 数据说明
 
+部署、备份和发版见仓库根目录 [README.md](../README.md)。本文件只说明 `timeline.json` 的字段。
+
 ## 文件
 
 - `timeline.json` — 主数据（`meta` + `events[]`），供非对称纵向时间轴 UI 使用。
@@ -33,4 +35,4 @@
 
 ## 更新
 
-`meta.updated` 为 ISO 日期（箱内时区 Asia/Hong_Kong）。扩充条目后请重算 `meta.eventCount` / `westCount` / `eastCount`，并保持按年排序与 `id` 唯一。
+`meta.updated` 为 ISO 日期（时区 Asia/Hong_Kong）。扩充条目后请重算 `meta.eventCount` / `westCount` / `eastCount`，并保持按年排序与 `id` 唯一。

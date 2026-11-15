@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 from copy import deepcopy
 
-path = Path("/workspace/med-timeline/data/timeline.json")
+path = Path(__file__).resolve().parent / "data" / "timeline.json"
 data = json.loads(path.read_text(encoding="utf-8"))
 existing = {e["id"] for e in data["events"]}
 

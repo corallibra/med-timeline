@@ -81,7 +81,7 @@ cp .env.example .env
 
 不创建 `.env` 也可以启动。Compose 会使用 `docker-compose.yml` 里写死的默认值，结果同样是端口 3007、镜像标签 `med-timeline:1.0.0`。
 
-仓库**不会**推送 `latest` 标签，也没有 Docker Hub / GHCR 上的现成镜像。标签只存在于执行构建的那台机器上。
+仓库**不会**推送 `latest` 标签，也没有 Docker Hub / GHCR 上的现成镜像。标签只存在于执行构建的那台机器上。服务设置了 `pull_policy: build`：`docker compose up` 会在本机构建 `med-timeline`，不会按这个镜像名去仓库拉取。构建时仍可能下载基础镜像 `nginx:alpine`。
 
 ## 首次部署
 
@@ -100,7 +100,7 @@ docker compose up -d --build
 sh scripts/deploy.sh
 ```
 
-`deploy.sh` 会在没有 `.env` 时从示例复制一份，然后执行同样的 `docker compose up -d --build`。
+`deploy.sh` 会在没有 `.env` 时从示例复制一份，然后执行同样的 `docker compose up -d --build`。即使不加 `--build`，Compose 也会因为 `pull_policy: build` 在本地构建，而不会拉取 `med-timeline`。
 
 构建会下载 `nginx:alpine`（若本地还没有），打出镜像 `med-timeline:1.0.0`，并启动容器。看状态：
 

@@ -1,5 +1,6 @@
 #!/bin/sh
 # 在当前目录构建镜像并后台启动。不会下载 GitHub Release。
+# docker-compose.yml 的 pull_policy 是 build：只在本机构建 med-timeline，不会从镜像仓库拉取这个标签。
 set -eu
 BASE=$(CDPATH= cd -- "$(dirname "$0")" && pwd)
 . "$BASE/lib.sh"

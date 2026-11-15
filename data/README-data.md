@@ -35,4 +35,4 @@
 
 ## 更新
 
-`meta.updated` 为 ISO 日期（箱内时区 Asia/Hong_Kong）。扩充条目后请重算 `meta.eventCount` / `westCount` / `eastCount`，并保持按年排序与 `id` 唯一。
+`meta.updated` 为 ISO 日期（时区 Asia/Hong_Kong）。扩充条目后请重算 `meta.eventCount` / `westCount` / `eastCount`，并保持按年排序与 `id` 唯一。

@@ -1,7 +1,7 @@
 FROM nginx:alpine
 
 # 由 Compose 传入 MED_TIMELINE_VERSION。单独执行 docker build 且不带 --build-arg 时使用下面的默认值。
-ARG VERSION=1.0.0
+ARG VERSION=1.1.0
 
 LABEL org.opencontainers.image.title="med-timeline" \
       org.opencontainers.image.description="中西医发展对照时间轴" \

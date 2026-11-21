@@ -40,6 +40,27 @@ PACKAGE_FILES = [
 ]
 
 
+def package_paths():
+    """Files that go into the deployment tarball.
+
+    docs/screenshots/ is included so README image links still resolve after
+    the archive is unpacked. Only regular files are packed; nothing under
+    that directory is a secret or a container layer.
+    """
+    paths = list(PACKAGE_FILES)
+    shot_dir = ROOT / "docs" / "screenshots"
+    if not shot_dir.is_dir():
+        fail("打包缺少目录：docs/screenshots")
+    shots = sorted(
+        p.relative_to(ROOT).as_posix()
+        for p in shot_dir.rglob("*")
+        if p.is_file()
+    )
+    if not shots:
+        fail("docs/screenshots 里没有可打包的文件")
+    return paths + shots
+
+
 def fail(message):
     print(message, file=sys.stderr)
     raise SystemExit(1)
@@ -165,8 +186,9 @@ def build_tar(version, archive, notes_path):
         # tar is written directly; stage dir only holds IMAGE.txt
         image_txt = stage / "IMAGE.txt"
         image_txt.write_text(image_note(version), encoding="utf-8")
+        packed = package_paths()
         with tarfile.open(archive, "w:gz") as tar:
-            for rel in PACKAGE_FILES:
+            for rel in packed:
                 src = ROOT / rel
                 if not src.is_file():
                     fail(f"打包缺少文件：{rel}")
@@ -174,7 +196,7 @@ def build_tar(version, archive, notes_path):
             add_file(tar, image_txt, f"{prefix}/IMAGE.txt")
     with tarfile.open(archive, "r:gz") as tar:
         names = set(tar.getnames())
-        for rel in PACKAGE_FILES + ["IMAGE.txt"]:
+        for rel in packed + ["IMAGE.txt"]:
             member = f"{prefix}/{rel}"
             if member not in names:
                 fail(f"压缩包缺少 {member}")
@@ -220,7 +242,7 @@ def main(argv):
         fail("用法: python3 scripts/make-release-asset.py X.Y.Z")
     version = argv[1]
     if version.startswith("v") or not VERSION_RE.fullmatch(version):
-        fail("版本必须是 X.Y.Z，不带 v，例如 1.0.0")
+        fail("版本必须是 X.Y.Z，不带 v，例如 1.1.0")
     require_version_strings(version)
     dist = ROOT / "dist"
     dist.mkdir(exist_ok=True)

@@ -6,7 +6,7 @@
 
 ## [Unreleased]
 
-计划作为 **1.1.0** 发布。本分支不打标签、不创建 GitHub Release。`.env.example`、`docker-compose.yml` 和 `Dockerfile` 里的版本号仍是 **1.0.0**。
+## [1.1.0] - 2026-11-21
 
 ### 新增
 

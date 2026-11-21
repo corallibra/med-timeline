@@ -8,7 +8,7 @@
 
 当前数据包在 `data/timeline.json` 的 `meta` 里：265 条事件（西方 160，中国传统医学 105），`updated` 为 2026-10-17，范围从史前到约 2000 年。字段约定写在 [data/README-data.md](data/README-data.md)。
 
-下面三项目前写在未发布的 **1.1.0** 里。仓库里的镜像版本号仍是 1.0.0，这一分支不打标签、也不发布 Release。
+下面三项是 **1.1.0**。`v1.0.0` 已经发布；这一版把镜像版本号写成 1.1.0。合并到 `main` 之后再打 `v1.1.0`，不要改动已经发布的 `v1.0.0`。
 
 ## 线性时间轴
 
@@ -86,6 +86,7 @@ scripts/restore.sh      从备份恢复 timeline.json
 build_timeline.py       用脚本内的条目覆盖生成 timeline.json
 add_more_events.py      按 id 追加脚本里还没有的条目
 CHANGELOG.md            版本说明（Release 正文来源）
+docs/screenshots/       README 里的页面截图
 ```
 
 ## 环境要求
@@ -111,11 +112,11 @@ cp .env.example .env
 | 变量 | 默认 | 作用 |
 | --- | --- | --- |
 | `MED_TIMELINE_PORT` | `3007` | 宿主机端口，映射到容器 80 |
-| `MED_TIMELINE_VERSION` | `1.0.0` | 本地镜像标签，实际镜像名是 `med-timeline:1.0.0` |
+| `MED_TIMELINE_VERSION` | `1.1.0` | 本地镜像标签，实际镜像名是 `med-timeline:1.1.0` |
 
 没有账号、口令、API 地址或数据库连接串。不要把密钥写进 `.env`。`.env` 已被 `.gitignore` 忽略；发布包里只有 `.env.example`。
 
-不创建 `.env` 也可以启动。Compose 会使用 `docker-compose.yml` 里写死的默认值，结果同样是端口 3007、镜像标签 `med-timeline:1.0.0`。
+不创建 `.env` 也可以启动。Compose 会使用 `docker-compose.yml` 里写死的默认值，结果同样是端口 3007、镜像标签 `med-timeline:1.1.0`。
 
 仓库**不会**推送 `latest` 标签，也没有 Docker Hub / GHCR 上的现成镜像。标签只存在于执行构建的那台机器上。服务设置了 `pull_policy: build`：`docker compose up` 会在本机构建 `med-timeline`，不会按这个镜像名去仓库拉取。构建时仍可能下载基础镜像 `nginx:alpine`。
 
@@ -138,7 +139,7 @@ sh scripts/deploy.sh
 
 `deploy.sh` 会在没有 `.env` 时从示例复制一份，然后执行同样的 `docker compose up -d --build`。即使不加 `--build`，Compose 也会因为 `pull_policy: build` 在本地构建，而不会拉取 `med-timeline`。
 
-构建会下载 `nginx:alpine`（若本地还没有），打出镜像 `med-timeline:1.0.0`，并启动容器。看状态：
+构建会下载 `nginx:alpine`（若本地还没有），打出镜像 `med-timeline:1.1.0`，并启动容器。看状态：
 
 ```bash
 docker compose ps
@@ -253,13 +254,13 @@ python3 add_more_events.py
 
 ## 版本号和 GitHub Release
 
-版本从 **v1.0.0** 起。仓库里此前没有版本标签。版本号遵循语义化版本：
+已经发布的标签是 **v1.0.0**。下一版是 **v1.1.0**（线性时间轴、考古发现表、中英文切换）。不要重打或改写 `v1.0.0`。版本号遵循语义化版本：
 
-- 补丁（`v1.0.Z`）：部署修复、缺陷修复、说明更正
-- 次版本（`v1.Y.0`）：向后兼容的内容，例如新增事件、不改变现有 JSON 字段含义的页面能力
+- 补丁（`vX.Y.Z` 的最后一位）：部署修复、缺陷修复、说明更正
+- 次版本（`vX.Y.0`）：向后兼容的内容，例如新增事件、不改变现有 JSON 字段含义的页面能力
 - 主版本（`vX.0.0`）：不兼容变更，例如改掉现有端口默认值、数据字段或挂载路径，导致原部署不能原样启动
 
-标签格式是 `vX.Y.Z`（例如 `v1.0.0`）。`.env`、Compose 和 Dockerfile 里写 `X.Y.Z`，不带 `v`。不使用 `v1.0`、`v1` 或带预发布后缀的标签；工作流会拒绝它们。
+标签格式是 `vX.Y.Z`（已经发布的是 `v1.0.0`，下一版是 `v1.1.0`）。`.env`、Compose 和 Dockerfile 里写 `X.Y.Z`，不带 `v`。不使用 `v1.0`、`v1` 或带预发布后缀的标签；工作流会拒绝它们。
 
 ### 每次改完之后，维护者要做的事
 
@@ -297,14 +298,14 @@ git tag -d vX.Y.Z
 本地可以预览压缩包和说明，不会联系 GitHub：
 
 ```bash
-sh scripts/make-release-asset.sh 1.0.0
+sh scripts/make-release-asset.sh 1.1.0
 ```
 
-输出在 `dist/`（已被 git 忽略）：`med-timeline-1.0.0.tar.gz` 和 `release-notes.md`。
+输出在 `dist/`（已被 git 忽略）：`med-timeline-1.1.0.tar.gz` 和 `release-notes.md`。用 `1.0.0` 再跑一次会因为版本号对不上而失败，这是预期的：已经发布的 `v1.0.0` 不要重打。
 
 ### 部署包里有什么
 
-解压后的目录可以直接 `docker compose up -d --build`。包含 Compose 文件、`.env.example`、`.dockerignore`、`Dockerfile`、`nginx.conf`、README、CHANGELOG、LICENSE、页面、`css/`、`js/`、`data/`（含 `timeline.json`）、数据脚本，以及 `scripts/` 里的部署、升级、备份、恢复脚本。根目录还有 `IMAGE.txt`，写明本次要用的镜像标签。
+解压后的目录可以直接 `docker compose up -d --build`。包含 Compose 文件、`.env.example`、`.dockerignore`、`Dockerfile`、`nginx.conf`、README、CHANGELOG、LICENSE、页面、`css/`、`js/`、`data/`（含 `timeline.json`）、`docs/screenshots/`（README 引用的页面截图）、数据脚本，以及 `scripts/` 里的部署、升级、备份、恢复脚本。根目录还有 `IMAGE.txt`，写明本次要用的镜像标签。
 
 不包含：`.git`、`.env`、密钥、`backups/`、已构建的镜像或二进制。镜像在部署机上现构建。
 
@@ -316,13 +317,13 @@ sh scripts/make-release-asset.sh 1.0.0
 
 若组织或仓库把 Actions 的 `GITHUB_TOKEN` 设成只读，创建 Release 会失败。到仓库的 Settings → Actions → General → Workflow permissions，允许 Read and write permissions。工作流文件里的 `permissions` 不会超出这个上限。
 
-### 第一个版本
+### 下一版 v1.1.0
 
-本仓库目前没有标签。介绍部署流程的这一版已经把 **1.0.0** 写进 `CHANGELOG.md`、`.env.example`、`docker-compose.yml` 和 `Dockerfile`。合并到 `main` 之后，若没有新的改动要写进更新日志，不必再改版本号，在合并提交上执行：
+`v1.0.0` 已经发布，留在它原来的提交上，不要删除、移动或覆盖。这一版已经把 **1.1.0** 写进 `CHANGELOG.md` 的 `## [1.1.0]`、`.env.example`、`docker-compose.yml` 和 `Dockerfile`。合并到 `main` 之后，在包含这些文件的合并提交上打新标签。不要在功能分支上打，也不要复用 `v1.0.0`：
 
 ```bash
-git tag -a v1.0.0 -m "med-timeline v1.0.0"
-git push origin v1.0.0
+git checkout main
+git pull origin main
+git tag -a v1.1.0 -m "med-timeline v1.1.0"
+git push origin v1.1.0
 ```
-
-在此之前不要从功能分支推送 `v1.0.0`。

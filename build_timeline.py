@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Build bilingual West vs TCM medical history timeline dataset."""
+"""Build bilingual West vs TCM medical history timeline dataset.
+
+Running this script overwrites data/timeline.json from the list embedded
+below. It does not emit title_en, summary_en, yearLabel_en, or the
+archaeology fields (foundDate, foundSite, material, repository,
+openAccess, address). Do not run it against the published dataset unless
+you intend to replace that file.
+"""
 import json
 from pathlib import Path
 

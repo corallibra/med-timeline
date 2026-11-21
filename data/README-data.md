@@ -15,9 +15,31 @@
 | `yearLabel` | 轴侧展示用中文标签（如 `约前1600`、`1578`、`约1522–1572`）。 |
 | `side` | `west` = 西方医学（含近东、希腊罗马、伊斯兰黄金时代、欧洲科学医学）；`east` = 中国传统医学及相关考古/制度。 |
 | `confidence` | `high` 年与史实较确；`medium` 年代约数或文献有争议；`low` 传说、托名或细节难证（摘要中会注明）。 |
-| `archaeology` | 以出土文物/遗址为主要依据时为 `true`。 |
+| `archaeology` | 以出土文物/遗址为主要依据时为 `true`。只有这些条目进入页面上的「考古发现」表。 |
+| `yearLabel_en` | `yearLabel` 的英文。缺省时界面仍显示中文，并在该条标「暂无英文」。 |
+| `title_en` / `summary_en` | 标题和摘要的英文。可选。页面不会自动翻译。 |
+| `people_en` / `works_en` / `tags_en` / `sources_en` | 与中文数组逐项对应的英文。缺一项则该项仍显示中文。 |
+| `foundDate` / `foundDate_en` | 出土或公布时间，**不是**轴上的历史年。没有依据就留空字符串。 |
+| `foundSite` / `foundSite_en` | 发现地 / 遗址。 |
+| `material` / `material_en` | 出土资料内容。 |
+| `repository` / `repository_en` | 收藏地或博物馆。 |
+| `openAccess` | `open`（开放）、`closed`（不开放）、`appointment`（预约），或空字符串。 |
+| `address` / `address_en` | 具体地址。 |
 
-事件按 `year` 升序排列；西东**不必成对**，各自落在共享时间轴上。
+事件按 `year` 升序排列；西东**不必成对**，各自落在共享时间轴上。页面在布局前仍会按 `year` 升序排序：文件若被改乱，控制台会警告，圆点位置不会按数组下标等距排列。
+
+考古六字段只写已经出现在该条原文中的内容。发现时间、收藏地、是否开放、具体地址在当前数据里都没有依据，因此全部留空，页面单元格也保持空白，不写「未知」或「暂缺」。
+
+## 考古字段覆盖（当前 18 条 `archaeology: true`）
+
+| 字段 | 有内容的条数 |
+| --- | --- |
+| `foundDate` | 0 |
+| `foundSite` | 13 |
+| `material` | 18 |
+| `repository` | 0 |
+| `openAccess` | 0 |
+| `address` | 0 |
 
 ## 主要不确定点
 

@@ -16,6 +16,9 @@
   --header-bg: rgba(246, 243, 238, 0.96);
   --shadow: 0 2px 12px rgba(40, 30, 20, 0.08);
   --radius: 10px;
+  /* Center lane must fit the longest year label ("11950 BCE", "前11950")
+     so ticks stay on the linear axis and are not covered by cards. */
+  --axis-gap: 4.85rem;
   --font: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei",
     "Source Han Sans SC", system-ui, -apple-system, sans-serif;
   --mono: "SF Mono", "Cascadia Code", "Consolas", ui-monospace, monospace;
@@ -60,6 +63,18 @@ body {
   overflow: visible;
 }
 
+.title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.65rem;
+}
+
+.title-block {
+  min-width: 0;
+}
+
 .site-title {
   margin: 0;
   font-size: clamp(1.15rem, 2.5vw, 1.55rem);
@@ -68,9 +83,44 @@ body {
 }
 
 .site-subtitle {
-  margin: 0.2rem 0 0.65rem;
+  margin: 0.2rem 0 0;
   font-size: 0.85rem;
   color: var(--ink-muted);
+}
+
+.lang-switch {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 999px;
+  padding: 2px;
+  margin-top: 0.1rem;
+}
+
+.lang-btn {
+  appearance: none;
+  font-family: inherit;
+  font-size: 0.85rem;
+  line-height: 1.2;
+  border: 0;
+  background: transparent;
+  color: var(--ink-muted);
+  border-radius: 999px;
+  padding: 0.28rem 0.75rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.lang-btn[aria-pressed="true"] {
+  background: var(--ink);
+  color: #fff;
+}
+
+.lang-btn:focus-visible {
+  outline: 2px solid var(--west-border);
+  outline-offset: 1px;
 }
 
 /* Slim toolbar: side | search | 筛选 */
@@ -367,7 +417,11 @@ body {
 /* —— Timeline track —— */
 .timeline-viewport {
   position: relative;
-  overflow: visible;
+  max-height: min(72vh, 860px);
+  overflow: auto;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgba(255, 252, 248, 0.35);
 }
 
 .timeline-track {
@@ -380,7 +434,6 @@ body {
   position: absolute;
   left: 50%;
   top: 0;
-  bottom: 0;
   width: 0;
   transform: translateX(-50%);
   z-index: 1;
@@ -456,15 +509,30 @@ body {
   opacity: 0.55;
 }
 
-/* —— Event cards —— */
+.ruler-tick.quiet::before {
+  display: none;
+}
+
+/* —— Event cards ——
+   The slot's top is the historical year. The dot stays on that tick.
+   The card may be pushed down (positive top) so labels do not overlap. */
 .events-layer {
   position: relative;
   z-index: 2;
 }
 
+.event-slot {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 0;
+  z-index: 2;
+}
+
 .event-card {
   position: absolute;
-  width: calc(50% - 2.25rem);
+  top: 0;
+  width: calc(50% - var(--axis-gap) - 0.85rem);
   max-width: 420px;
   padding: 0.65rem 0.85rem;
   border-radius: var(--radius);
@@ -484,60 +552,88 @@ body {
 }
 
 .event-card.west {
-  right: calc(50% + 1.5rem);
+  right: calc(50% + var(--axis-gap));
   left: auto;
   border-color: var(--west-border);
   background: var(--west-bg);
 }
 
 .event-card.east {
-  left: calc(50% + 1.5rem);
+  left: calc(50% + var(--axis-gap));
   right: auto;
   border-color: var(--east-border);
   background: var(--east-bg);
 }
 
-.event-card::after {
-  content: "";
+.connector-v,
+.connector-h {
   position: absolute;
-  top: 1rem;
-  width: 1.35rem;
-  height: 2px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.connector-v {
+  top: 0;
+  left: 50%;
+  width: 2px;
+  margin-left: -1px;
   background: var(--axis);
-  opacity: 0.55;
+  opacity: 0.45;
 }
 
-.event-card.west::after {
-  right: -1.45rem;
+.connector-h {
+  height: 2px;
+  width: calc(var(--axis-gap) - 0.75rem);
+  opacity: 0.7;
+}
+
+.event-slot.west .connector-h {
+  right: calc(50% + 0.55rem);
+  width: calc(var(--axis-gap) - 0.75rem);
+  margin: 0;
   background: var(--west);
+  transform: none;
 }
 
-.event-card.east::after {
-  left: -1.45rem;
+.event-slot.east .connector-h {
+  left: calc(50% + 0.55rem);
+  width: calc(var(--axis-gap) - 0.75rem);
+  margin: 0;
   background: var(--east);
+  transform: none;
 }
 
 .event-dot {
   position: absolute;
-  top: 0.85rem;
-  width: 11px;
-  height: 11px;
+  left: 50%;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  padding: 0;
   border-radius: 50%;
   border: 2px solid #fff;
   box-shadow: 0 0 0 1.5px currentColor;
-  z-index: 3;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  cursor: pointer;
 }
 
-.event-card.west .event-dot {
-  right: -1.9rem;
+.event-slot.west .event-dot {
   color: var(--west);
   background: var(--west);
+  transform: translate(calc(-50% - var(--nudge, 0px)), -50%);
 }
 
-.event-card.east .event-dot {
-  left: -1.9rem;
+.event-slot.east .event-dot {
   color: var(--east);
   background: var(--east);
+  transform: translate(calc(-50% + var(--nudge, 0px)), -50%);
+}
+
+.event-dot:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
 }
 
 .card-year {
@@ -612,7 +708,22 @@ body {
 .confidence-hint {
   font-size: 0.68rem;
   color: #9a6b20;
-  margin-top: 0.3rem;
+  margin: 0.3rem 0 0;
+}
+
+.missing-en {
+  display: inline-block;
+  margin: 0.15rem 0 0;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #9a6b20;
+}
+
+.detail-missing {
+  margin: 0 0 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #9a6b20;
 }
 
 .empty-state,
@@ -731,6 +842,23 @@ body {
   color: var(--ink);
 }
 
+.find-dl {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 0.28rem 0.75rem;
+  margin: 0;
+  font-size: 0.88rem;
+}
+
+.find-dl dt {
+  margin: 0;
+  color: var(--ink-muted);
+}
+
+.find-dl dd {
+  margin: 0;
+}
+
 .detail-section {
   margin-bottom: 1rem;
 }
@@ -782,10 +910,109 @@ body {
   font-size: 0.8rem;
 }
 
+/* —— Archaeology table —— */
+.finds-section {
+  margin-top: 1.75rem;
+}
+
+.finds-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.45rem;
+}
+
+.finds-title {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.finds-note,
+.finds-scroll-hint,
+.finds-empty {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+}
+
+.finds-scroll-hint {
+  display: none;
+  margin-bottom: 0.35rem;
+}
+
+.finds-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-card);
+}
+
+.finds-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  text-align: left;
+}
+
+.finds-table th,
+.finds-table td {
+  padding: 0.5rem 0.7rem;
+  vertical-align: top;
+  border-top: 1px solid var(--border);
+  min-width: 4.5rem;
+}
+
+.finds-table thead th {
+  border-top: 0;
+  background: #efebe4;
+  color: var(--ink-muted);
+  font-weight: 600;
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+}
+
+.finds-table tbody tr {
+  cursor: pointer;
+}
+
+.finds-table tbody tr:nth-child(even) {
+  background: #faf8f4;
+}
+
+.finds-table tbody tr:hover,
+.finds-table tbody tr:focus-visible {
+  background: #f3ece3;
+  outline: none;
+}
+
+.finds-table .side-west {
+  color: var(--west);
+  white-space: nowrap;
+}
+
+.finds-table .side-east {
+  color: var(--east);
+  white-space: nowrap;
+}
+
+.finds-table .year-cell {
+  white-space: nowrap;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+}
+
 /* —— Responsive —— */
 @media (max-width: 720px) {
   .toolbar-row {
     flex-wrap: wrap;
+  }
+
+  .title-row {
+    flex-wrap: nowrap;
+    align-items: flex-start;
   }
 
   .search-wrap {
@@ -809,36 +1036,58 @@ body {
     font-size: 0.7rem;
   }
 
+  .legend-west {
+    text-align: left;
+  }
+
   .axis {
     left: 1.15rem;
     transform: none;
   }
 
-  .event-card {
-    width: calc(100% - 2.75rem);
+  .event-dot,
+  .event-slot.west .event-dot,
+  .event-slot.east .event-dot {
+    left: 1.15rem;
+    transform: translate(-50%, -50%);
+  }
+
+  .connector-v {
+    left: 1.15rem;
+  }
+
+  .ruler-tick,
+  .ruler-tick.major {
+    /* Grow into the gap to the right of the left-hand axis, not under the card. */
+    transform: translate(0.55rem, -50%);
+  }
+
+  .event-card,
+  .event-card.west,
+  .event-card.east {
+    left: 7.6rem;
+    right: 0.4rem;
+    width: auto;
     max-width: none;
   }
 
-  .event-card.west,
-  .event-card.east {
-    left: 2.75rem;
+  .event-slot.west .connector-h,
+  .event-slot.east .connector-h {
+    left: 1.55rem;
     right: auto;
+    width: calc(7.6rem - 1.7rem);
+    margin: 0;
+    transform: none;
+    background: var(--axis);
   }
 
-  .event-card.west::after,
-  .event-card.east::after {
-    left: -1.5rem;
-    right: auto;
+  .finds-head {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  .event-card.west .event-dot,
-  .event-card.east .event-dot {
-    left: -1.95rem;
-    right: auto;
-  }
-
-  .legend-west {
-    text-align: left;
+  .finds-scroll-hint {
+    display: block;
   }
 }
 
@@ -849,9 +1098,17 @@ body {
     box-shadow: none;
   }
 
+  .timeline-viewport {
+    max-height: none;
+    overflow: visible;
+    border: 0;
+  }
+
   .filters,
+  .lang-switch,
   .detail-panel,
-  .site-footer {
+  .site-footer,
+  .finds-scroll-hint {
     display: none !important;
   }
 

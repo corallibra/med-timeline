@@ -16,6 +16,9 @@
   --header-bg: rgba(246, 243, 238, 0.96);
   --shadow: 0 2px 12px rgba(40, 30, 20, 0.08);
   --radius: 10px;
+  /* Center lane must fit the longest year label ("11950 BCE", "前11950")
+     so ticks stay on the linear axis and are not covered by cards. */
+  --axis-gap: 4.85rem;
   --font: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei",
     "Source Han Sans SC", system-ui, -apple-system, sans-serif;
   --mono: "SF Mono", "Cascadia Code", "Consolas", ui-monospace, monospace;
@@ -529,7 +532,7 @@ body {
 .event-card {
   position: absolute;
   top: 0;
-  width: calc(50% - 2.25rem);
+  width: calc(50% - var(--axis-gap) - 0.85rem);
   max-width: 420px;
   padding: 0.65rem 0.85rem;
   border-radius: var(--radius);
@@ -549,14 +552,14 @@ body {
 }
 
 .event-card.west {
-  right: calc(50% + 1.5rem);
+  right: calc(50% + var(--axis-gap));
   left: auto;
   border-color: var(--west-border);
   background: var(--west-bg);
 }
 
 .event-card.east {
-  left: calc(50% + 1.5rem);
+  left: calc(50% + var(--axis-gap));
   right: auto;
   border-color: var(--east-border);
   background: var(--east-bg);
@@ -580,21 +583,24 @@ body {
 
 .connector-h {
   height: 2px;
-  width: 1.45rem;
+  width: calc(var(--axis-gap) - 0.75rem);
   opacity: 0.7;
 }
 
 .event-slot.west .connector-h {
-  right: calc(50% + 0px);
-  margin-right: 0;
+  right: calc(50% + 0.55rem);
+  width: calc(var(--axis-gap) - 0.75rem);
+  margin: 0;
   background: var(--west);
-  transform: translateX(-0.15rem);
+  transform: none;
 }
 
 .event-slot.east .connector-h {
-  left: 50%;
-  margin-left: 0.15rem;
+  left: calc(50% + 0.55rem);
+  width: calc(var(--axis-gap) - 0.75rem);
+  margin: 0;
   background: var(--east);
+  transform: none;
 }
 
 .event-dot {
@@ -1050,10 +1056,16 @@ body {
     left: 1.15rem;
   }
 
+  .ruler-tick,
+  .ruler-tick.major {
+    /* Grow into the gap to the right of the left-hand axis, not under the card. */
+    transform: translate(0.55rem, -50%);
+  }
+
   .event-card,
   .event-card.west,
   .event-card.east {
-    left: 2.6rem;
+    left: 7.6rem;
     right: 0.4rem;
     width: auto;
     max-width: none;
@@ -1061,9 +1073,9 @@ body {
 
   .event-slot.west .connector-h,
   .event-slot.east .connector-h {
-    left: 1.15rem;
+    left: 1.55rem;
     right: auto;
-    width: 1.35rem;
+    width: calc(7.6rem - 1.7rem);
     margin: 0;
     transform: none;
     background: var(--axis);

@@ -30,6 +30,7 @@ PACKAGE_FILES = [
     "js/app.js",
     "data/timeline.json",
     "data/README-data.md",
+    "docs/MAINTAINING.md",
     "build_timeline.py",
     "add_more_events.py",
     "scripts/lib.sh",

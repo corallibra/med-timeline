@@ -1,14 +1,11 @@
 /**
  * 中西医发展对照时间轴
  *
- * 纵轴不变量（改数据或改布局时不要破坏）：
- * 1. 布局前按历史 year 升序排序。timeline.json 若未按年排好，这里会排序并 console.warn，
- *    避免以后改数据后页面静默乱序。
- * 2. 圆点的纵坐标是年份的线性函数（公元前为负）：
- *      y = PAD_TOP + (year - minYear) * pxPerYear
- *    同一年的东、西圆点使用同一个 y。禁止按条目序号或等距槽排位。
- * 3. 卡片可以下移以避开重叠，但不能排到更早的条目之上。连接点留在真实年份刻度上。
- * 4. 轴上的年是历史 year / yearLabel，不是考古 foundDate。
+ * 纵轴规则：
+ * 1. 只为「当前筛选下有事件」的年份建一行，没有资料的年份不出现。
+ * 2. 行按历史 year 排序，可切换升序 / 降序；同一年西、东事件在同一行左右对照。
+ * 3. 同一年同一侧的多条事件在该行内按数据原顺序叠放。
+ * 4. 轴上的年是历史 year，不是考古 foundDate。
  */
 (function () {
   "use strict";
@@ -16,11 +13,7 @@
   const DATA_URL = "./data/timeline.json";
   const LANG_KEY = "med-timeline-lang";
 
-  const BASE_PX_PER_YEAR = 1.8;
-  const PAD_TOP = 36;
-  const PAD_BOTTOM = 64;
-  const CARD_GAP = 8;
-  const JOIN_Y = 16;
+  const SORT_KEY = "med-timeline-sort";
 
   const FIND_FIELDS = [
     ["foundDate", "colFound"],
@@ -34,7 +27,13 @@
   const UI = {
     zh: {
       title: "中西医发展对照时间轴",
-      subtitle: "纵轴按历史年线性排列 · 考古资料见表与详情",
+      subtitle: "只列出有资料的年份 · 可切换时间先后 · 考古资料见表与详情",
+      sortAsc: "时间：由远及近",
+      sortDesc: "时间：由近及远",
+      sortTitle: "切换时间排序",
+      refsTitle: "参考文献",
+      refsNote: "著录格式依据 GB/T 7714—2025《信息与文献 参考文献著录规则》",
+      refsLabel: "参考文献",
       all: "全部",
       west: "西方医学",
       east: "中国传统医学",
@@ -97,7 +96,13 @@
     },
     en: {
       title: "A Comparative Timeline of Chinese and Western Medicine",
-      subtitle: "Vertical axis is linear in historical year · Archaeology lives in the table and detail pane",
+      subtitle: "Only years with records are shown · Toggle chronological order · Archaeology lives in the table and detail pane",
+      sortAsc: "Oldest first",
+      sortDesc: "Newest first",
+      sortTitle: "Toggle chronological order",
+      refsTitle: "References",
+      refsNote: "Formatted according to GB/T 7714—2025, Information and documentation — Rules for bibliographic references",
+      refsLabel: "References",
       all: "All",
       west: "Western medicine",
       east: "Traditional Chinese Medicine",
@@ -169,9 +174,9 @@
     popoverOpen: false,
     activeId: null,
     lang: "zh",
-    minYear: 0,
-    maxYear: 0,
-    pxPerYear: BASE_PX_PER_YEAR,
+    sort: "asc",
+    refs: [],
+    refIndex: new Map(),
   };
 
   const $ = (sel, root) => (root || document).querySelector(sel);
@@ -277,6 +282,7 @@
       openAccess: ev.openAccess || "",
       address: ev.address || "",
       address_en: ev.address_en || "",
+      refs: Array.isArray(ev.refs) ? ev.refs : [],
     };
   }
 
@@ -471,173 +477,96 @@
       : "";
     const title = fieldText(ev, "title");
     return (
-      '<div class="event-slot ' + ev.side + '" data-id="' + escapeAttr(ev.id) + '" data-year="' + ev.year + '">' +
-        '<button type="button" class="event-dot" aria-label="' + escapeAttr(title) + '"></button>' +
-        '<span class="connector-v" hidden></span>' +
-        '<span class="connector-h" hidden></span>' +
-        '<article class="event-card ' + ev.side + '" tabindex="0" role="button" aria-label="' + escapeAttr(title) + '">' +
-          '<p class="card-year">' + escapeHtml(fieldText(ev, "yearLabel")) + arch + "</p>" +
-          "<h2 class=\"card-title\">" + escapeHtml(title) + "</h2>" +
-          missing +
-          '<p class="card-summary">' + escapeHtml(fieldText(ev, "summary")) + "</p>" +
-          (people || works ? '<div class="card-chips">' + people + works + "</div>" : "") +
-          conf +
-        "</article>" +
-      "</div>"
+      '<article class="event-card ' + ev.side + '" data-id="' + escapeAttr(ev.id) + '" tabindex="0" role="button" aria-label="' + escapeAttr(title) + '">' +
+        '<p class="card-year">' + escapeHtml(fieldText(ev, "yearLabel")) + arch + "</p>" +
+        '<h2 class="card-title">' + escapeHtml(title) + "</h2>" +
+        missing +
+        '<p class="card-summary">' + escapeHtml(fieldText(ev, "summary")) + "</p>" +
+        (people || works ? '<div class="card-chips">' + people + works + "</div>" : "") +
+        conf +
+      "</article>"
     );
   }
 
-  function yearToY(year) {
-    return PAD_TOP + (year - state.minYear) * state.pxPerYear;
-  }
-
-  function chooseTickStep(px) {
-    const steps = [10, 20, 50, 100, 200, 500, 1000, 2000, 5000];
-    for (let i = 0; i < steps.length; i++) {
-      if (steps[i] * px >= 72) return steps[i];
-    }
-    return 5000;
-  }
-
-  function buildYearRuler(minYear, maxYear, eventYears) {
-    const ruler = $("#year-ruler");
-    const step = chooseTickStep(state.pxPerYear);
-    const start = Math.ceil(minYear / step) * step;
-    const ticks = [];
-    for (let y = start; y <= maxYear; y += step) ticks.push(y);
-    if (!ticks.length || ticks[0] !== minYear) ticks.unshift(minYear);
-    if (ticks[ticks.length - 1] !== maxYear) ticks.push(maxYear);
-    const eventYs = (eventYears || []).map(yearToY);
-
-    const labeled = [];
-    let lastLabelY = -Infinity;
-    ticks.forEach(function (year, i) {
-      const y = yearToY(year);
-      // Keep the scale mark, but do not paint a year label on top of an event dot.
-      const onEvent = eventYs.some(function (ey) { return Math.abs(ey - y) < 20; });
-      const edge = i === 0 || i === ticks.length - 1;
-      const show = !onEvent && (edge || y - lastLabelY >= 64);
-      if (show) lastLabelY = y;
-      labeled.push({ year: year, y: y, show: show, onEvent: onEvent });
+  /**
+   * One row per year that has at least one visible event. Years without
+   * records are never drawn, so there are no empty ticks or blank stretches.
+   */
+  function groupByYear(visible) {
+    const rows = [];
+    const byYear = new Map();
+    visible.forEach(function (ev) {
+      let row = byYear.get(ev.year);
+      if (!row) {
+        row = { year: ev.year, west: [], east: [] };
+        byYear.set(ev.year, row);
+        rows.push(row);
+      }
+      row[ev.side].push(ev);
     });
+    rows.sort(function (a, b) { return a.year - b.year; });
+    if (state.sort === "desc") rows.reverse();
+    return rows;
+  }
 
-    ruler.innerHTML = labeled
-      .map(function (tick) {
-        const cls = tick.show ? "ruler-tick major" : (tick.onEvent ? "ruler-tick quiet" : "ruler-tick");
-        const text = tick.show ? formatTick(tick.year) : "";
+  function renderTimeline(visible) {
+    const rows = groupByYear(visible);
+    $("#timeline-rows").innerHTML = rows
+      .map(function (row) {
+        const label = formatTick(row.year);
+        const cell = function (side) {
+          const list = row[side];
+          return '<div class="tl-cell ' + side + (list.length ? " has" : "") + '">' + list.map(cardHtml).join("") + "</div>";
+        };
         return (
-          '<div class="' + cls + '" style="top:' + tick.y + 'px" title="' + escapeAttr(formatTick(tick.year)) + '">' +
-          escapeHtml(text) + "</div>"
+          '<div class="tl-row" data-year="' + row.year + '">' +
+            cell("west") +
+            '<div class="tl-year"><span class="tl-dot" aria-hidden="true"></span><span class="tl-year-label">' + escapeHtml(label) + "</span></div>" +
+            cell("east") +
+          "</div>"
         );
       })
       .join("");
   }
 
-  /**
-   * Place dots on the linear year scale. Push a card down only when it would
-   * overlap the previous card on the same side. Never move a later card above
-   * an earlier one. The dot is not moved.
-   */
-  function layoutCards(visible) {
-    const track = $("#timeline-track");
-    const layer = $("#events-layer");
-    const viewport = $("#timeline-viewport");
-    const axis = $("#axis");
-
-    const years = visible.map(function (ev) { return ev.year; });
-    const minYear = Math.min.apply(null, years);
-    const maxYear = Math.max.apply(null, years);
-    const span = Math.max(1, maxYear - minYear);
-    const viewH = Math.max(320, (viewport && viewport.clientHeight) || 640);
-    let px = BASE_PX_PER_YEAR;
-    if (span * px < viewH * 0.9) px = (viewH * 0.9) / span;
-    state.minYear = minYear;
-    state.maxYear = maxYear;
-    state.pxPerYear = px;
-
-    layer.innerHTML = visible.map(cardHtml).join("");
-    const slots = $$(".event-slot", layer);
-    const items = visible.map(function (ev, i) {
-      const el = slots[i];
-      const card = $(".event-card", el);
-      return {
-        ev: ev,
-        el: el,
-        card: card,
-        h: card.offsetHeight || 72,
-        dotY: yearToY(ev.year),
-        cardTop: 0,
-      };
-    });
-
-    ["west", "east"].forEach(function (side) {
-      const group = items.filter(function (it) { return it.ev.side === side; });
-      let lastBottom = -Infinity;
-      const byYear = new Map();
-      group.forEach(function (it) {
-        const ideal = it.dotY;
-        const cardTop = Math.max(ideal, lastBottom + CARD_GAP);
-        it.cardTop = cardTop;
-        lastBottom = cardTop + it.h;
-        const list = byYear.get(it.ev.year) || [];
-        list.push(it);
-        byYear.set(it.ev.year, list);
-      });
-      byYear.forEach(function (list) {
-        list.forEach(function (it, index) {
-          it.el.style.setProperty("--nudge", index * 8 + "px");
-        });
-      });
-    });
-
-    let cardsBottom = PAD_TOP;
-    items.forEach(function (it) {
-      const offset = Math.max(0, it.cardTop - it.dotY);
-      it.el.style.top = it.dotY + "px";
-      it.card.style.top = offset + "px";
-      const v = $(".connector-v", it.el);
-      const h = $(".connector-h", it.el);
-      const join = offset + JOIN_Y;
-      v.hidden = false;
-      h.hidden = false;
-      v.style.height = Math.max(2, join) + "px";
-      h.style.top = join + "px";
-      cardsBottom = Math.max(cardsBottom, it.dotY + offset + it.h);
-    });
-
-    assertLinear(items);
-
-    const axisHeight = yearToY(maxYear) + PAD_BOTTOM;
-    axis.style.height = axisHeight + "px";
-    track.style.height = Math.max(axisHeight, cardsBottom + 28) + "px";
-    buildYearRuler(minYear, maxYear, visible.map(function (ev) { return ev.year; }));
+  function syncSortButton() {
+    const btn = $("#sort-btn");
+    if (!btn) return;
+    btn.setAttribute("data-sort", state.sort);
+    btn.setAttribute("title", t("sortTitle"));
+    btn.setAttribute("aria-label", t("sortTitle"));
+    $("#sort-label").textContent = t(state.sort === "desc" ? "sortDesc" : "sortAsc");
+    $("#sort-icon").textContent = state.sort === "desc" ? "↑" : "↓";
   }
 
-  function assertLinear(items) {
-    const ordered = items.slice().sort(function (a, b) {
-      return a.ev.year - b.ev.year || a.ev._i - b.ev._i;
-    });
-    for (let i = 1; i < ordered.length; i++) {
-      const prev = ordered[i - 1];
-      const next = ordered[i];
-      if (next.ev.year < prev.ev.year) {
-        console.error("[med-timeline] layout broke chronological order", prev.ev.id, next.ev.id);
-      }
-      if (next.ev.year === prev.ev.year && Math.abs(next.dotY - prev.dotY) > 0.5) {
-        console.error("[med-timeline] same year mapped to different Y", prev.ev.id, next.ev.id);
-      }
-      if (next.ev.year > prev.ev.year && !(next.dotY > prev.dotY)) {
-        console.error("[med-timeline] Y is not increasing with year", prev.ev.id, next.ev.id);
-      }
-    }
-    ["west", "east"].forEach(function (side) {
-      const group = ordered.filter(function (it) { return it.ev.side === side; });
-      for (let i = 1; i < group.length; i++) {
-        if (group[i].cardTop + 0.5 < group[i - 1].cardTop) {
-          console.error("[med-timeline] a later card was placed above an earlier one", group[i].ev.id);
-        }
-      }
-    });
+  function setSort(sort) {
+    state.sort = sort === "desc" ? "desc" : "asc";
+    try { localStorage.setItem(SORT_KEY, state.sort); } catch (err) { /* ignore */ }
+    syncSortButton();
+    render();
+    const viewport = $("#timeline-viewport");
+    if (viewport) viewport.scrollTop = 0;
+  }
+
+  function initialSort() {
+    try {
+      const saved = localStorage.getItem(SORT_KEY);
+      if (saved === "asc" || saved === "desc") return saved;
+    } catch (err) { /* private mode */ }
+    return "asc";
+  }
+
+  function renderRefs() {
+    const sec = $("#refs-section");
+    const list = $("#refs-list");
+    if (!sec || !list) return;
+    sec.hidden = state.refs.length === 0;
+    list.innerHTML = state.refs
+      .map(function (r, i) {
+        const text = state.lang === "en" && r.text_en ? r.text_en : r.text;
+        return '<li id="ref-' + escapeAttr(r.id) + '"><span class="ref-num">[' + (i + 1) + "]</span> " + escapeHtml(text) + "</li>";
+      })
+      .join("");
   }
 
   function renderFinds(visible) {
@@ -673,16 +602,9 @@
 
   function render() {
     const visible = state.events.filter(matchesFilters);
-    const empty = $("#empty-state");
-    empty.hidden = visible.length > 0;
-    if (visible.length === 0) {
-      $("#events-layer").innerHTML = "";
-      $("#year-ruler").innerHTML = "";
-      $("#timeline-track").style.height = "120px";
-      $("#axis").style.height = "120px";
-    } else {
-      layoutCards(visible);
-    }
+    $("#empty-state").hidden = visible.length > 0;
+    $("#timeline-viewport").hidden = visible.length === 0;
+    renderTimeline(visible);
     renderFinds(visible);
     syncFilterBadge();
   }
@@ -721,6 +643,20 @@
     fillList("detail-people", "detail-people-sec", listText(ev, "people"));
     fillList("detail-works", "detail-works-sec", listText(ev, "works"));
     fillList("detail-sources", "detail-sources-sec", listText(ev, "sources"));
+
+    const refSec = $("#detail-refs-sec");
+    const refEl = $("#detail-refs");
+    const nums = ev.refs
+      .map(function (id) { return state.refIndex.has(id) ? state.refIndex.get(id) : null; })
+      .filter(function (n) { return n != null; })
+      .sort(function (a, b) { return a - b; });
+    if (refSec && refEl) {
+      refSec.hidden = nums.length === 0;
+      refEl.innerHTML = nums.map(function (n) {
+        const r = state.refs[n - 1];
+        return '<a class="ref-link" href="#ref-' + escapeAttr(r.id) + '" title="' + escapeAttr(r.text) + '">[' + n + "]</a>";
+      }).join(" ");
+    }
 
     const tagsSec = $("#detail-tags-sec");
     const tagsEl = $("#detail-tags");
@@ -804,16 +740,13 @@
       /* ignore */
     }
     const viewport = $("#timeline-viewport");
-    const anchorYear = viewport
-      ? state.minYear + ((viewport.scrollTop + 40 - PAD_TOP) / (state.pxPerYear || BASE_PX_PER_YEAR))
-      : null;
+    const top = viewport ? viewport.scrollTop : 0;
     applyChrome();
+    syncSortButton();
     buildTagFilters(collectTags(state.events));
     render();
-    if (anchorYear != null && isFinite(anchorYear)) {
-      const y = yearToY(Math.min(state.maxYear, Math.max(state.minYear, anchorYear)));
-      viewport.scrollTop = Math.max(0, y - 40);
-    }
+    renderRefs();
+    if (viewport) viewport.scrollTop = top;
     if (state.activeId) openDetail(state.activeId);
   }
 
@@ -826,6 +759,13 @@
         render();
       });
     });
+
+    const sortBtn = $("#sort-btn");
+    if (sortBtn) {
+      sortBtn.addEventListener("click", function () {
+        setSort(state.sort === "asc" ? "desc" : "asc");
+      });
+    }
 
     let searchTimer;
     $("#filter-search").addEventListener("input", function (e) {
@@ -899,16 +839,34 @@
   }
 
   function bindCards() {
-    $("#events-layer").addEventListener("click", function (e) {
-      const slot = e.target.closest(".event-slot");
-      if (slot) openDetail(slot.getAttribute("data-id"));
+    const rows = $("#timeline-rows");
+    rows.addEventListener("click", function (e) {
+      const card = e.target.closest(".event-card");
+      if (card) openDetail(card.getAttribute("data-id"));
     });
-    $("#events-layer").addEventListener("keydown", function (e) {
+    rows.addEventListener("keydown", function (e) {
       if (e.key !== "Enter" && e.key !== " ") return;
-      const slot = e.target.closest(".event-slot");
-      if (!slot) return;
+      const card = e.target.closest(".event-card");
+      if (!card) return;
       e.preventDefault();
-      openDetail(slot.getAttribute("data-id"));
+      openDetail(card.getAttribute("data-id"));
+    });
+  }
+
+  function bindRefLinks() {
+    const box = $("#detail-refs");
+    if (!box) return;
+    box.addEventListener("click", function (e) {
+      const link = e.target.closest(".ref-link");
+      if (!link) return;
+      e.preventDefault();
+      const target = document.querySelector(link.getAttribute("href"));
+      closeDetail();
+      if (target) {
+        target.classList.add("flash");
+        target.scrollIntoView({ behavior: "smooth", block: "center" });
+        setTimeout(function () { target.classList.remove("flash"); }, 1600);
+      }
     });
   }
 
@@ -939,23 +897,18 @@
     });
   }
 
-  function debounce(fn, ms) {
-    let timer;
-    return function () {
-      clearTimeout(timer);
-      timer = setTimeout(fn, ms);
-    };
-  }
-
   async function init() {
     state.lang = initialLang();
+    state.sort = initialSort();
     applyChrome();
+    syncSortButton();
     bindFilters();
     bindPopover();
     bindLang();
     bindCards();
     bindFinds();
     bindDetail();
+    bindRefLinks();
     setPopoverOpen(false);
     syncFilterBadge();
 
@@ -965,18 +918,13 @@
       const data = await res.json();
       state.raw = data;
       state.events = ensureChronological((data.events || []).map(normalizeEvent));
+      state.refs = Array.isArray(data.references) ? data.references.filter(function (r) { return r && r.id && r.text; }) : [];
+      state.refIndex = new Map(state.refs.map(function (r, i) { return [r.id, i + 1]; }));
       indexTagTranslations(state.events);
       applyChrome();
       buildTagFilters(collectTags(state.events));
       render();
-      window.addEventListener("resize", debounce(function () {
-        const viewport = $("#timeline-viewport");
-        const anchorYear = state.minYear + ((viewport.scrollTop + 40 - PAD_TOP) / (state.pxPerYear || BASE_PX_PER_YEAR));
-        render();
-        if (isFinite(anchorYear)) {
-          viewport.scrollTop = Math.max(0, yearToY(Math.min(state.maxYear, Math.max(state.minYear, anchorYear))) - 40);
-        }
-      }, 200));
+      renderRefs();
     } catch (err) {
       console.error(err);
       $("#load-error").hidden = false;

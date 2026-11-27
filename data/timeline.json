@@ -4,10 +4,10 @@
     "from": "prehistoric",
     "to": 2000,
     "locale": "zh-Hans",
-    "updated": "2026-10-17",
-    "eventCount": 265,
-    "westCount": 160,
-    "eastCount": 105,
+    "updated": "2026-11-27",
+    "eventCount": 276,
+    "westCount": 164,
+    "eastCount": 112,
     "title_en": "A Comparative Timeline of Chinese and Western Medicine"
   },
   "events": [
@@ -56,7 +56,13 @@
       "repository_en": "",
       "openAccess": "",
       "address": "",
-      "address_en": ""
+      "address_en": "",
+      "refs": [
+        "oxilia-caries",
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
+      ]
     },
     {
       "id": "west-trepanation-ukraine",
@@ -105,7 +111,13 @@
       "repository_en": "",
       "openAccess": "",
       "address": "",
-      "address_en": ""
+      "address_en": "",
+      "refs": [
+        "lillie-trepanation",
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
+      ]
     },
     {
       "id": "east-bian-stone-neolithic",
@@ -154,7 +166,11 @@
       "repository_en": "",
       "openAccess": "",
       "address": "",
-      "address_en": ""
+      "address_en": "",
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
+      ]
     },
     {
       "id": "east-wine-medicine-legend",
@@ -190,6 +206,10 @@
       "sources_en": [
         "National Museum of Traditional Chinese Medicine",
         "Chinese government white paper"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -227,17 +247,22 @@
         "Science.org",
         "wikipedia:Timeline_of_medicine"
       ],
-      "foundDate": "",
-      "foundDate_en": "",
+      "foundDate": "1991-09-19",
+      "foundDate_en": "19 September 1991",
       "foundSite": "阿尔卑斯",
       "foundSite_en": "The Alps",
       "material": "冰人奥茨随身携带的桦多孔菌",
       "material_en": "Birch polypore fungus carried by the Alpine iceman Ötzi",
-      "repository": "",
-      "repository_en": "",
-      "openAccess": "",
-      "address": "",
-      "address_en": ""
+      "repository": "南蒂罗尔考古博物馆",
+      "repository_en": "South Tyrol Museum of Archaeology",
+      "openAccess": "open",
+      "address": "意大利博尔扎诺 Via Museo 43",
+      "address_en": "Via Museo 43, 39100 Bolzano, Italy",
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
+      ]
     },
     {
       "id": "west-imhotep-egypt",
@@ -275,6 +300,10 @@
       "sources_en": [
         "wikipedia:History_of_medicine",
         "PBS Western Medical History"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest"
       ]
     },
     {
@@ -320,7 +349,12 @@
       "repository_en": "",
       "openAccess": "",
       "address": "",
-      "address_en": ""
+      "address_en": "",
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
+      ]
     },
     {
       "id": "west-kahun-papyrus",
@@ -363,17 +397,21 @@
         "JFPRHC",
         "Digital Egypt"
       ],
-      "foundDate": "",
-      "foundDate_en": "",
+      "foundDate": "1889",
+      "foundDate_en": "1889",
       "foundSite": "卡胡恩（Kahun/Lahun）",
       "foundSite_en": "Kahun (Lahun)",
       "material": "妇科纸草，涉及妊娠、生育与避孕",
       "material_en": "A gynecological papyrus covering pregnancy, childbirth, and contraception",
-      "repository": "",
-      "repository_en": "",
-      "openAccess": "",
-      "address": "",
-      "address_en": ""
+      "repository": "伦敦大学学院皮特里埃及考古博物馆",
+      "repository_en": "Petrie Museum of Egyptian Archaeology, UCL",
+      "openAccess": "open",
+      "address": "英国伦敦 Malet Place",
+      "address_en": "Malet Place, London WC1E 6BT, UK",
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest"
+      ]
     },
     {
       "id": "west-hammurabi-code-surgery",
@@ -413,6 +451,11 @@
       "sources_en": [
         "JAMA historical",
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -458,7 +501,12 @@
       "repository_en": "",
       "openAccess": "",
       "address": "",
-      "address_en": ""
+      "address_en": "",
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
+      ]
     },
     {
       "id": "east-yiyin-tangye-legend",
@@ -498,6 +546,10 @@
       "sources_en": [
         "National Museum of Traditional Chinese Medicine",
         "traditional medical-history accounts"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -541,17 +593,23 @@
         "wikipedia:Timeline_of_medicine",
         "NY Academy of Medicine"
       ],
-      "foundDate": "",
-      "foundDate_en": "",
+      "foundDate": "1862（史密斯购得）",
+      "foundDate_en": "1862 (acquired by Edwin Smith)",
       "foundSite": "",
       "foundSite_en": "",
       "material": "记载48例创伤病例的外科纸草",
       "material_en": "A surgical papyrus recording 48 trauma cases",
-      "repository": "",
-      "repository_en": "",
-      "openAccess": "",
-      "address": "",
-      "address_en": ""
+      "repository": "纽约医学科学院",
+      "repository_en": "New York Academy of Medicine",
+      "openAccess": "appointment",
+      "address": "美国纽约第五大道1216号",
+      "address_en": "1216 Fifth Avenue, New York, USA",
+      "refs": [
+        "breasted-smith",
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
+      ]
     },
     {
       "id": "west-ebers-papyrus",
@@ -594,17 +652,22 @@
         "wikipedia:Timeline_of_medicine",
         "University of Leipzig"
       ],
-      "foundDate": "",
-      "foundDate_en": "",
+      "foundDate": "1873—1874（埃伯斯购得）",
+      "foundDate_en": "1873–1874 (acquired by Georg Ebers)",
       "foundSite": "",
       "foundSite_en": "",
       "material": "长约20米、收载近八百余条处方与内科知识的纸草",
       "material_en": "A papyrus about 20 meters long, containing nearly eight hundred prescriptions and internal-medicine material",
-      "repository": "",
-      "repository_en": "",
+      "repository": "莱比锡大学图书馆",
+      "repository_en": "Leipzig University Library",
       "openAccess": "",
       "address": "",
-      "address_en": ""
+      "address_en": "",
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
+      ]
     },
     {
       "id": "west-hearst-papyrus",
@@ -643,17 +706,22 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
       ],
-      "foundDate": "",
-      "foundDate_en": "",
+      "foundDate": "1901",
+      "foundDate_en": "1901",
       "foundSite": "",
       "foundSite_en": "",
       "material": "与埃伯斯纸草部分重叠的古埃及医学纸草",
       "material_en": "An ancient Egyptian medical papyrus whose contents partly overlap the Ebers Papyrus",
-      "repository": "",
-      "repository_en": "",
+      "repository": "加州大学伯克利分校班克罗夫特图书馆",
+      "repository_en": "Bancroft Library, University of California, Berkeley",
       "openAccess": "",
       "address": "",
-      "address_en": ""
+      "address_en": "",
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
+      ]
     },
     {
       "id": "west-brugsch-london-papyri",
@@ -696,7 +764,12 @@
       "repository_en": "",
       "openAccess": "",
       "address": "",
-      "address_en": ""
+      "address_en": "",
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
+      ]
     },
     {
       "id": "east-shang-oracle-disease",
@@ -735,8 +808,8 @@
         "National Museum of Traditional Chinese Medicine",
         "Cambridge Medicine East Asia"
       ],
-      "foundDate": "",
-      "foundDate_en": "",
+      "foundDate": "1899（甲骨文被识读）",
+      "foundDate_en": "1899 (oracle-bone script recognised)",
       "foundSite": "殷墟",
       "foundSite_en": "Yinxu",
       "material": "卜问疾首、疾目、疾腹等的甲骨",
@@ -745,7 +818,11 @@
       "repository_en": "",
       "openAccess": "",
       "address": "",
-      "address_en": ""
+      "address_en": "",
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
+      ]
     },
     {
       "id": "east-shangshu-yao-mingxuan",
@@ -783,6 +860,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -823,6 +904,10 @@
       "sources_en": [
         "Chinese government white paper on traditional Chinese medicine",
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -855,6 +940,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -895,6 +985,10 @@
       "sources_en": [
         "National Museum of Traditional Chinese Medicine",
         "as recorded in the Zuozhuan"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -937,6 +1031,10 @@
         "Shiji (Records of the Grand Historian)",
         "Chinese government white paper",
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -971,6 +1069,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -1011,6 +1114,11 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "Longrigg Greek Rational Medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -1049,6 +1157,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -1087,6 +1200,10 @@
       "sources_en": [
         "wikipedia:History_of_medicine",
         "PMC timeline"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest"
       ]
     },
     {
@@ -1133,6 +1250,11 @@
       "sources_en": [
         "wikipedia:History_of_medicine",
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -1173,6 +1295,11 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "Nutton"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -1211,6 +1338,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -1251,6 +1383,12 @@
       "sources_en": [
         "National Museum of Traditional Chinese Medicine",
         "Harper Mawangdui"
+      ],
+      "refs": [
+        "ma-mawangdui",
+        "harper-mawangdui",
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -1293,6 +1431,11 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "Nutton Ancient Medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -1331,6 +1474,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -1370,8 +1518,8 @@
         "Taylor & Francis TCM archaeology",
         "Harper"
       ],
-      "foundDate": "",
-      "foundDate_en": "",
+      "foundDate": "1983—1984",
+      "foundDate_en": "1983–1984",
       "foundSite": "湖北张家山汉墓",
       "foundSite_en": "Zhangjiashan Han tomb, Hubei",
       "material": "《脉书》《引书》等汉简",
@@ -1380,7 +1528,12 @@
       "repository_en": "",
       "openAccess": "",
       "address": "",
-      "address_en": ""
+      "address_en": "",
+      "refs": [
+        "harper-mawangdui",
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
+      ]
     },
     {
       "id": "east-mawangdui-tomb3",
@@ -1427,17 +1580,23 @@
         "Harper Early Chinese Medical Literature",
         "National Museum of Traditional Chinese Medicine"
       ],
-      "foundDate": "",
-      "foundDate_en": "",
+      "foundDate": "1973—1974",
+      "foundDate_en": "1973–1974",
       "foundSite": "长沙马王堆三号汉墓",
       "foundSite_en": "Mawangdui tomb 3, Changsha",
       "material": "《足臂十一脉灸经》《阴阳十一脉灸经》《五十二病方》等帛书简牍",
       "material_en": "Silk and bamboo texts including the two Cauterization Canons of the Eleven Vessels and Recipes for Fifty-Two Ailments",
-      "repository": "",
-      "repository_en": "",
-      "openAccess": "",
-      "address": "",
-      "address_en": ""
+      "repository": "湖南博物院",
+      "repository_en": "Hunan Museum",
+      "openAccess": "appointment",
+      "address": "湖南省长沙市开福区东风路50号",
+      "address_en": "50 Dongfeng Road, Kaifu District, Changsha, Hunan, China",
+      "refs": [
+        "ma-mawangdui",
+        "harper-mawangdui",
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
+      ]
     },
     {
       "id": "east-chunyu-yi-zhenji",
@@ -1477,6 +1636,10 @@
       "sources_en": [
         "Shiji, biography of Bian Que and the Duke of Taicang",
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -1516,17 +1679,22 @@
         "Asian Medicine 2024",
         "UCL Lo Laoguanshan"
       ],
-      "foundDate": "",
-      "foundDate_en": "",
+      "foundDate": "2012—2013",
+      "foundDate_en": "2012–2013",
       "foundSite": "成都天回镇老官山M3",
       "foundSite_en": "Laoguanshan tomb M3, Tianhui, Chengdu",
       "material": "医简与彩绘经络漆人",
       "material_en": "Medical slips and a lacquer figurine painted with channels",
-      "repository": "",
-      "repository_en": "",
+      "repository": "成都文物考古研究院",
+      "repository_en": "Chengdu Institute of Cultural Relics and Archaeology",
       "openAccess": "",
       "address": "",
-      "address_en": ""
+      "address_en": "",
+      "refs": [
+        "tianhui-yijian",
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
+      ]
     },
     {
       "id": "east-zhang-qian-drugs",
@@ -1564,6 +1732,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -1601,8 +1773,8 @@
         "Early China / Lo & He",
         "Asian Medicine"
       ],
-      "foundDate": "",
-      "foundDate_en": "",
+      "foundDate": "1993",
+      "foundDate_en": "1993",
       "foundSite": "四川绵阳双包山汉墓",
       "foundSite_en": "Shuangbaoshan Han tomb, Mianyang, Sichuan",
       "material": "绘有红色经脉线的黑漆人体模型",
@@ -1611,7 +1783,11 @@
       "repository_en": "",
       "openAccess": "",
       "address": "",
-      "address_en": ""
+      "address_en": "",
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
+      ]
     },
     {
       "id": "east-mancheng-needles",
@@ -1646,17 +1822,21 @@
       "sources_en": [
         "Taylor & Francis TCM archaeology"
       ],
-      "foundDate": "",
-      "foundDate_en": "",
+      "foundDate": "1968",
+      "foundDate_en": "1968",
       "foundSite": "河北满城中山靖王墓",
       "foundSite_en": "Tomb of the Prince of Zhongshan, Mancheng, Hebei",
       "material": "金银针具（是否等同后世针灸针仍有讨论）",
       "material_en": "Gold and silver needles (whether they are the same as later acupuncture needles is still debated)",
-      "repository": "",
-      "repository_en": "",
-      "openAccess": "",
-      "address": "",
-      "address_en": ""
+      "repository": "河北博物院",
+      "repository_en": "Hebei Museum",
+      "openAccess": "open",
+      "address": "河北省石家庄市长安区东大街4号",
+      "address_en": "4 Dong Dajie, Chang'an District, Shijiazhuang, Hebei, China",
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
+      ]
     },
     {
       "id": "east-huangdi-neijing",
@@ -1700,6 +1880,10 @@
       "sources_en": [
         "National Museum of Traditional Chinese Medicine",
         "Memory of the World nomination materials"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -1736,6 +1920,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -1774,6 +1963,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -1811,8 +2004,8 @@
         "UCL Lo Laoguanshan context",
         "studies of the Wuwei medical slips"
       ],
-      "foundDate": "",
-      "foundDate_en": "",
+      "foundDate": "1972",
+      "foundDate_en": "1972",
       "foundSite": "甘肃武威旱滩坡等地",
       "foundSite_en": "Hantanpo and related sites, Wuwei, Gansu",
       "material": "载临床方药与针刺内容的东汉医简",
@@ -1821,7 +2014,11 @@
       "repository_en": "",
       "openAccess": "",
       "address": "",
-      "address_en": ""
+      "address_en": "",
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
+      ]
     },
     {
       "id": "west-varro-germ-prototype",
@@ -1861,6 +2058,11 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "Adler Medical Firsts"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -1903,6 +2105,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -1945,6 +2152,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -1987,6 +2199,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -2027,6 +2244,10 @@
       "sources_en": [
         "Chinese government white paper",
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -2065,6 +2286,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -2103,6 +2329,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -2141,6 +2372,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -2189,6 +2425,10 @@
       "sources_en": [
         "wikipedia:History_of_medicine",
         "PBS"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest"
       ]
     },
     {
@@ -2235,6 +2475,10 @@
       "sources_en": [
         "Sanguozhi (Records of the Three Kingdoms)",
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -2283,6 +2527,10 @@
       "sources_en": [
         "National Museum of Traditional Chinese Medicine",
         "Chinese government white paper"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -2327,6 +2575,11 @@
       "sources_en": [
         "Chinese government white paper",
         "Cambridge Medicine East Asia"
+      ],
+      "refs": [
+        "needham-celestial",
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -2371,6 +2624,10 @@
       "sources_en": [
         "National Museum of Traditional Chinese Medicine",
         "historical notes from Jiangxi University of Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -2415,6 +2672,10 @@
       "sources_en": [
         "National Museum of Traditional Chinese Medicine",
         "Tu Youyou Nobel lecture"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -2451,6 +2712,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -2491,6 +2757,11 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "Durant Age of Faith"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -2529,6 +2800,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -2569,6 +2845,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -2609,6 +2889,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -2647,6 +2931,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "nutton-ancient",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -2691,6 +2980,10 @@
       "sources_en": [
         "National Museum of Traditional Chinese Medicine",
         "PMC Chao Yuanfang"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -2725,6 +3018,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -2767,6 +3064,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -2815,6 +3116,10 @@
       "sources_en": [
         "National Museum of Traditional Chinese Medicine",
         "Chinese government white paper"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -2859,6 +3164,10 @@
       "sources_en": [
         "wikipedia:Xinxiu_bencao",
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -2901,6 +3210,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -2937,6 +3250,10 @@
       "sources_en": [
         "Encyclopaedia Iranica",
         "wikipedia:Bimaristan"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest"
       ]
     },
     {
@@ -2979,6 +3296,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -3017,6 +3338,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -3061,6 +3386,10 @@
       "sources_en": [
         "historical notes from Jiangxi University of Chinese Medicine",
         "Neijing textual scholarship"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -3101,6 +3430,10 @@
       "sources_en": [
         "wikipedia:Bimaristan",
         "Annals of Saudi Medicine"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest"
       ]
     },
     {
@@ -3143,6 +3476,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -3183,6 +3520,11 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "Loudon Western Medicine"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -3217,6 +3559,9 @@
       ],
       "sources_en": [
         "wikipedia:Schola_Medica_Salernitana"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -3259,6 +3604,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -3297,6 +3647,10 @@
       ],
       "sources_en": [
         "Belleten 1980"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest"
       ]
     },
     {
@@ -3343,6 +3697,11 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "Annals of Saudi Medicine"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -3381,6 +3740,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -3417,6 +3780,10 @@
       "sources_en": [
         "Belleten 1980",
         "Annals of Saudi Medicine"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest"
       ]
     },
     {
@@ -3459,6 +3826,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -3501,6 +3873,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -3545,6 +3921,11 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "Annals of Saudi Medicine"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -3589,6 +3970,11 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "PMC"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -3633,6 +4019,11 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "needham-celestial",
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -3677,6 +4068,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -3713,6 +4108,10 @@
       "sources_en": [
         "National Museum of Traditional Chinese Medicine",
         "historical notes from Jiangxi University of Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -3751,6 +4150,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -3785,6 +4188,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -3825,6 +4232,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -3867,6 +4278,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -3911,6 +4326,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -3951,6 +4370,10 @@
       ],
       "sources_en": [
         "TCM bibliographic tradition"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -3989,6 +4412,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -4027,6 +4454,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -4067,6 +4498,10 @@
       ],
       "sources_en": [
         "Song medicine historiography"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -4105,6 +4540,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -4143,6 +4583,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -4183,6 +4627,10 @@
       "sources_en": [
         "wikipedia:Bimaristan",
         "Annals of Saudi Medicine"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest"
       ]
     },
     {
@@ -4221,6 +4669,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -4263,6 +4716,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -4301,6 +4758,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -4343,6 +4804,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -4379,6 +4844,9 @@
       "sources_en": [
         "culture.gouv.fr",
         "CIAN 2018"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -4423,6 +4891,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -4465,6 +4937,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -4505,6 +4981,11 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "Loudon"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -4545,6 +5026,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -4583,6 +5068,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -4617,6 +5107,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "ullmann-islamic",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -4651,6 +5146,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -4685,6 +5184,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -4729,6 +5232,124 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "ESC Cardiology"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
+      ]
+    },
+    {
+      "id": "east-hu-sihui-yinshan",
+      "side": "east",
+      "year": 1330,
+      "yearEnd": null,
+      "yearLabel": "1330",
+      "yearLabel_en": "1330",
+      "title": "忽思慧《饮膳正要》",
+      "title_en": "Hu Sihui's Yinshan zhengyao (Proper Essentials of Food and Drink)",
+      "summary": "元代饮膳太医忽思慧撰成《饮膳正要》，汇集宫廷食疗方、饮食宜忌与养生法，是现存较早的系统营养与食疗专著。",
+      "summary_en": "Hu Sihui, dietary physician at the Yuan court, completed the Yinshan zhengyao, gathering court food-therapy recipes, dietary rules and regimen advice. It is one of the earliest surviving systematic works on nutrition and diet therapy.",
+      "people": [
+        "忽思慧"
+      ],
+      "people_en": [
+        "Hu Sihui"
+      ],
+      "works": [
+        "饮膳正要"
+      ],
+      "works_en": [
+        "Yinshan zhengyao"
+      ],
+      "archaeology": false,
+      "tags": [
+        "食疗",
+        "营养",
+        "元代"
+      ],
+      "tags_en": [
+        "Diet therapy",
+        "Nutrition",
+        "Yuan dynasty"
+      ],
+      "confidence": "high",
+      "sources": [
+        "中国医学通史"
+      ],
+      "sources_en": [
+        "中国医学通史"
+      ],
+      "foundDate": "",
+      "foundDate_en": "",
+      "foundSite": "",
+      "foundSite_en": "",
+      "material": "",
+      "material_en": "",
+      "repository": "",
+      "repository_en": "",
+      "openAccess": "",
+      "address": "",
+      "address_en": "",
+      "refs": [
+        "li-zhongguo-yixue",
+        "unschuld-medicine-china"
+      ]
+    },
+    {
+      "id": "east-wei-yilin-dexiaofang",
+      "side": "east",
+      "year": 1337,
+      "yearEnd": null,
+      "yearLabel": "1337",
+      "yearLabel_en": "1337",
+      "title": "危亦林《世医得效方》",
+      "title_en": "Wei Yilin's Shiyi dexiao fang",
+      "summary": "元代危亦林据家传五世医术编成《世医得效方》，骨伤部分记载悬吊复位法治疗脊柱骨折，并用草乌等药物作全身麻醉。",
+      "summary_en": "Wei Yilin of the Yuan dynasty compiled the Shiyi dexiao fang from five generations of family practice. Its bone-setting section describes suspension reduction for spinal fractures and general anaesthesia with drugs such as aconite.",
+      "people": [
+        "危亦林"
+      ],
+      "people_en": [
+        "Wei Yilin"
+      ],
+      "works": [
+        "世医得效方"
+      ],
+      "works_en": [
+        "Shiyi dexiao fang"
+      ],
+      "archaeology": false,
+      "tags": [
+        "骨伤",
+        "麻醉",
+        "元代"
+      ],
+      "tags_en": [
+        "Orthopaedics",
+        "Anaesthesia",
+        "Yuan dynasty"
+      ],
+      "confidence": "high",
+      "sources": [
+        "中国医学史"
+      ],
+      "sources_en": [
+        "中国医学史"
+      ],
+      "foundDate": "",
+      "foundDate_en": "",
+      "foundSite": "",
+      "foundSite_en": "",
+      "material": "",
+      "material_en": "",
+      "repository": "",
+      "repository_en": "",
+      "openAccess": "",
+      "address": "",
+      "address_en": "",
+      "refs": [
+        "zhen-yixueshi",
+        "li-zhongguo-yixue"
       ]
     },
     {
@@ -4771,6 +5392,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -4809,6 +5434,67 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
+      ]
+    },
+    {
+      "id": "east-hua-shou-shisijing",
+      "side": "east",
+      "year": 1341,
+      "yearEnd": null,
+      "yearLabel": "1341",
+      "yearLabel_en": "1341",
+      "title": "滑寿《十四经发挥》",
+      "title_en": "Hua Shou's Shisi jing fahui (Elucidation of the Fourteen Channels)",
+      "summary": "滑寿把任、督二脉与十二经并称“十四经”，逐经考订循行与腧穴，对后世经络腧穴学影响深远。",
+      "summary_en": "Hua Shou grouped the Ren and Du vessels with the twelve regular channels as the 'fourteen channels', checking each pathway and its points. The book shaped later channel and acupoint studies.",
+      "people": [
+        "滑寿"
+      ],
+      "people_en": [
+        "Hua Shou"
+      ],
+      "works": [
+        "十四经发挥"
+      ],
+      "works_en": [
+        "Shisi jing fahui"
+      ],
+      "archaeology": false,
+      "tags": [
+        "针灸",
+        "经络",
+        "元代"
+      ],
+      "tags_en": [
+        "Acupuncture",
+        "Channels",
+        "Yuan dynasty"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Celestial Lancets"
+      ],
+      "sources_en": [
+        "Celestial Lancets"
+      ],
+      "foundDate": "",
+      "foundDate_en": "",
+      "foundSite": "",
+      "foundSite_en": "",
+      "material": "",
+      "material_en": "",
+      "repository": "",
+      "repository_en": "",
+      "openAccess": "",
+      "address": "",
+      "address_en": "",
+      "refs": [
+        "needham-celestial",
+        "li-zhongguo-yixue"
       ]
     },
     {
@@ -4849,6 +5535,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -4885,6 +5575,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -4921,6 +5615,65 @@
       ],
       "sources_en": [
         "historical notes from Jiangxi University of Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
+      ]
+    },
+    {
+      "id": "east-zhu-su-jiuhuang",
+      "side": "east",
+      "year": 1406,
+      "yearEnd": null,
+      "yearLabel": "1406",
+      "yearLabel_en": "1406",
+      "title": "朱橚《救荒本草》",
+      "title_en": "Zhu Su's Jiuhuang bencao (Famine Relief Herbal)",
+      "summary": "明周定王朱橚组织栽种观察野生植物，收录可供荒年充饥的植物四百余种并附图，开创以救荒为目的的本草著作。",
+      "summary_en": "Zhu Su, Prince Ding of Zhou, had wild plants grown and observed, and recorded more than 400 species that could be eaten in famine years, each with an illustration. It began a line of herbals written for famine relief.",
+      "people": [
+        "朱橚"
+      ],
+      "people_en": [
+        "Zhu Su"
+      ],
+      "works": [
+        "救荒本草"
+      ],
+      "works_en": [
+        "Jiuhuang bencao"
+      ],
+      "archaeology": false,
+      "tags": [
+        "本草",
+        "明代"
+      ],
+      "tags_en": [
+        "Materia medica",
+        "Ming dynasty"
+      ],
+      "confidence": "high",
+      "sources": [
+        "中国医学史"
+      ],
+      "sources_en": [
+        "中国医学史"
+      ],
+      "foundDate": "",
+      "foundDate_en": "",
+      "foundSite": "",
+      "foundSite_en": "",
+      "material": "",
+      "material_en": "",
+      "repository": "",
+      "repository_en": "",
+      "openAccess": "",
+      "address": "",
+      "address_en": "",
+      "refs": [
+        "zhen-yixueshi",
+        "unschuld-medicine-china"
       ]
     },
     {
@@ -4957,6 +5710,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -4991,6 +5748,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -5031,6 +5792,10 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "Pagel Paracelsus"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -5073,6 +5838,11 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "PBS"
+      ],
+      "refs": [
+        "vesalius-fabrica",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -5111,6 +5881,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -5153,6 +5927,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -5189,6 +5967,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -5227,6 +6009,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -5267,6 +6053,10 @@
         "CDC Emerging Infectious Diseases",
         "National Museum of Traditional Chinese Medicine",
         "Zheng Shanfu, study of the 1522 date"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -5305,6 +6095,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -5345,6 +6139,10 @@
       ],
       "sources_en": [
         "Routledge TCM Song-Qing"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -5377,6 +6175,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -5411,6 +6213,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -5453,6 +6259,10 @@
       ],
       "sources_en": [
         "Routledge TCM Song-Qing"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -5497,6 +6307,10 @@
       "sources_en": [
         "National Museum of Traditional Chinese Medicine",
         "UNESCO Memory of the World"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -5537,6 +6351,11 @@
       ],
       "sources_en": [
         "traditional literature on the history of acupuncture"
+      ],
+      "refs": [
+        "needham-celestial",
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -5579,6 +6398,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -5615,6 +6438,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -5653,6 +6480,9 @@
       ],
       "sources_en": [
         "History of medicine surveys"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -5693,6 +6523,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -5735,6 +6569,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -5779,6 +6617,11 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "PBS"
+      ],
+      "refs": [
+        "harvey-motu",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -5825,6 +6668,10 @@
       "sources_en": [
         "National Museum of Traditional Chinese Medicine",
         "PMC epidemic TCM"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -5863,6 +6710,9 @@
       ],
       "sources_en": [
         "History of medicine surveys"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -5903,6 +6753,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -5937,6 +6791,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -5973,6 +6831,9 @@
       ],
       "sources_en": [
         "History of medicine surveys"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -6013,6 +6874,9 @@
       ],
       "sources_en": [
         "Porter Greatest Benefit"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -6053,6 +6917,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -6091,6 +6959,9 @@
       ],
       "sources_en": [
         "Porter"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -6129,6 +7000,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -6171,6 +7046,10 @@
       ],
       "sources_en": [
         "Qing clinical texts"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -6207,6 +7086,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -6245,6 +7128,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -6287,6 +7174,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -6325,6 +7216,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -6369,6 +7264,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -6407,6 +7306,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -6443,6 +7346,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -6485,6 +7392,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -6521,6 +7432,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -6559,6 +7474,11 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "PMC"
+      ],
+      "refs": [
+        "jenner-inquiry",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -6597,6 +7517,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -6641,6 +7565,10 @@
       "sources_en": [
         "National Museum of Traditional Chinese Medicine",
         "PMC"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -6683,6 +7611,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -6717,6 +7649,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -6755,6 +7691,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -6789,6 +7729,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -6827,6 +7771,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -6863,6 +7811,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -6903,6 +7855,10 @@
       ],
       "sources_en": [
         "Qing medical publishing"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -6945,6 +7901,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -6983,6 +7943,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "li-zhongguo-yixue",
+        "zhen-yixueshi"
       ]
     },
     {
@@ -7019,6 +7983,9 @@
       ],
       "sources_en": [
         "History of public health"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -7055,6 +8022,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -7093,6 +8064,10 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "Duke MMA timeline"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -7131,6 +8106,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -7169,6 +8148,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -7209,6 +8192,9 @@
       ],
       "sources_en": [
         "Wenbing historiography"
+      ],
+      "refs": [
+        "wang-wu-history"
       ]
     },
     {
@@ -7247,6 +8233,10 @@
       ],
       "sources_en": [
         "History of public health"
+      ],
+      "refs": [
+        "snow-cholera",
+        "porter-greatest"
       ]
     },
     {
@@ -7287,6 +8277,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -7325,6 +8319,9 @@
       ],
       "sources_en": [
         "History of nursing"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -7365,6 +8362,64 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "PBS"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
+      ]
+    },
+    {
+      "id": "east-wu-shiji-liyue",
+      "side": "east",
+      "year": 1864,
+      "yearEnd": null,
+      "yearLabel": "1864",
+      "yearLabel_en": "1864",
+      "title": "吴师机《理瀹骈文》",
+      "title_en": "Wu Shiji's Liyue pianwen",
+      "summary": "清代吴师机以骈文写成外治专书，系统论述膏药、敷贴、熏洗等外治法，提出“外治之理即内治之理”。",
+      "summary_en": "Wu Shiji of the Qing dynasty wrote a book on external treatment in parallel prose. It sets out plasters, poultices, fumigation and washes, holding that external and internal treatment follow the same principles.",
+      "people": [
+        "吴师机"
+      ],
+      "people_en": [
+        "Wu Shiji"
+      ],
+      "works": [
+        "理瀹骈文"
+      ],
+      "works_en": [
+        "Liyue pianwen"
+      ],
+      "archaeology": false,
+      "tags": [
+        "外治",
+        "清代"
+      ],
+      "tags_en": [
+        "External treatment",
+        "Qing dynasty"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "中国医学史"
+      ],
+      "sources_en": [
+        "中国医学史"
+      ],
+      "foundDate": "",
+      "foundDate_en": "",
+      "foundSite": "",
+      "foundSite_en": "",
+      "material": "",
+      "material_en": "",
+      "repository": "",
+      "repository_en": "",
+      "openAccess": "",
+      "address": "",
+      "address_en": "",
+      "refs": [
+        "zhen-yixueshi"
       ]
     },
     {
@@ -7405,6 +8460,9 @@
       ],
       "sources_en": [
         "Porter"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -7447,6 +8505,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "lister-antiseptic",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -7485,6 +8548,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -7519,6 +8586,10 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "PMC timeline"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -7555,6 +8626,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -7593,6 +8668,9 @@
       ],
       "sources_en": [
         "wikipedia:History_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -7633,6 +8711,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "wang-wu-history"
       ]
     },
     {
@@ -7669,6 +8750,9 @@
       ],
       "sources_en": [
         "wikipedia:History_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -7709,6 +8793,10 @@
       "sources_en": [
         "wikipedia:History_of_medicine",
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -7745,6 +8833,9 @@
       ],
       "sources_en": [
         "wikipedia:History_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -7783,6 +8874,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -7821,6 +8916,9 @@
       ],
       "sources_en": [
         "Surgery history"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -7859,6 +8957,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "roentgen-xray",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -7897,6 +9000,9 @@
       ],
       "sources_en": [
         "Cardiology history"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -7935,6 +9041,10 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "PBS"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -7973,6 +9083,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -8011,6 +9125,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -8049,6 +9167,9 @@
       ],
       "sources_en": [
         "Nobel archives"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -8089,6 +9210,10 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "Cardiac Electrophysiology Review"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -8125,6 +9250,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -8165,6 +9294,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "wang-wu-history"
       ]
     },
     {
@@ -8203,6 +9335,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -8243,6 +9379,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -8287,6 +9427,66 @@
       "sources_en": [
         "Carnegie Foundation",
         "Historia Medica"
+      ],
+      "refs": [
+        "porter-greatest"
+      ]
+    },
+    {
+      "id": "east-wu-liande-plague",
+      "side": "east",
+      "year": 1910,
+      "yearEnd": null,
+      "yearLabel": "1910–1911",
+      "yearLabel_en": "1910–1911",
+      "title": "伍连德主持东北肺鼠疫防控",
+      "title_en": "Wu Lien-teh leads the Manchurian pneumonic plague response",
+      "summary": "1910—1911年东北肺鼠疫流行，伍连德通过尸体解剖确认飞沫传播，推行隔离、口罩和遗体火化，1911年在奉天主持万国鼠疫研究会。",
+      "summary_en": "During the 1910–1911 pneumonic plague in Manchuria, Wu Lien-teh confirmed airborne spread by autopsy and introduced isolation, masks and cremation. In 1911 he chaired the International Plague Conference in Mukden.",
+      "people": [
+        "伍连德"
+      ],
+      "people_en": [
+        "Wu Lien-teh"
+      ],
+      "works": [
+        "A Treatise on Pneumonic Plague"
+      ],
+      "works_en": [
+        "A Treatise on Pneumonic Plague"
+      ],
+      "archaeology": false,
+      "tags": [
+        "公共卫生",
+        "传染病",
+        "近代"
+      ],
+      "tags_en": [
+        "Public health",
+        "Infectious disease",
+        "Modern era"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Wu 1926"
+      ],
+      "sources_en": [
+        "Wu 1926"
+      ],
+      "foundDate": "",
+      "foundDate_en": "",
+      "foundSite": "",
+      "foundSite_en": "",
+      "material": "",
+      "material_en": "",
+      "repository": "",
+      "repository_en": "",
+      "openAccess": "",
+      "address": "",
+      "address_en": "",
+      "refs": [
+        "wu-plague",
+        "wang-wu-history"
       ]
     },
     {
@@ -8321,6 +9521,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "wang-wu-history"
       ]
     },
     {
@@ -8353,6 +9556,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "wang-wu-history"
       ]
     },
     {
@@ -8391,6 +9597,9 @@
       ],
       "sources_en": [
         "Microbiology history"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -8431,6 +9640,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "banting-insulin",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -8469,6 +9683,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -8513,6 +9731,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "wang-wu-history"
       ]
     },
     {
@@ -8553,6 +9774,9 @@
       ],
       "sources_en": [
         "Nobel archives"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -8589,6 +9813,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "fleming-penicillin",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -8627,6 +9856,59 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "wang-wu-history"
+      ]
+    },
+    {
+      "id": "west-forssmann-catheter",
+      "side": "west",
+      "year": 1929,
+      "yearEnd": null,
+      "yearLabel": "1929",
+      "yearLabel_en": "1929",
+      "title": "福斯曼自体心导管术",
+      "title_en": "Forssmann's self-catheterisation of the heart",
+      "summary": "德国医生福斯曼把导管经自己的肘静脉送入右心并拍片证实，开启心导管技术，1956年获诺贝尔生理学或医学奖。",
+      "summary_en": "The German physician Werner Forssmann passed a catheter through a vein in his own arm into his right heart and confirmed it on X-ray. This began cardiac catheterisation; he shared the 1956 Nobel Prize in Physiology or Medicine.",
+      "people": [
+        "福斯曼"
+      ],
+      "people_en": [
+        "Werner Forssmann"
+      ],
+      "works": [],
+      "works_en": [],
+      "archaeology": false,
+      "tags": [
+        "心脏病学",
+        "介入"
+      ],
+      "tags_en": [
+        "Cardiology",
+        "Intervention"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Klinische Wochenschrift 1929"
+      ],
+      "sources_en": [
+        "Klinische Wochenschrift 1929"
+      ],
+      "foundDate": "",
+      "foundDate_en": "",
+      "foundSite": "",
+      "foundSite_en": "",
+      "material": "",
+      "material_en": "",
+      "repository": "",
+      "repository_en": "",
+      "openAccess": "",
+      "address": "",
+      "address_en": "",
+      "refs": [
+        "forssmann-catheter"
       ]
     },
     {
@@ -8661,6 +9943,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "wang-wu-history"
       ]
     },
     {
@@ -8699,6 +9984,66 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
+      ]
+    },
+    {
+      "id": "east-wang-wu-history-1932",
+      "side": "east",
+      "year": 1932,
+      "yearEnd": null,
+      "yearLabel": "1932",
+      "yearLabel_en": "1932",
+      "title": "王吉民、伍连德《中国医史》",
+      "title_en": "Wong and Wu publish History of Chinese Medicine",
+      "summary": "王吉民与伍连德用英文写成《中国医史》，系统介绍中国传统医学和西医在华传播的历史，是较早面向国际读者的中国医学通史。",
+      "summary_en": "K. Chimin Wong and Wu Lien-teh wrote History of Chinese Medicine in English, covering both traditional Chinese medicine and the spread of Western medicine in China. It was an early general history of Chinese medicine for international readers.",
+      "people": [
+        "王吉民",
+        "伍连德"
+      ],
+      "people_en": [
+        "K. Chimin Wong",
+        "Wu Lien-teh"
+      ],
+      "works": [
+        "中国医史"
+      ],
+      "works_en": [
+        "History of Chinese Medicine"
+      ],
+      "archaeology": false,
+      "tags": [
+        "医学史",
+        "近代"
+      ],
+      "tags_en": [
+        "History of medicine",
+        "Modern era"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Wong & Wu 1936"
+      ],
+      "sources_en": [
+        "Wong & Wu 1936"
+      ],
+      "foundDate": "",
+      "foundDate_en": "",
+      "foundSite": "",
+      "foundSite_en": "",
+      "material": "",
+      "material_en": "",
+      "repository": "",
+      "repository_en": "",
+      "openAccess": "",
+      "address": "",
+      "address_en": "",
+      "refs": [
+        "wang-wu-history"
       ]
     },
     {
@@ -8733,6 +10078,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "wang-wu-history"
       ]
     },
     {
@@ -8771,6 +10119,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -8811,6 +10163,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -8849,6 +10205,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -8887,6 +10247,9 @@
       ],
       "sources_en": [
         "Nobel archives"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -8919,6 +10282,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -8959,6 +10326,9 @@
       ],
       "sources_en": [
         "Nobel archives"
+      ],
+      "refs": [
+        "porter-greatest"
       ]
     },
     {
@@ -8993,6 +10363,59 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
+      ]
+    },
+    {
+      "id": "west-apgar-score",
+      "side": "west",
+      "year": 1952,
+      "yearEnd": null,
+      "yearLabel": "1952",
+      "yearLabel_en": "1952",
+      "title": "阿普加新生儿评分",
+      "title_en": "The Apgar score for newborns",
+      "summary": "麻醉医师阿普加提出用心率、呼吸、肌张力、反射和肤色五项快速评估新生儿状况，1953年发表后成为产房通用方法。",
+      "summary_en": "The anaesthesiologist Virginia Apgar proposed rating newborns quickly on heart rate, breathing, muscle tone, reflexes and colour. Published in 1953, it became standard practice in delivery rooms.",
+      "people": [
+        "阿普加"
+      ],
+      "people_en": [
+        "Virginia Apgar"
+      ],
+      "works": [],
+      "works_en": [],
+      "archaeology": false,
+      "tags": [
+        "产科",
+        "儿科"
+      ],
+      "tags_en": [
+        "Obstetrics",
+        "Paediatrics"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Apgar 1953"
+      ],
+      "sources_en": [
+        "Apgar 1953"
+      ],
+      "foundDate": "",
+      "foundDate_en": "",
+      "foundSite": "",
+      "foundSite_en": "",
+      "material": "",
+      "material_en": "",
+      "repository": "",
+      "repository_en": "",
+      "openAccess": "",
+      "address": "",
+      "address_en": "",
+      "refs": [
+        "apgar-score"
       ]
     },
     {
@@ -9031,6 +10454,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
       ]
     },
     {
@@ -9069,6 +10495,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -9105,6 +10535,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -9147,6 +10581,11 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "Sanger Institute"
+      ],
+      "refs": [
+        "watson-crick-dna",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -9181,6 +10620,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
       ]
     },
     {
@@ -9219,6 +10661,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -9257,6 +10703,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -9291,6 +10741,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
       ]
     },
     {
@@ -9329,6 +10782,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -9363,6 +10820,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
       ]
     },
     {
@@ -9399,6 +10859,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
       ]
     },
     {
@@ -9439,6 +10902,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -9473,6 +10940,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
       ]
     },
     {
@@ -9507,6 +10977,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -9543,6 +11017,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -9577,6 +11055,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -9611,6 +11093,10 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "needham-celestial",
+        "scio-tcm-2016"
       ]
     },
     {
@@ -9645,6 +11131,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
       ]
     },
     {
@@ -9683,6 +11172,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -9721,6 +11214,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -9755,6 +11252,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
       ]
     },
     {
@@ -9799,6 +11299,11 @@
         "Nobel Lecture Tu Youyou",
         "PMC artemisinin",
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "tu-artemisinin",
+        "nobel-2015",
+        "scio-tcm-2016"
       ]
     },
     {
@@ -9837,6 +11342,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "hounsfield-ct",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -9873,6 +11383,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -9909,6 +11423,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
       ]
     },
     {
@@ -9947,6 +11464,11 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "steptoe-ivf",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -9981,6 +11503,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
       ]
     },
     {
@@ -10017,6 +11542,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -10053,6 +11582,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -10089,6 +11622,11 @@
       "sources_en": [
         "wikipedia:Timeline_of_medicine",
         "WHO"
+      ],
+      "refs": [
+        "who-smallpox",
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -10123,6 +11661,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
       ]
     },
     {
@@ -10157,6 +11698,62 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
+      ]
+    },
+    {
+      "id": "west-hiv-isolated",
+      "side": "west",
+      "year": 1983,
+      "yearEnd": null,
+      "yearLabel": "1983",
+      "yearLabel_en": "1983",
+      "title": "分离出艾滋病病毒（HIV）",
+      "title_en": "Isolation of the AIDS virus (HIV)",
+      "summary": "巴斯德研究所巴尔-西诺西、蒙塔尼耶团队从患者淋巴结分离出逆转录病毒，后定名为HIV，2008年获诺贝尔生理学或医学奖。",
+      "summary_en": "A team at the Institut Pasteur led by Françoise Barré-Sinoussi and Luc Montagnier isolated a retrovirus from a patient's lymph node, later named HIV. They shared the 2008 Nobel Prize in Physiology or Medicine.",
+      "people": [
+        "巴尔-西诺西",
+        "蒙塔尼耶"
+      ],
+      "people_en": [
+        "Françoise Barré-Sinoussi",
+        "Luc Montagnier"
+      ],
+      "works": [],
+      "works_en": [],
+      "archaeology": false,
+      "tags": [
+        "传染病",
+        "病毒学"
+      ],
+      "tags_en": [
+        "Infectious disease",
+        "Virology"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Science 1983"
+      ],
+      "sources_en": [
+        "Science 1983"
+      ],
+      "foundDate": "",
+      "foundDate_en": "",
+      "foundSite": "",
+      "foundSite_en": "",
+      "material": "",
+      "material_en": "",
+      "repository": "",
+      "repository_en": "",
+      "openAccess": "",
+      "address": "",
+      "address_en": "",
+      "refs": [
+        "barre-hiv"
       ]
     },
     {
@@ -10195,6 +11792,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -10229,6 +11830,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
       ]
     },
     {
@@ -10261,6 +11865,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
       ]
     },
     {
@@ -10299,6 +11906,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -10333,6 +11944,61 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
+      ]
+    },
+    {
+      "id": "west-gene-therapy-ada",
+      "side": "west",
+      "year": 1990,
+      "yearEnd": null,
+      "yearLabel": "1990-09-14",
+      "yearLabel_en": "14 September 1990",
+      "title": "首例获批人体基因治疗",
+      "title_en": "First approved human gene therapy",
+      "summary": "美国国立卫生研究院对一名腺苷脱氨酶缺乏型重症联合免疫缺陷（ADA-SCID）患儿回输经基因修饰的T细胞，是首个获批的人体基因治疗试验。",
+      "summary_en": "At the US National Institutes of Health, a child with adenosine deaminase deficiency (ADA-SCID) received her own T cells after gene modification. It was the first approved human gene therapy trial.",
+      "people": [
+        "布雷泽",
+        "安德森"
+      ],
+      "people_en": [
+        "R. Michael Blaese",
+        "W. French Anderson"
+      ],
+      "works": [],
+      "works_en": [],
+      "archaeology": false,
+      "tags": [
+        "基因治疗",
+        "免疫"
+      ],
+      "tags_en": [
+        "Gene therapy",
+        "Immunology"
+      ],
+      "confidence": "high",
+      "sources": [
+        "Science 1995"
+      ],
+      "sources_en": [
+        "Science 1995"
+      ],
+      "foundDate": "",
+      "foundDate_en": "",
+      "foundSite": "",
+      "foundSite_en": "",
+      "material": "",
+      "material_en": "",
+      "repository": "",
+      "repository_en": "",
+      "openAccess": "",
+      "address": "",
+      "address_en": "",
+      "refs": [
+        "blaese-gene"
       ]
     },
     {
@@ -10365,6 +12031,10 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "porter-greatest",
+        "wiki-timeline"
       ]
     },
     {
@@ -10397,6 +12067,9 @@
       ],
       "sources_en": [
         "National Museum of Traditional Chinese Medicine"
+      ],
+      "refs": [
+        "scio-tcm-2016"
       ]
     },
     {
@@ -10429,7 +12102,158 @@
       ],
       "sources_en": [
         "wikipedia:Timeline_of_medicine"
+      ],
+      "refs": [
+        "lander-genome",
+        "porter-greatest",
+        "wiki-timeline"
       ]
+    }
+  ],
+  "references": [
+    {
+      "id": "li-zhongguo-yixue",
+      "text": "李经纬, 林昭庚. 中国医学通史: 古代卷[M]. 北京: 人民卫生出版社, 2000."
+    },
+    {
+      "id": "zhen-yixueshi",
+      "text": "甄志亚. 中国医学史[M]. 上海: 上海科学技术出版社, 1997."
+    },
+    {
+      "id": "wang-wu-history",
+      "text": "Wong K C, Wu L T. History of Chinese medicine[M]. 2nd ed. Shanghai: National Quarantine Service, 1936."
+    },
+    {
+      "id": "unschuld-medicine-china",
+      "text": "Unschuld P U. Medicine in China: a history of ideas[M]. Berkeley: University of California Press, 1985."
+    },
+    {
+      "id": "needham-celestial",
+      "text": "Needham J, Lu G D. Celestial lancets: a history and rationale of acupuncture and moxa[M]. Cambridge: Cambridge University Press, 1980."
+    },
+    {
+      "id": "harper-mawangdui",
+      "text": "Harper D J. Early Chinese medical literature: the Mawangdui medical manuscripts[M]. London: Kegan Paul International, 1998."
+    },
+    {
+      "id": "ma-mawangdui",
+      "text": "马继兴. 马王堆古医书考释[M]. 长沙: 湖南科学技术出版社, 1992."
+    },
+    {
+      "id": "tianhui-yijian",
+      "text": "天回医简整理组. 天回医简[M]. 北京: 文物出版社, 2022."
+    },
+    {
+      "id": "scio-tcm-2016",
+      "text": "中华人民共和国国务院新闻办公室. 中国的中医药[R]. 北京: 中华人民共和国国务院新闻办公室, 2016."
+    },
+    {
+      "id": "tu-artemisinin",
+      "text": "Tu Youyou. The discovery of artemisinin (qinghaosu) and gifts from Chinese medicine[J]. Nature Medicine, 2011, 17(10): 1217-1220."
+    },
+    {
+      "id": "wu-plague",
+      "text": "Wu L T. A treatise on pneumonic plague[M]. Geneva: League of Nations Health Organisation, 1926."
+    },
+    {
+      "id": "porter-greatest",
+      "text": "Porter R. The greatest benefit to mankind: a medical history of humanity[M]. New York: W. W. Norton, 1998."
+    },
+    {
+      "id": "nutton-ancient",
+      "text": "Nutton V. Ancient medicine[M]. 2nd ed. London: Routledge, 2013."
+    },
+    {
+      "id": "ullmann-islamic",
+      "text": "Ullmann M. Islamic medicine[M]. Edinburgh: Edinburgh University Press, 1978."
+    },
+    {
+      "id": "wiki-timeline",
+      "text": "Wikipedia contributors. Timeline of medicine and medical technology[EB/OL]. [2026-11-27]. https://en.wikipedia.org/wiki/Timeline_of_medicine_and_medical_technology."
+    },
+    {
+      "id": "oxilia-caries",
+      "text": "Oxilia G, Peresani M, Romandini M, et al. Earliest evidence of dental caries manipulation in the Late Upper Palaeolithic[J]. Scientific Reports, 2015, 5: 12150."
+    },
+    {
+      "id": "lillie-trepanation",
+      "text": "Lillie M C. Cranial surgery dates back to Mesolithic[J]. Nature, 1998, 391(6670): 854."
+    },
+    {
+      "id": "breasted-smith",
+      "text": "Breasted J H. The Edwin Smith surgical papyrus[M]. Chicago: University of Chicago Press, 1930."
+    },
+    {
+      "id": "vesalius-fabrica",
+      "text": "Vesalius A. De humani corporis fabrica libri septem[M]. Basel: Johannes Oporinus, 1543."
+    },
+    {
+      "id": "harvey-motu",
+      "text": "Harvey W. Exercitatio anatomica de motu cordis et sanguinis in animalibus[M]. Frankfurt: Wilhelm Fitzer, 1628."
+    },
+    {
+      "id": "jenner-inquiry",
+      "text": "Jenner E. An inquiry into the causes and effects of the variolae vaccinae[M]. London: Sampson Low, 1798."
+    },
+    {
+      "id": "snow-cholera",
+      "text": "Snow J. On the mode of communication of cholera[M]. 2nd ed. London: John Churchill, 1855."
+    },
+    {
+      "id": "lister-antiseptic",
+      "text": "Lister J. On the antiseptic principle in the practice of surgery[J]. The Lancet, 1867, 90(2299): 353-356."
+    },
+    {
+      "id": "roentgen-xray",
+      "text": "Röntgen W C. Über eine neue Art von Strahlen[J]. Sitzungsberichte der Physikalisch-Medicinischen Gesellschaft zu Würzburg, 1895: 132-141."
+    },
+    {
+      "id": "banting-insulin",
+      "text": "Banting F G, Best C H. The internal secretion of the pancreas[J]. Journal of Laboratory and Clinical Medicine, 1922, 7(5): 251-266."
+    },
+    {
+      "id": "forssmann-catheter",
+      "text": "Forssmann W. Die Sondierung des rechten Herzens[J]. Klinische Wochenschrift, 1929, 8(45): 2085-2087."
+    },
+    {
+      "id": "fleming-penicillin",
+      "text": "Fleming A. On the antibacterial action of cultures of a penicillium, with special reference to their use in the isolation of B. influenzae[J]. British Journal of Experimental Pathology, 1929, 10(3): 226-236."
+    },
+    {
+      "id": "watson-crick-dna",
+      "text": "Watson J D, Crick F H C. Molecular structure of nucleic acids: a structure for deoxyribose nucleic acid[J]. Nature, 1953, 171(4356): 737-738."
+    },
+    {
+      "id": "apgar-score",
+      "text": "Apgar V. A proposal for a new method of evaluation of the newborn infant[J]. Current Researches in Anesthesia and Analgesia, 1953, 32(4): 260-267."
+    },
+    {
+      "id": "hounsfield-ct",
+      "text": "Hounsfield G N. Computerized transverse axial scanning (tomography): part 1. Description of system[J]. British Journal of Radiology, 1973, 46(552): 1016-1022."
+    },
+    {
+      "id": "steptoe-ivf",
+      "text": "Steptoe P C, Edwards R G. Birth after the reimplantation of a human embryo[J]. The Lancet, 1978, 312(8085): 366."
+    },
+    {
+      "id": "who-smallpox",
+      "text": "World Health Organization. The global eradication of smallpox: final report of the Global Commission for the Certification of Smallpox Eradication, Geneva, December 1979[R]. Geneva: World Health Organization, 1980."
+    },
+    {
+      "id": "barre-hiv",
+      "text": "Barré-Sinoussi F, Chermann J C, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS)[J]. Science, 1983, 220(4599): 868-871."
+    },
+    {
+      "id": "blaese-gene",
+      "text": "Blaese R M, Culver K W, Miller A D, et al. T lymphocyte-directed gene therapy for ADA- SCID: initial trial results after 4 years[J]. Science, 1995, 270(5235): 475-480."
+    },
+    {
+      "id": "lander-genome",
+      "text": "Lander E S, Linton L M, Birren B, et al. Initial sequencing and analysis of the human genome[J]. Nature, 2001, 409(6822): 860-921."
+    },
+    {
+      "id": "nobel-2015",
+      "text": "Nobel Prize Outreach. The Nobel Prize in Physiology or Medicine 2015[EB/OL]. [2026-11-27]. https://www.nobelprize.org/prizes/medicine/2015/summary/."
     }
   ]
 }

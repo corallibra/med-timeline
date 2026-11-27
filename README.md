@@ -1,329 +1,77 @@
 # 中西医发展对照时间轴（med-timeline）
 
-一个用浏览器阅读的静态网站：把西方医学和中国传统医学的历史事件放在同一条时间轴上，左右分列。事件不必成对。适合放在自己的电脑、局域网或 NAS 上自己看，或在诊室、工作室的内网里打开。
+一个在浏览器中阅读的静态网站，把西方医学与中国传统医学的历史事件放在同一条时间轴上左右对照：左侧为西方医学，右侧为中国传统医学，中间为年份。数据从史前延续到约 2000 年，共 276 条事件（西方医学 164 条，中国传统医学 112 条），每条都可展开查看人物、著作、来源与参考文献。
 
-页面页脚署名为 Li Yuxian TCM Studio。仓库许可证是 MIT，版权声明见 [LICENSE](LICENSE)（Copyright (c) 2026 Michael）。
+本站只呈现医学史资料，不提供诊疗、病历、预约或账号功能，也不收集访问者数据。
 
-这不是诊疗、病历、预约或账号系统。默认数据是医学史条目，不含就诊记录。服务端不保存访问者数据。
+## 时间轴
 
-当前数据包在 `data/timeline.json` 的 `meta` 里：265 条事件（西方 160，中国传统医学 105），`updated` 为 2026-10-17，范围从史前到约 2000 年。字段约定写在 [data/README-data.md](data/README-data.md)。
+纵轴只列出有资料的年份：每个有事件的年份占一行，年份标在中轴上，当年的西方医学事件在左、中国传统医学事件在右；同一年同一侧有多条事件时依次叠放。没有任何事件的年份不会出现在轴上，阅读时不会遇到大段空白。
 
-下面三项是 **1.1.0**。`v1.0.0` 已经发布；这一版把镜像版本号写成 1.1.0。合并到 `main` 之后再打 `v1.1.0`，不要改动已经发布的 `v1.0.0`。
+![时间轴（由远及近）：每个有资料的年份占一行，西方医学在左、中国传统医学在右](docs/screenshots/timeline-asc-zh.jpg)
 
-## 线性时间轴
+### 时间排序
 
-纵轴按历史年份排列，不按条目等距占槽。公元前记为负数。圆点的位置与年份差成正比，所以史前会出现大段空白，近现代事件会挤在一起。同一年的西方和中国事件落在同一条刻度上。卡片若互相挡住，只把卡片下移，连接点仍留在该年的刻度上，不会把较晚的事件画到更早的位置。
+工具栏中的排序按钮可在「由远及近」（升序，从史前开始）与「由近及远」（降序，从最近的年份开始）之间切换。切换后时间轴从新的第一行开始显示；所选顺序保存在浏览器中，下次打开时保持不变。
 
-页眉标题行右侧是语言切换。筛选和搜索在下一行。
+![时间轴（由近及远）：从 2000 年开始向前排列](docs/screenshots/timeline-desc-zh.jpg)
 
-![中文界面的线性时间轴：标题行右侧为「中文 / English」，轴上按年份刻度拉开，史前事件之间留有大段空白](docs/screenshots/timeline-zh.jpg)
+### 筛选与搜索
 
-中文界面。圆点落在年份刻度上，史前两件事之间按年份差留白。
+- 侧别：全部、西方医学、中国传统医学
+- 搜索：匹配标题、摘要、人物、著作、标签、来源和考古字段
+- 高级筛选：按标签组合筛选，或只看有考古证据的条目
+
+筛选后时间轴只保留仍有事件的年份。
+
+### 事件详情
+
+点击卡片打开详情面板，显示年份、摘要、相关人物、相关著作、标签、来源、可信度，以及该条对应的参考文献编号。点击编号会跳到页面底部对应的文献条目。可信度为「中等」或「较低」的条目，卡片上会直接标出。
 
 ## 考古发现
 
-时间轴下方是「考古发现」表，只列出 `archaeology: true` 的条目（当前 18 条）。时间轴卡片上仍只有「考古」角标。表上另有侧别和历史年，便于对照；历史年是轴上的 `yearLabel`，不是出土年。
+时间轴下方的「考古发现」表汇总所有以出土文物或遗址为主要依据的条目，列出侧别、历史年、发现时间、发现地、内容、收藏地、是否开放和地址。历史年是事件在轴上的年代，发现时间是文物出土或面世的时间，两者分列。没有可靠来源的单元格留空。点击任一行可打开该条详情。
 
-六列是：发现时间、发现地、内容、收藏地、开放、地址。没有依据的格子留空，不写「未知」或「暂缺」。点一行会打开原来的详情；详情在摘要之后用定义列表显示同样的字段，空字段整行不出现。
+![考古发现表：历史年与发现时间分列，并给出收藏机构与地址](docs/screenshots/finds-zh.jpg)
 
-当前覆盖：发现地 13 条、资料内容 18 条。发现时间、收藏地、是否开放、具体地址在现有条目里都没有记载，因此全部留空。这些空单元格不是漏做，而是没有来源就不填写。
+## 参考文献
 
-![考古发现表：历史年与发现时间分列，发现时间、收藏地、开放和地址等无依据的单元格为空白](docs/screenshots/finds-zh.jpg)
+页面底部以小字号列出全站参考文献，著录格式依据 GB/T 7714—2025《信息与文献 参考文献著录规则》，按顺序编码。文献涵盖医学通史、中国医学史、考古简帛整理本与原始科学论文，详情面板中的编号与此列表一一对应。
 
-考古发现表。发现时间、收藏地、开放和地址没有依据，单元格留空。
+![页面底部的参考文献列表](docs/screenshots/references-zh.jpg)
 
 ## 中英文切换
 
-标题行右侧的分段控件写着「中文 / English」，不在筛选弹层里，也不使用国旗。切换后标题、侧别、搜索、筛选、图例、空状态、表头、详情和页脚一起改变，并把 `html lang` 设为 `zh-Hans` 或 `en`。选择记在浏览器的 localStorage 里，默认中文。
+标题行右侧的「中文 / English」切换整页界面与事件正文，选择保存在浏览器中，默认中文。个别条目暂无英文时保留中文，并标注「暂无英文」。
 
-条目正文使用可选字段 `title_en`、`summary_en`、`yearLabel_en`，考古字段使用对应的 `_en`。缺英文时保留中文，并在该条标「暂无英文」。页面本身不会自动翻译。
+![English 界面：标题、按钮、图例与事件正文均为英文](docs/screenshots/timeline-en.jpg)
 
-窄屏时标题和语言切换留在第一行，筛选和搜索折到下一行。考古表在窄屏上可以横向滑动，并有一行文字提示，避免「开放」和「地址」被藏住。
+## 使用方式
 
-![切换到 English 之后的同一页面：标题、图例和事件正文变为英文，语言按钮停在 English](docs/screenshots/timeline-en.jpg)
+网站由一台 nginx 容器提供，默认端口 3007：
 
-同一页面切到 English 之后。标题、图例和事件正文换成英文，刻度仍按年份线性排列。
-
-## 架构
-
-浏览器只访问这一台 nginx。没有应用后端、数据库、账号或外部 API。
-
-```text
-浏览器  --HTTP 宿主机端口 3007-->  容器 med-timeline（nginx:alpine，容器内 80）
-                                      |-- index.html、css/styles.css、js/app.js  （构建时打进镜像）
-                                      `-- data/timeline.json                     （只读挂载宿主机 ./data）
-```
-
-| 部分 | 作用 |
-| --- | --- |
-| `index.html`、`css/styles.css`、`js/app.js` | 页面。脚本用 `fetch("./data/timeline.json")` 读数据，按历史年线性排纵轴，可按侧别、标签、考古证据和关键字筛选，并打开事件详情。页眉可在中文和 English 之间切换 |
-| `data/timeline.json` | 唯一的运行时数据。`meta` 提供标题和更新时间，`events[]` 是事件 |
-| `nginx.conf` | 站点配置。`/data/timeline.json` 关闭缓存；页面走 SPA 回退到 `index.html` |
-| `Dockerfile` | 基于 `nginx:alpine` 复制页面和一份数据，并带有健康检查 |
-| `docker-compose.yml` | 构建本地镜像、映射端口、只读挂载 `./data`、失败重启 |
-| `build_timeline.py`、`add_more_events.py` | 维护数据的 Python 脚本。部署和浏览都不依赖它们 |
-
-页面字体使用系统里已有的中文字体（苹方、思源黑体、微软雅黑等），不请求 CDN。镜像构建完成后，浏览网站不需要再访问外网。
-
-数据目录用的是**宿主机目录挂载**，不是 Docker 命名卷。时间轴就是 `data/timeline.json` 这一个文件，直接用编辑器修改、复制备份即可。命名卷藏在 Docker 的数据目录里，反而不适合这个用法。
-
-## 目录
-
-```text
-index.html              页面
-css/styles.css          样式
-js/app.js               交互
-data/timeline.json      时间轴数据
-data/README-data.md     字段说明
-nginx.conf              nginx 站点配置
-Dockerfile              镜像
-docker-compose.yml      编排
-.env.example            可复制的 Compose 变量示例（没有密钥）
-scripts/deploy.sh       构建并启动
-scripts/upgrade.sh      先备份数据，再按当前目录重建启动
-scripts/backup.sh       备份 timeline.json
-scripts/restore.sh      从备份恢复 timeline.json
-build_timeline.py       用脚本内的条目覆盖生成 timeline.json
-add_more_events.py      按 id 追加脚本里还没有的条目
-CHANGELOG.md            版本说明（Release 正文来源）
-docs/screenshots/       README 里的页面截图
-```
-
-## 环境要求
-
-- Docker Engine，以及 Docker Compose v2（命令是 `docker compose`）。只有旧的 `docker-compose` 时，`scripts/deploy.sh` 也会尝试它
-- 能拉取基础镜像 `nginx:alpine`（Docker Hub）。拉过一次后，不加重 `--pull` 的构建可以离线复用本地缓存
-- 宿主机端口 **3007** 空闲。这是唯一对外端口，对应容器内的 **80**。要换端口只改 `MED_TIMELINE_PORT`，不要改容器内端口
-- 磁盘占用很小：基础镜像大约几十 MB，数据文件约 170 KB。没有数据库卷
-- 同一台 Docker 主机上容器名固定为 `med-timeline`。再部署一份时，需要另改 `container_name` 和宿主机端口，否则会和已有容器冲突
-
-Synology DSM 的 Container Manager 可以直接用这份 `docker-compose.yml` 建项目。菜单名称随系统版本可能不同，关键是选择本目录的 Compose 文件，而不是另写一套端口。
-
-不需要 Node.js、数据库或域名。本地改数据时才需要 Python 3（标准库即可，没有 `requirements.txt`）。
-
-## 配置
-
-应用进程没有配置文件，也不读取环境变量。`.env` 只供 Docker Compose 替换 `docker-compose.yml` 里的 `${变量}`，不会传进容器。
-
-```bash
-cp .env.example .env
-```
-
-| 变量 | 默认 | 作用 |
-| --- | --- | --- |
-| `MED_TIMELINE_PORT` | `3007` | 宿主机端口，映射到容器 80 |
-| `MED_TIMELINE_VERSION` | `1.1.0` | 本地镜像标签，实际镜像名是 `med-timeline:1.1.0` |
-
-没有账号、口令、API 地址或数据库连接串。不要把密钥写进 `.env`。`.env` 已被 `.gitignore` 忽略；发布包里只有 `.env.example`。
-
-不创建 `.env` 也可以启动。Compose 会使用 `docker-compose.yml` 里写死的默认值，结果同样是端口 3007、镜像标签 `med-timeline:1.1.0`。
-
-仓库**不会**推送 `latest` 标签，也没有 Docker Hub / GHCR 上的现成镜像。标签只存在于执行构建的那台机器上。服务设置了 `pull_policy: build`：`docker compose up` 会在本机构建 `med-timeline`，不会按这个镜像名去仓库拉取。构建时仍可能下载基础镜像 `nginx:alpine`。
-
-## 首次部署
-
-在解压后的目录（或 git 克隆的仓库根目录）执行。
-
-### 命令行
-
-```bash
+```sh
 cp .env.example .env
 docker compose up -d --build
 ```
 
-或者：
+浏览器打开 `http://<主机 IP>:3007/` 即可。时间轴数据保存在 `data/timeline.json`，修改后刷新浏览器即可生效；字段说明见 [data/README-data.md](data/README-data.md)。部署、升级、备份与发版的完整说明见 [docs/MAINTAINING.md](docs/MAINTAINING.md)。
 
-```bash
-sh scripts/deploy.sh
-```
+## 许可
 
-`deploy.sh` 会在没有 `.env` 时从示例复制一份，然后执行同样的 `docker compose up -d --build`。即使不加 `--build`，Compose 也会因为 `pull_policy: build` 在本地构建，而不会拉取 `med-timeline`。
+MIT License，见 [LICENSE](LICENSE)。页面页脚署名 Li Yuxian TCM Studio。
 
-构建会下载 `nginx:alpine`（若本地还没有），打出镜像 `med-timeline:1.1.0`，并启动容器。看状态：
+<sub>
 
-```bash
-docker compose ps
-docker compose logs -f med-timeline
-```
+### 参考文献
 
-浏览器打开：
+[1] 李经纬, 林昭庚. 中国医学通史: 古代卷[M]. 北京: 人民卫生出版社, 2000.<br>
+[2] 甄志亚. 中国医学史[M]. 上海: 上海科学技术出版社, 1997.<br>
+[3] Wong K C, Wu L T. History of Chinese medicine[M]. 2nd ed. Shanghai: National Quarantine Service, 1936.<br>
+[4] Porter R. The greatest benefit to mankind: a medical history of humanity[M]. New York: W. W. Norton, 1998.<br>
+[5] Nutton V. Ancient medicine[M]. 2nd ed. London: Routledge, 2013.<br>
+[6] 中华人民共和国国务院新闻办公室. 中国的中医药[R]. 北京: 中华人民共和国国务院新闻办公室, 2016.<br>
+[7] 国家市场监督管理总局, 国家标准化管理委员会. 信息与文献 参考文献著录规则: GB/T 7714—2025[S]. 北京: 中国标准出版社, 2025.<br>
+完整的 36 条文献列表随数据保存在 data/timeline.json 的 references 字段中，并显示在网页底部。
 
-- 本机：<http://127.0.0.1:3007/>
-- 局域网或 NAS：`http://<这台机器的 IP>:3007/`
-
-改过 `MED_TIMELINE_PORT` 后，把地址里的 `3007` 换成你的端口，并重新执行上面的启动命令。
-
-停止：
-
-```bash
-docker compose down
-```
-
-`down` 只停容器，不删除宿主机上的 `data/`。不要加 `-v` 来“清卷”：这份编排没有命名卷，数据就在当前目录的 `data/` 里。
-
-### 只更新 nginx 基础镜像时
-
-日常升级网站不要加 `--pull`。需要换新的 `nginx:alpine` 时再执行：
-
-```bash
-docker compose build --pull
-docker compose up -d
-```
-
-## 升级
-
-升级包是 GitHub Release 里的 `med-timeline-X.Y.Z.tar.gz`，不是预先打好的镜像。步骤：
-
-1. 在旧目录执行 `sh scripts/backup.sh`。把打出来的 `backups/*.tar.gz` 拷到本目录外面。`backups/` 只在本机，换一个新目录时不会跟着走。
-2. 解压新包。若直接覆盖旧目录，先确认两件事：
-   - 留下原来的 `.env`（新包没有你的 `.env`）
-   - 若改过 `data/timeline.json`，不要让新包里的同名文件盖掉它。覆盖后用第 1 步的备份执行 `sh scripts/restore.sh <备份.tar.gz>`
-3. 打开 `.env`，把 `MED_TIMELINE_VERSION` 改成新版本号（不带 `v`）。Compose 优先读 `.env`。这里若仍是旧号，即使用了新代码，镜像标签仍是旧的。
-4. 启动：
-
-```bash
-sh scripts/upgrade.sh
-```
-
-`upgrade.sh` 会再备份一次当前的 `data/timeline.json`，然后 `docker compose up -d --build`。它不会访问 GitHub。
-
-用 git 更新时同样：在仓库根目录 `git pull` 之后核对 `.env` 的版本号，再执行 `sh scripts/upgrade.sh`。提交历史里没有 `.env`。
-
-改的是 HTML、CSS、JS 或 nginx 配置时必须重建镜像。只改 `data/timeline.json` 时刷新浏览器即可，不必升级镜像。
-
-## 备份与恢复
-
-需要保留的状态只有 `data/timeline.json`。页面文件在镜像和部署包里，可以重新构建。
-
-```bash
-sh scripts/backup.sh
-sh scripts/restore.sh backups/med-timeline-data-YYYYMMDD-HHMMSS-<进程号>.tar.gz
-```
-
-文件名以 `backup.sh` 打印的路径为准。同一秒内多次备份会带上不同的进程号，避免互相覆盖。
-
-备份内容就是这个 JSON。恢复会先再备份当前文件，再覆盖 `data/timeline.json`。站点正在运行时，恢复后刷新浏览器即可。
-
-手动复制同一个文件同样有效。请把要长期保留的备份放到部署目录外面。
-
-## 本地预览和修改数据
-
-仓库里没有前端构建工具、开发服务器或热更新。
-
-在仓库根目录起一个静态文件服务（`8080` 只是这条临时命令用的端口，不是 Docker 端口）：
-
-```bash
-python3 -m http.server 8080
-```
-
-打开 <http://127.0.0.1:8080/> 。不要用 `file://` 直接双击 `index.html`：浏览器会拦截 `fetch` 读取 `timeline.json`，页面显示“无法加载时间轴数据”。
-
-改数据：
-
-- 直接编辑 `data/timeline.json`。字段、年代写法和不确定点见 [data/README-data.md](data/README-data.md)。保存后刷新浏览器。Docker 正在运行时也是改宿主机上的这个文件，不用进容器。
-- `build_timeline.py` 会**覆盖** `data/timeline.json`，条目来自脚本内部，不是“在现有文件上打补丁”。只有确定要用脚本内容重新生成时才运行，并且先备份。
-- `add_more_events.py` 会读入现有 JSON，按 `id` 追加脚本中还没有的条目，然后整文件重写。
-
-```bash
-sh scripts/backup.sh
-python3 build_timeline.py
-python3 add_more_events.py
-```
-
-部署网站不需要运行这两个脚本。
-
-## 常见问题
-
-**页面提示无法加载时间轴数据。** 确认地址是 `http://` 而不是 `file://`。确认宿主机 `data/timeline.json` 存在且是合法 JSON。看挂载是否仍是 `./data:/usr/share/nginx/html/data:ro`。文件若被存成仅所有者可读（例如 `600`），容器内的 nginx 用户会读不到，改成 `chmod 644 data/timeline.json`，目录本身也需要可进入（一般是 `755`）。
-
-**改了 JSON 但页面没变。** 刷新或避开浏览器缓存。确认改的是挂载的那份 `data/timeline.json`，不是只改了尚未重建的镜像副本。nginx 对该文件响应 `Cache-Control: no-cache`，前端请求也带了 `cache: "no-cache"`。
-
-**改了 HTML、CSS 或 JS 却没变化。** 这些文件打在镜像里，不在挂载目录里。执行 `docker compose up -d --build`。
-
-**端口被占用。** 修改 `.env` 的 `MED_TIMELINE_PORT`，再执行 `docker compose up -d`。容器内始终是 80，健康检查也访问容器自己的 80，与宿主机端口无关。
-
-**容器状态是 unhealthy，但页面能打开。** 健康检查与 `Dockerfile` 里原有的检查相同，使用 `nginx:alpine` 自带的 wget：`wget -qO- http://127.0.0.1/`。查看 `docker inspect med-timeline --format '{{json .State.Health}}'`。
-
-**拉不到 `nginx:alpine`。** 部署机需要能访问 Docker Hub，或事先把该基础镜像导入本机。这只影响构建，不影响已经启动的容器。
-
-**`docker compose` 不存在。** 安装 Compose v2，或使用仍提供 `docker-compose` 的环境。Synology 可在 Container Manager 里选择本目录的 `docker-compose.yml`。
-
-**同一台机器上第二次启动失败，提示容器名已存在。** 容器名是 `med-timeline`。先 `docker compose down`，或改 Compose 里的 `container_name` 和宿主机端口后再启动另一份。
-
-**升级后还是旧页面。** 看 `.env` 的 `MED_TIMELINE_VERSION` 是否仍是旧号。改成新版本号后重新 `docker compose up -d --build`。
-
-## 版本号和 GitHub Release
-
-已经发布的标签是 **v1.0.0**。下一版是 **v1.1.0**（线性时间轴、考古发现表、中英文切换）。不要重打或改写 `v1.0.0`。版本号遵循语义化版本：
-
-- 补丁（`vX.Y.Z` 的最后一位）：部署修复、缺陷修复、说明更正
-- 次版本（`vX.Y.0`）：向后兼容的内容，例如新增事件、不改变现有 JSON 字段含义的页面能力
-- 主版本（`vX.0.0`）：不兼容变更，例如改掉现有端口默认值、数据字段或挂载路径，导致原部署不能原样启动
-
-标签格式是 `vX.Y.Z`（已经发布的是 `v1.0.0`，下一版是 `v1.1.0`）。`.env`、Compose 和 Dockerfile 里写 `X.Y.Z`，不带 `v`。不使用 `v1.0`、`v1` 或带预发布后缀的标签；工作流会拒绝它们。
-
-### 每次改完之后，维护者要做的事
-
-1. 在功能分支上改完，并用 Pull Request 合并到 `main`。不要在尚未合并的分支上对默认分支发生产 Release，也不要 force-push `main`。
-2. 按上一节选择新版本号。
-3. 让下面几处变成同一个 `X.Y.Z`。发布工作流会核对它们，不一致就失败且不会创建 Release：
-   - `CHANGELOG.md`：把 `[Unreleased]` 里已经完成的条目移到新的 `## [X.Y.Z] - YYYY-MM-DD`。写法可照 [.github/RELEASE_TEMPLATE.md](.github/RELEASE_TEMPLATE.md)
-   - `.env.example` 的 `MED_TIMELINE_VERSION=`
-   - `docker-compose.yml` 里两处 `${MED_TIMELINE_VERSION:-X.Y.Z}`
-   - `Dockerfile` 的 `ARG VERSION=X.Y.Z`
-4. 把第 3 步的改动也合并进 `main`。可以就在同一次 Pull Request 里完成。
-5. 在包含这些文件的 `main` 提交上打附注标签并推送。推送标签才会触发工作流；合并 Pull Request 本身不会发布。
-
-```bash
-git checkout main
-git pull origin main
-git tag -a vX.Y.Z -m "med-timeline vX.Y.Z"
-git push origin vX.Y.Z
-```
-
-6. 打开 GitHub Actions，确认名为 Release 的工作流成功。成功后 Releases 页面会出现：
-   - 标签 `vX.Y.Z`
-   - 标题 `med-timeline vX.Y.Z`
-   - 说明：镜像标签、部署包 SHA256、`CHANGELOG.md` 里该版本的正文，以及自上一个标签以来的提交
-   - 附件 `med-timeline-X.Y.Z.tar.gz`
-7. 不想用推送标签的方式时：等工作流文件已经在默认分支上，到 Actions → Release → Run workflow，输入**已经存在**的标签（例如 `v1.0.0`）。这一步不会创建标签。标签指向的提交里必须有 `scripts/make-release-asset.py`。
-
-工作流失败且 Release 还没建出来时，可以删掉这个标签，改完文件后再打一次同名标签。不要 force-push 分支。
-
-```bash
-git push origin :refs/tags/vX.Y.Z
-git tag -d vX.Y.Z
-```
-
-本地可以预览压缩包和说明，不会联系 GitHub：
-
-```bash
-sh scripts/make-release-asset.sh 1.1.0
-```
-
-输出在 `dist/`（已被 git 忽略）：`med-timeline-1.1.0.tar.gz` 和 `release-notes.md`。用 `1.0.0` 再跑一次会因为版本号对不上而失败，这是预期的：已经发布的 `v1.0.0` 不要重打。
-
-### 部署包里有什么
-
-解压后的目录可以直接 `docker compose up -d --build`。包含 Compose 文件、`.env.example`、`.dockerignore`、`Dockerfile`、`nginx.conf`、README、CHANGELOG、LICENSE、页面、`css/`、`js/`、`data/`（含 `timeline.json`）、`docs/screenshots/`（README 引用的页面截图）、数据脚本，以及 `scripts/` 里的部署、升级、备份、恢复脚本。根目录还有 `IMAGE.txt`，写明本次要用的镜像标签。
-
-不包含：`.git`、`.env`、密钥、`backups/`、已构建的镜像或二进制。镜像在部署机上现构建。
-
-### 工作流权限
-
-[`.github/workflows/release.yml`](.github/workflows/release.yml) 只声明 `permissions: contents: write`。创建 Release 和上传附件需要它，同时把它没有列出的权限留空。
-
-不需要 `id-token`、`attestations` 或 `packages`：没有构建溯源证明，也不往镜像仓库推送。
-
-若组织或仓库把 Actions 的 `GITHUB_TOKEN` 设成只读，创建 Release 会失败。到仓库的 Settings → Actions → General → Workflow permissions，允许 Read and write permissions。工作流文件里的 `permissions` 不会超出这个上限。
-
-### 下一版 v1.1.0
-
-`v1.0.0` 已经发布，留在它原来的提交上，不要删除、移动或覆盖。这一版已经把 **1.1.0** 写进 `CHANGELOG.md` 的 `## [1.1.0]`、`.env.example`、`docker-compose.yml` 和 `Dockerfile`。合并到 `main` 之后，在包含这些文件的合并提交上打新标签。不要在功能分支上打，也不要复用 `v1.0.0`：
-
-```bash
-git checkout main
-git pull origin main
-git tag -a v1.1.0 -m "med-timeline v1.1.0"
-git push origin v1.1.0
-```
+</sub>

@@ -6,13 +6,13 @@
 
 services:
   med-timeline:
-    image: "med-timeline:${MED_TIMELINE_VERSION:-1.1.0}"
+    image: "med-timeline:${MED_TIMELINE_VERSION:-1.2.0}"
     # 本仓库不发布镜像。始终在本地构建，避免 compose up 时按这个名字去 Docker Hub 拉取。
     pull_policy: build
     build:
       context: .
       args:
-        VERSION: "${MED_TIMELINE_VERSION:-1.1.0}"
+        VERSION: "${MED_TIMELINE_VERSION:-1.2.0}"
     container_name: med-timeline
     ports:
       - "${MED_TIMELINE_PORT:-3007}:80"

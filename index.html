@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="中西医发展对照时间轴 — 按历史年线性排列的双轴时间线" />
+  <meta name="description" content="中西医发展对照时间轴 — 按历史年排列、可切换先后顺序的双侧时间线" />
   <title>中西医发展对照时间轴</title>
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
@@ -13,7 +13,7 @@
       <div class="title-row">
         <div class="title-block">
           <h1 class="site-title" id="site-title" data-i18n="title">中西医发展对照时间轴</h1>
-          <p class="site-subtitle" id="site-subtitle" data-i18n="subtitle">纵轴按历史年线性排列 · 考古资料见表与详情</p>
+          <p class="site-subtitle" id="site-subtitle" data-i18n="subtitle">只列出有资料的年份 · 可切换时间先后 · 考古资料见表与详情</p>
         </div>
         <div class="lang-switch" role="group" id="lang-switch" aria-label="语言">
           <button type="button" class="lang-btn" data-lang="zh" aria-pressed="true">中文</button>
@@ -27,6 +27,10 @@
             <button type="button" class="filter-btn west" data-side="west" data-i18n="west">西方医学</button>
             <button type="button" class="filter-btn east" data-side="east" data-i18n="east">中国传统医学</button>
           </div>
+          <button type="button" class="sort-btn" id="sort-btn" data-sort="asc" title="切换时间排序" aria-label="切换时间排序">
+            <span class="sort-icon" id="sort-icon" aria-hidden="true">↓</span>
+            <span id="sort-label">时间：由远及近</span>
+          </button>
           <div class="search-wrap">
             <input type="search" id="filter-search" data-i18n-placeholder="search" placeholder="搜索标题、摘要、人物…" autocomplete="off" />
           </div>
@@ -63,13 +67,7 @@
     </div>
 
     <div class="timeline-viewport" id="timeline-viewport">
-      <div class="timeline-track" id="timeline-track">
-        <div class="axis" id="axis" aria-hidden="true">
-          <div class="axis-line"></div>
-          <div class="year-ruler" id="year-ruler"></div>
-        </div>
-        <div class="events-layer" id="events-layer"></div>
-      </div>
+      <div class="timeline-rows" id="timeline-rows"></div>
     </div>
 
     <p class="empty-state" id="empty-state" hidden data-i18n="empty">没有符合条件的事件。</p>
@@ -131,9 +129,19 @@
         <h3 data-i18n="sources">来源</h3>
         <ul id="detail-sources"></ul>
       </section>
+      <section class="detail-section" id="detail-refs-sec" hidden>
+        <h3 data-i18n="refsLabel">参考文献</h3>
+        <p class="detail-refs" id="detail-refs"></p>
+      </section>
       <p class="detail-meta" id="detail-meta"></p>
     </div>
   </aside>
+
+  <section class="refs-section" id="refs-section" hidden>
+    <h2 class="refs-title" data-i18n="refsTitle">参考文献</h2>
+    <p class="refs-note" data-i18n="refsNote">著录格式依据 GB/T 7714—2025《信息与文献 参考文献著录规则》</p>
+    <ol class="refs-list" id="refs-list"></ol>
+  </section>
 
   <footer class="site-footer">
     <p class="copyright">Copyright © 2026 Li Yuxian TCM Studio. All Rights Reserved.</p>

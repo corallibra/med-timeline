@@ -414,7 +414,7 @@ body {
   min-width: 3rem;
 }
 
-/* —— Timeline track —— */
+/* —— Timeline: one row per year that has records —— */
 .timeline-viewport {
   position: relative;
   max-height: min(72vh, 860px);
@@ -424,115 +424,197 @@ body {
   background: rgba(255, 252, 248, 0.35);
 }
 
-.timeline-track {
-  position: relative;
-  min-height: 200px;
-  padding: 0;
-}
-
-.axis {
-  position: absolute;
-  left: 50%;
-  top: 0;
-  width: 0;
-  transform: translateX(-50%);
-  z-index: 1;
-  pointer-events: none;
-}
-
-.axis-line {
-  position: absolute;
-  left: 50%;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  margin-left: -1.5px;
-  background: linear-gradient(
-    to bottom,
-    transparent 0%,
-    var(--axis) 1%,
-    var(--axis) 99%,
-    transparent 100%
-  );
-  border-radius: 2px;
-}
-
-.year-ruler {
-  position: absolute;
-  left: 50%;
-  top: 0;
-  bottom: 0;
-  width: 0;
-}
-
-.ruler-tick {
-  position: absolute;
-  left: 0;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-  font-size: 0.62rem;
-  font-family: var(--mono);
-  color: var(--axis-mark);
-  background: var(--bg);
-  padding: 0.05rem 0.28rem;
-  border-radius: 3px;
-  border: 1px solid transparent;
-  z-index: 1;
-}
-
-.ruler-tick.major {
-  font-size: 0.72rem;
-  font-weight: 700;
-  color: var(--ink-muted);
-  border-color: var(--border);
-  z-index: 2;
-}
-
-.ruler-tick::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 8px;
-  height: 8px;
-  margin: -4px 0 0 -4px;
-  border-radius: 50%;
-  background: var(--axis);
-  opacity: 0.4;
-  z-index: -1;
-}
-
-.ruler-tick.major::before {
-  width: 10px;
-  height: 10px;
-  margin: -5px 0 0 -5px;
-  opacity: 0.55;
-}
-
-.ruler-tick.quiet::before {
+.timeline-viewport[hidden] {
   display: none;
 }
 
-/* —— Event cards ——
-   The slot's top is the historical year. The dot stays on that tick.
-   The card may be pushed down (positive top) so labels do not overlap. */
-.events-layer {
+.timeline-rows {
   position: relative;
-  z-index: 2;
+  padding: 1rem 0.75rem 1.5rem;
 }
 
-.event-slot {
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 0;
-  z-index: 2;
-}
-
-.event-card {
+.timeline-rows::before {
+  content: "";
   position: absolute;
   top: 0;
-  width: calc(50% - var(--axis-gap) - 0.85rem);
+  bottom: 0;
+  left: 50%;
+  width: 3px;
+  margin-left: -1.5px;
+  background: var(--axis);
+  border-radius: 2px;
+  opacity: 0.85;
+}
+
+.tl-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr var(--axis-gap) 1fr;
+  align-items: start;
+  padding: 0.45rem 0;
+}
+
+.tl-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  min-width: 0;
+}
+
+.tl-cell.west {
+  align-items: flex-end;
+}
+
+.tl-cell.east {
+  align-items: flex-start;
+}
+
+.tl-year {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.55rem;
+  z-index: 1;
+}
+
+.tl-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--axis);
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1.5px var(--axis);
+}
+
+.tl-year-label {
+  margin-top: 0.3rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-family: var(--mono);
+  color: var(--ink-muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.05rem 0.3rem;
+  white-space: nowrap;
+}
+
+.tl-cell.has.west .event-card::after,
+.tl-cell.has.east .event-card::after {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  width: 0.7rem;
+  height: 2px;
+}
+
+.tl-cell.west .event-card::after {
+  right: -0.75rem;
+  background: var(--west);
+}
+
+.tl-cell.east .event-card::after {
+  left: -0.75rem;
+  background: var(--east);
+}
+
+.sort-btn {
+  appearance: none;
+  flex-shrink: 0;
+  font-family: inherit;
+  font-size: 0.82rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.sort-btn:hover {
+  border-color: var(--axis);
+}
+
+.sort-btn:focus-visible {
+  outline: 2px solid var(--west-border);
+  outline-offset: 1px;
+}
+
+.sort-icon {
+  font-weight: 700;
+  color: var(--west);
+}
+
+/* —— References (small print) —— */
+.refs-section {
+  max-width: 1100px;
+  margin: 2rem auto 0;
+  padding: 1rem 1rem 0;
+  border-top: 1px solid var(--border);
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink-muted);
+}
+
+.refs-title {
+  margin: 0 0 0.2rem;
+  font-size: 0.85rem;
+  color: var(--ink);
+}
+
+.refs-note {
+  margin: 0 0 0.6rem;
+  font-size: 0.68rem;
+}
+
+.refs-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.refs-list li {
+  margin: 0 0 0.25rem;
+  padding-left: 2.2em;
+  text-indent: -2.2em;
+  word-break: break-word;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.refs-list li.flash {
+  background: #fff3c4;
+}
+
+.ref-num {
+  font-family: var(--mono);
+}
+
+.detail-refs {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+}
+
+.ref-link {
+  color: var(--west);
+  text-decoration: none;
+  margin-right: 0.2rem;
+}
+
+.ref-link:hover {
+  text-decoration: underline;
+}
+
+/* —— Event cards —— */
+.event-card {
+  position: relative;
+  width: 100%;
   max-width: 420px;
   padding: 0.65rem 0.85rem;
   border-radius: var(--radius);
@@ -552,88 +634,13 @@ body {
 }
 
 .event-card.west {
-  right: calc(50% + var(--axis-gap));
-  left: auto;
   border-color: var(--west-border);
   background: var(--west-bg);
 }
 
 .event-card.east {
-  left: calc(50% + var(--axis-gap));
-  right: auto;
   border-color: var(--east-border);
   background: var(--east-bg);
-}
-
-.connector-v,
-.connector-h {
-  position: absolute;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.connector-v {
-  top: 0;
-  left: 50%;
-  width: 2px;
-  margin-left: -1px;
-  background: var(--axis);
-  opacity: 0.45;
-}
-
-.connector-h {
-  height: 2px;
-  width: calc(var(--axis-gap) - 0.75rem);
-  opacity: 0.7;
-}
-
-.event-slot.west .connector-h {
-  right: calc(50% + 0.55rem);
-  width: calc(var(--axis-gap) - 0.75rem);
-  margin: 0;
-  background: var(--west);
-  transform: none;
-}
-
-.event-slot.east .connector-h {
-  left: calc(50% + 0.55rem);
-  width: calc(var(--axis-gap) - 0.75rem);
-  margin: 0;
-  background: var(--east);
-  transform: none;
-}
-
-.event-dot {
-  position: absolute;
-  left: 50%;
-  top: 0;
-  width: 12px;
-  height: 12px;
-  margin: 0;
-  padding: 0;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  box-shadow: 0 0 0 1.5px currentColor;
-  transform: translate(-50%, -50%);
-  z-index: 4;
-  cursor: pointer;
-}
-
-.event-slot.west .event-dot {
-  color: var(--west);
-  background: var(--west);
-  transform: translate(calc(-50% - var(--nudge, 0px)), -50%);
-}
-
-.event-slot.east .event-dot {
-  color: var(--east);
-  background: var(--east);
-  transform: translate(calc(-50% + var(--nudge, 0px)), -50%);
-}
-
-.event-dot:focus-visible {
-  outline: 2px solid var(--ink);
-  outline-offset: 2px;
 }
 
 .card-year {
@@ -1040,45 +1047,53 @@ body {
     text-align: left;
   }
 
-  .axis {
-    left: 1.15rem;
-    transform: none;
+  /* Narrow screens: axis on the left, year label beside it, cards stacked to the right. */
+  .timeline-rows::before {
+    left: 1.6rem;
   }
 
-  .event-dot,
-  .event-slot.west .event-dot,
-  .event-slot.east .event-dot {
-    left: 1.15rem;
-    transform: translate(-50%, -50%);
+  .tl-row {
+    grid-template-columns: 3.4rem 1fr;
+    grid-template-areas: "year west" "year east";
+    row-gap: 0.45rem;
   }
 
-  .connector-v {
-    left: 1.15rem;
+  .tl-year {
+    grid-area: year;
+    align-items: flex-start;
+    padding-left: 0.42rem;
   }
 
-  .ruler-tick,
-  .ruler-tick.major {
-    /* Grow into the gap to the right of the left-hand axis, not under the card. */
-    transform: translate(0.55rem, -50%);
+  .tl-year-label {
+    margin-left: -0.35rem;
+    font-size: 0.62rem;
   }
 
-  .event-card,
-  .event-card.west,
-  .event-card.east {
-    left: 7.6rem;
-    right: 0.4rem;
-    width: auto;
+  .tl-cell.west {
+    grid-area: west;
+  }
+
+  .tl-cell.east {
+    grid-area: east;
+  }
+
+  .tl-cell.west,
+  .tl-cell.east {
+    align-items: stretch;
+  }
+
+  .tl-cell:not(.has) {
+    display: none;
+  }
+
+  .event-card {
     max-width: none;
   }
 
-  .event-slot.west .connector-h,
-  .event-slot.east .connector-h {
-    left: 1.55rem;
+  .tl-cell.west .event-card::after,
+  .tl-cell.east .event-card::after {
+    left: -0.75rem;
     right: auto;
-    width: calc(7.6rem - 1.7rem);
-    margin: 0;
-    transform: none;
-    background: var(--axis);
   }
 
   .finds-head {
@@ -1108,7 +1123,8 @@ body {
   .lang-switch,
   .detail-panel,
   .site-footer,
-  .finds-scroll-hint {
+  .finds-scroll-hint,
+  .sort-btn {
     display: none !important;
   }
 

@@ -91,6 +91,7 @@
               <th data-i18n="colRepo" scope="col">收藏地</th>
               <th data-i18n="colOpen" scope="col">开放</th>
               <th data-i18n="colAddr" scope="col">地址</th>
+              <th data-i18n="colContact" scope="col">联系方式</th>
             </tr>
           </thead>
           <tbody id="finds-body"></tbody>
@@ -137,6 +138,25 @@
       <p class="detail-meta" id="detail-meta"></p>
     </div>
   </aside>
+
+  <section class="lost-section" id="lost-section" hidden>
+    <h2 class="lost-title" data-i18n="lostTitle">佚书辑录</h2>
+    <p class="lost-note" data-i18n="lostNote">仅见于史志著录、原书已失传的古籍，列此存目，不作为时间轴事件</p>
+    <div class="lost-wrap">
+      <table class="lost-table">
+        <thead>
+          <tr>
+            <th data-i18n="lostAuthor" scope="col">作者/署名</th>
+            <th data-i18n="lostEra" scope="col">时代</th>
+            <th data-i18n="lostSource" scope="col">著录出处</th>
+            <th data-i18n="lostStatus" scope="col">状态</th>
+            <th data-i18n="lostNoteCol" scope="col">说明</th>
+          </tr>
+        </thead>
+        <tbody id="lost-body"></tbody>
+      </table>
+    </div>
+  </section>
 
   <section class="refs-section" id="refs-section" hidden>
     <h2 class="refs-title" data-i18n="refsTitle">参考文献</h2>

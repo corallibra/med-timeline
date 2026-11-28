@@ -22,6 +22,7 @@
     ["repository", "colRepo"],
     ["openAccess", "colOpen"],
     ["address", "colAddr"],
+    ["contact", "colContact"],
   ];
 
   const UI = {
@@ -36,6 +37,14 @@
       refsLabel: "参考文献",
       imgCredit: "图片",
       imgSource: "来源：Wikimedia Commons",
+      colContact: "联系方式",
+      lostTitle: "佚书辑录",
+      lostNote: "仅见于史志著录、原书已失传的古籍，列此存目，不作为时间轴事件",
+      lostEra: "时代",
+      lostAuthor: "作者/署名",
+      lostSource: "著录出处",
+      lostStatus: "状态",
+      lostNoteCol: "说明",
       all: "全部",
       west: "西方医学",
       east: "中国传统医学",
@@ -107,6 +116,14 @@
       refsLabel: "References",
       imgCredit: "Image",
       imgSource: "Source: Wikimedia Commons",
+      colContact: "Contact",
+      lostTitle: "Lost Works",
+      lostNote: "Works known only from bibliographic records in historical catalogues; the originals do not survive. Listed for reference, not as timeline events.",
+      lostEra: "Era",
+      lostAuthor: "Author",
+      lostSource: "Catalogue Source",
+      lostStatus: "Status",
+      lostNoteCol: "Note",
       all: "All",
       west: "Western medicine",
       east: "Traditional Chinese Medicine",
@@ -288,6 +305,7 @@
       address_en: ev.address_en || "",
       refs: Array.isArray(ev.refs) ? ev.refs : [],
       image: ev.image && ev.image.src ? ev.image : null,
+      contact: ev.contact || "",
     };
   }
 
@@ -562,6 +580,34 @@
     return "asc";
   }
 
+  function renderLostBooks() {
+    const sec = $("#lost-section");
+    const body = $("#lost-body");
+    if (!sec || !body) return;
+    const list = (state.raw && state.raw.lostBooks) || [];
+    sec.hidden = list.length === 0;
+    if (!list.length) return;
+    body.innerHTML = list
+      .map(function (b) {
+        const title = state.lang === "en" && b.title_en ? b.title_en : b.title;
+        const author = b.author || "";
+        const era = b.era || "";
+        const source = b.source || "";
+        const status = b.status || "";
+        const note = (state.lang === "en" && b.note_en ? b.note_en : b.note) || "";
+        return (
+          "<tr>" +
+            "<td><em>" + escapeHtml(title) + "</em>" + (author ? "，" + escapeHtml(author) : "") + "</td>" +
+            "<td>" + escapeHtml(era) + "</td>" +
+            "<td>" + escapeHtml(source) + "</td>" +
+            "<td>" + escapeHtml(status) + "</td>" +
+            "<td>" + escapeHtml(note) + "</td>" +
+          "</tr>"
+        );
+      })
+      .join("");
+  }
+
   function renderRefs() {
     const sec = $("#refs-section");
     const list = $("#refs-list");
@@ -769,6 +815,7 @@
     buildTagFilters(collectTags(state.events));
     render();
     renderRefs();
+    renderLostBooks();
     if (viewport) viewport.scrollTop = top;
     if (state.activeId) openDetail(state.activeId);
   }
@@ -948,6 +995,7 @@
       buildTagFilters(collectTags(state.events));
       render();
       renderRefs();
+      renderLostBooks();
     } catch (err) {
       console.error(err);
       $("#load-error").hidden = false;

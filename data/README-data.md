@@ -25,6 +25,7 @@
 | `repository` / `repository_en` | 收藏地或博物馆。 |
 | `openAccess` | `open`（开放）、`closed`（不开放）、`appointment`（预约），或空字符串。 |
 | `address` / `address_en` | 具体地址。 |
+| `contact` | 可选。考古条目收藏机构的联系方式（邮箱/电话/地址，合并为一个字符串），仅在能核实到官方公开信息时填写。 |
 | `image` | 可选。`{{src, thumb, page, license, author, caption, caption_en}}`：Wikimedia Commons 图片地址、缩略图、文件页、许可证、作者与图注。 |
 | `refs` | 参考文献 id 数组，对应顶层 `references[].id`。页面按 `references` 的顺序编号。 |
 
@@ -34,16 +35,17 @@
 
 考古六字段只填写有公开资料可查的内容（出土年份、现藏机构及其公开地址）；查不到可靠来源的保持空字符串，页面单元格留空，不写「未知」或「暂缺」。
 
-## 考古字段覆盖（当前 42 条 `archaeology: true`）
+## 考古字段覆盖（当前 60 条 `archaeology: true`）
 
 | 字段 | 有内容的条数 |
 | --- | --- |
-| `foundDate` | 27 |
-| `foundSite` | 37 |
-| `material` | 40 |
-| `repository` | 25 |
+| `foundDate` | 44 |
+| `foundSite` | 55 |
+| `material` | 58 |
+| `repository` | 30 |
 | `openAccess` | 6 |
 | `address` | 11 |
+| `contact` | 18 |
 
 ## 主要不确定点
 
@@ -62,3 +64,8 @@
 ## 更新
 
 `meta.updated` 为 ISO 日期（时区 Asia/Hong_Kong）。扩充条目后请重算 `meta.eventCount` / `westCount` / `eastCount`，并保持按年排序与 `id` 唯一。
+
+
+## 佚书辑录（`lostBooks`，顶层数组）
+
+仅见于史志著录、原书已失传的古籍，不作为时间轴事件，单独列于页面底部「佚书辑录」。每项字段：`title`/`title_en`（书名）、`author`（作者或署名）、`era`（时代）、`source`（著录出处，如《汉书·艺文志》）、`note`（说明）、`status`（亡佚/存疑）。

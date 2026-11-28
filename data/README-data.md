@@ -25,6 +25,7 @@
 | `repository` / `repository_en` | 收藏地或博物馆。 |
 | `openAccess` | `open`（开放）、`closed`（不开放）、`appointment`（预约），或空字符串。 |
 | `address` / `address_en` | 具体地址。 |
+| `image` | 可选。`{{src, thumb, page, license, author, caption, caption_en}}`：Wikimedia Commons 图片地址、缩略图、文件页、许可证、作者与图注。 |
 | `refs` | 参考文献 id 数组，对应顶层 `references[].id`。页面按 `references` 的顺序编号。 |
 
 顶层 `references[]` 每项为 `{id, text}`，`text` 为按 GB/T 7714—2025 著录的完整条目，页面底部按数组顺序编号显示。
@@ -33,16 +34,16 @@
 
 考古六字段只填写有公开资料可查的内容（出土年份、现藏机构及其公开地址）；查不到可靠来源的保持空字符串，页面单元格留空，不写「未知」或「暂缺」。
 
-## 考古字段覆盖（当前 18 条 `archaeology: true`）
+## 考古字段覆盖（当前 42 条 `archaeology: true`）
 
 | 字段 | 有内容的条数 |
 | --- | --- |
-| `foundDate` | 12 |
-| `foundSite` | 13 |
-| `material` | 18 |
-| `repository` | 8 |
-| `openAccess` | 5 |
-| `address` | 5 |
+| `foundDate` | 27 |
+| `foundSite` | 37 |
+| `material` | 40 |
+| `repository` | 25 |
+| `openAccess` | 6 |
+| `address` | 11 |
 
 ## 主要不确定点
 

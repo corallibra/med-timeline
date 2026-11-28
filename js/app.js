@@ -34,6 +34,8 @@
       refsTitle: "参考文献",
       refsNote: "著录格式依据 GB/T 7714—2025《信息与文献 参考文献著录规则》",
       refsLabel: "参考文献",
+      imgCredit: "图片",
+      imgSource: "来源：Wikimedia Commons",
       all: "全部",
       west: "西方医学",
       east: "中国传统医学",
@@ -103,6 +105,8 @@
       refsTitle: "References",
       refsNote: "Formatted according to GB/T 7714—2025, Information and documentation — Rules for bibliographic references",
       refsLabel: "References",
+      imgCredit: "Image",
+      imgSource: "Source: Wikimedia Commons",
       all: "All",
       west: "Western medicine",
       east: "Traditional Chinese Medicine",
@@ -283,6 +287,7 @@
       address: ev.address || "",
       address_en: ev.address_en || "",
       refs: Array.isArray(ev.refs) ? ev.refs : [],
+      image: ev.image && ev.image.src ? ev.image : null,
     };
   }
 
@@ -481,6 +486,7 @@
         '<p class="card-year">' + escapeHtml(fieldText(ev, "yearLabel")) + arch + "</p>" +
         '<h2 class="card-title">' + escapeHtml(title) + "</h2>" +
         missing +
+        (ev.image ? '<img class="card-thumb" loading="lazy" alt="" src="' + escapeAttr(ev.image.thumb || ev.image.src) + '" onerror="this.remove()" />' : "") +
         '<p class="card-summary">' + escapeHtml(fieldText(ev, "summary")) + "</p>" +
         (people || works ? '<div class="card-chips">' + people + works + "</div>" : "") +
         conf +
@@ -620,6 +626,23 @@
     $("#detail-year").textContent = fieldText(ev, "yearLabel");
     $("#detail-title").textContent = fieldText(ev, "title");
     $("#detail-summary").textContent = fieldText(ev, "summary");
+    const fig = $("#detail-figure");
+    if (fig) {
+      if (ev.image) {
+        const im = ev.image;
+        const cap = state.lang === "en" ? (im.caption_en || im.caption) : (im.caption || im.caption_en);
+        const credit = [im.author, im.license].filter(Boolean).join(" · ");
+        fig.hidden = false;
+        fig.innerHTML =
+          '<a href="' + escapeAttr(im.page) + '" target="_blank" rel="noopener noreferrer">' +
+          '<img loading="lazy" onerror="this.parentNode.style.display=\'none\'" src="' + escapeAttr(im.src) + '" alt="' + escapeAttr(cap || fieldText(ev, "title")) + '" /></a>' +
+          '<figcaption>' + (cap ? escapeHtml(cap) + "<br>" : "") +
+          '<span class="img-credit">' + escapeHtml(t("imgCredit") + "：" + credit) + ' · <a href="' + escapeAttr(im.page) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(t("imgSource")) + "</a></span></figcaption>";
+      } else {
+        fig.hidden = true;
+        fig.innerHTML = "";
+      }
+    }
     const missing = $("#detail-missing");
     const showMissing = state.lang === "en" && !hasEnglishBody(ev);
     missing.hidden = !showMissing;
